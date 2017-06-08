@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/tommymitchell/Documents/Projects/react-native-nba-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp/0.8.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0d5d69b03cb7d68b81543f6483ed04ccb0e2235b">
+        <dex dex="/Users/tommymitchell/Documents/Projects/react-native-nba-app/android/app/build/intermediates/pre-dexed/debug/classes-3fcfb9925661705ff994b8bfe4b0d3278c1d35e8.jar" />
+    </item>
+    <item
+        jar="/Users/tommymitchell/Documents/Projects/react-native-nba-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/tommymitchell/Documents/Projects/react-native-nba-app/android/app/build/intermediates/pre-dexed/debug/classes-5436acee953b8836ca7da9e5aab99aec415771fe.jar" />
+    </item>
+    <item
+        jar="/Users/tommymitchell/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.2.3/1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14/jackson-core-2.2.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14">
+        <dex dex="/Users/tommymitchell/Documents/Projects/react-native-nba-app/android/app/build/intermediates/pre-dexed/debug/jackson-core-2.2.3-09218761f98eea590bbdde8c2613007f71a4ad1d.jar" />
+    </item>
+    <item
+        jar="/Users/tommymitchell/.gradle/caches/modules-2/files-2.1/commons-cli/commons-cli/1.2/2bf96b7aa8b611c177d329452af1dc933e14501c/commons-cli-1.2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2bf96b7aa8b611c177d329452af1dc933e14501c">
+        <dex dex="/Users/tommymitchell/Documents/Projects/react-native-nba-app/android/app/build/intermediates/pre-dexed/debug/commons-cli-1.2-114df8c16773e38e9b22f369fb8d2ea9d8090d26.jar" />
+    </item>
+    <item
+        jar="/Users/tommymitchell/Documents/Projects/react-native-nba-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.8.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="9178570a3a28c95fabd3bc746cd68efe99ad2b47">
+        <dex dex="/Users/tommymitchell/Documents/Projects/react-native-nba-app/android/app/build/intermediates/pre-dexed/debug/classes-a4f748ae63bd939d49808e1726546e057c9b55d6.jar" />
+    </item>
+    <item
+        jar="/Users/tommymitchell/.gradle/caches/modules-2/files-2.1/com.facebook.stetho/stetho/1.2.0/1d6cdb8ce8185b8b23213fad48a83987fb6d2d67/stetho-1.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1d6cdb8ce8185b8b23213fad48a83987fb6d2d67">
+        <dex dex="/Users/tommymitchell/Documents/Projects/react-native-nba-app/android/app/build/intermediates/pre-dexed/debug/stetho-1.2.0-ecb4bd8da7864999fcd25cd25e73ff2db8f9ee15.jar" />
+    </item>
+    <item
+        jar="/Users/tommymitchell/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/tommymitchell/Documents/Projects/react-native-nba-app/android/app/build/intermediates/pre-dexed/debug/library-2.4.0-d3f33a8a0c5d98e32f844eeba0b71d53a0909a95.jar" />
+    </item>
+    <item
+        jar="/Users/tommymitchell/Documents/Projects/react-native-nba-app/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="/Users/tommymitchell/Documents/Projects/react-native-nba-app/android/app/build/intermediates/pre-dexed/debug/classes-d47e8e45f855c58fae9ce9d151dba71c9ffd53ce.jar" />
+    </item>
+    <item
+        jar="/Users/tommymitchell/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-ws/2.5.0/e9753b7dcae5deca92e871c5c759067070b07bc/okhttp-ws-2.5.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0e9753b7dcae5deca92e871c5c759067070b07bc">
+        <dex dex="/Users/tommymitchell/Documents/Projects/react-native-nba-app/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-2.5.0-a829451cffb5f06910e4e7db283bc9e4c8a9ce2c.jar" />
+    </item>
+    <item
+        jar="/Users/tommymitchell/Documents/Projects/react-native-nba-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/tommymitchell/Documents/Projects/react-native-nba-app/android/app/build/intermediates/pre-dexed/debug/classes-29006f3f753583db053c6b0be2e7abe5bdcaf859.jar" />
+    </item>
+    <item
+        jar="/Users/tommymitchell/Documents/Projects/react-native-nba-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/tommymitchell/Documents/Projects/react-native-nba-app/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-be4964ddd29e4b5e53bf4eac967f3b943fef2aaa.jar" />
+    </item>
+    <item
+        jar="/Users/tommymitchell/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="/Users/tommymitchell/Documents/Projects/react-native-nba-app/android/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-f50b40c81cde1a4fcd3b73baa41874492cf41eda.jar" />
+    </item>
+    <item
+        jar="/Users/tommymitchell/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/Users/tommymitchell/Documents/Projects/react-native-nba-app/android/app/build/intermediates/pre-dexed/debug/okio-1.6.0-23b5f0042c2f7b25745d1d539d8d245817951b47.jar" />
+    </item>
+    <item
+        jar="/Users/tommymitchell/Documents/Projects/react-native-nba-app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.17.1/jars/libs/infer-annotations-1.5.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0b5e946b76cdb1f00b18f2981e7d997141a66c9f">
+        <dex dex="/Users/tommymitchell/Documents/Projects/react-native-nba-app/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5-aeabaa12bc58ede11c1b254fcc518b59e0c2ffe6.jar" />
+    </item>
+    <item
+        jar="/Users/tommymitchell/Documents/Projects/react-native-nba-app/android/app/build/intermediates/exploded-aar/allyoop/react-native-icons/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="dc2a5e7e7b7feaee82a846ebefe1c605e14ee55e">
+        <dex dex="/Users/tommymitchell/Documents/Projects/react-native-nba-app/android/app/build/intermediates/pre-dexed/debug/classes-cc97fa325a6426a5106e33d4520dde2c70cc1561.jar" />
+    </item>
+    <item
+        jar="/Users/tommymitchell/Documents/Projects/react-native-nba-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4af24c040b21980e0a80a505816c648e36705bd9">
+        <dex dex="/Users/tommymitchell/Documents/Projects/react-native-nba-app/android/app/build/intermediates/pre-dexed/debug/classes-77e5a672fe393aef1b6e5840a2b4ab0acc6dad5d.jar" />
+    </item>
+    <item
+        jar="/Users/tommymitchell/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.5.0/4de2b4ed3445c37ec1720a7d214712e845a24636/okhttp-2.5.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
+        <dex dex="/Users/tommymitchell/Documents/Projects/react-native-nba-app/android/app/build/intermediates/pre-dexed/debug/okhttp-2.5.0-80f10fbf7d4526edc267caf3c29f1b97f39c6d28.jar" />
+    </item>
+    <item
+        jar="/Users/tommymitchell/Documents/Projects/react-native-nba-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.8.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="845a5b3a624946b2068963ba656c117fc453701c">
+        <dex dex="/Users/tommymitchell/Documents/Projects/react-native-nba-app/android/app/build/intermediates/pre-dexed/debug/classes-683942d3130cc565ffbad4ea45d5f360ed744d7d.jar" />
+    </item>
+    <item
+        jar="/Users/tommymitchell/Documents/Projects/react-native-nba-app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.17.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="9686d4e1f88cf0c23f450f45d914d45d366711c5">
+        <dex dex="/Users/tommymitchell/Documents/Projects/react-native-nba-app/android/app/build/intermediates/pre-dexed/debug/classes-71f9b99217207a93a7d311eb7ce94bfaaf5b4a5d.jar" />
+    </item>
+    <item
+        jar="/Library/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Users/tommymitchell/Documents/Projects/react-native-nba-app/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-334ce62bf0e94a55ca4cef35f04ca6f5934a20c9.jar" />
+    </item>
+    <item
+        jar="/Users/tommymitchell/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/tommymitchell/Documents/Projects/react-native-nba-app/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0-537b791ced0697a1d7315bea645d4653109e5467.jar" />
+    </item>
+    <item
+        jar="/Users/tommymitchell/.gradle/caches/modules-2/files-2.1/com.facebook.stetho/stetho-okhttp/1.2.0/6c5c9380e245c4ff5be2b2a49dcbb0200c39798e/stetho-okhttp-1.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6c5c9380e245c4ff5be2b2a49dcbb0200c39798e">
+        <dex dex="/Users/tommymitchell/Documents/Projects/react-native-nba-app/android/app/build/intermediates/pre-dexed/debug/stetho-okhttp-1.2.0-ed5426678b9498d2605ea8f5fc201619d4582c1d.jar" />
+    </item>
+    <item
+        jar="/Users/tommymitchell/Documents/Projects/react-native-nba-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.8.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3836ecca4e31e18ea8fbae8e822d49777b0db4f7">
+        <dex dex="/Users/tommymitchell/Documents/Projects/react-native-nba-app/android/app/build/intermediates/pre-dexed/debug/classes-6855c099d911c3add3225307d9553f623471d596.jar" />
+    </item>
+
+</items>
