@@ -1,0 +1,3328 @@
+{
+	"Caiseal Gaels": {
+		"away_fixtures": [{
+			"home_team": "Ballyhaunis",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo GAA U8/u10s hurling",
+			"time": "18:00",
+			"away_team": "Caiseal Gaels",
+			"pitch": "Ballyhaunis",
+			"date": "11/06/2017"
+		}],
+		"home_fixtures": [{
+			"home_team": "Caiseal Gaels",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo GAA U8/u10s hurling",
+			"time": "00:00",
+			"away_team": "James Stephens Hurling",
+			"pitch": "Charlestown",
+			"date": "11/06/2017"
+		}, {
+			"home_team": "Caiseal Gaels",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo GAA Go Games u12 Hurling",
+			"time": "18:00",
+			"away_team": "Claremorris",
+			"pitch": "Ballaghaderreen",
+			"date": "18/06/2017"
+		}]
+	},
+	"Pdraig Pearses": {
+		"home_fixtures": [{
+			"home_team": "Pdraig Pearses",
+			"referee": "TBC (Pending)",
+			"comp": "Eurona Brisknet Under 14 Hurling League - Group B",
+			"time": "19:00",
+			"away_team": "Tuairn",
+			"pitch": "Pairc an Phiarsaigh",
+			"date": "10/06/2017"
+		}]
+	},
+	"Ballyhaunis": {
+		"away_fixtures": [{
+			"home_team": "Ardnaree",
+			"referee": "TBC",
+			"comp": "Mayo Intermediate Championship - Group 1",
+			"time": "18:30",
+			"away_team": "Ballyhaunis",
+			"pitch": "Ardnaree",
+			"date": "17/06/2017"
+		}, {
+			"home_team": "Bonniconlon",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1C",
+			"time": "00:00",
+			"away_team": "Ballyhaunis",
+			"pitch": "Bonniconlon",
+			"date": "24/06/2017"
+		}],
+		"home_fixtures": [{
+			"home_team": "Ballyhaunis",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo GAA U8/u10s hurling",
+			"time": "00:00",
+			"away_team": "Westport GAA",
+			"pitch": "Ballyhaunis",
+			"date": "11/06/2017"
+		}, {
+			"home_team": "Ballyhaunis",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo GAA U8/u10s hurling",
+			"time": "18:00",
+			"away_team": "Caiseal Gaels",
+			"pitch": "Ballyhaunis",
+			"date": "11/06/2017"
+		}, {
+			"home_team": "Ballyhaunis",
+			"referee": "TBC",
+			"comp": "Under 14 E Championship 2017 Group B",
+			"time": "19:00",
+			"away_team": "Shrule/Glencorrib",
+			"pitch": "Ballyhaunis",
+			"date": "15/06/2017"
+		}, {
+			"home_team": "Ballyhaunis",
+			"referee": "TBC",
+			"comp": "Under 14 E Championship 2017 Group B",
+			"time": "19:00",
+			"away_team": "Bonniconlon",
+			"pitch": "Ballyhaunis",
+			"date": "22/06/2017"
+		}, {
+			"home_team": "Ballyhaunis",
+			"referee": "TBC",
+			"comp": "Under 8 Go Games 2017 Group G",
+			"time": "11:00",
+			"away_team": "Aghamore",
+			"pitch": "Ballyhaunis",
+			"date": "24/06/2017"
+		}]
+	},
+	"Ballinrobe": {
+		"away_fixtures": [{
+			"home_team": "Shrule/Glencorrib",
+			"referee": "TBC",
+			"comp": "South Mayo Junior Championship",
+			"time": "20:00",
+			"away_team": "Ballinrobe",
+			"pitch": "Shrule Community Ground",
+			"date": "14/06/2017"
+		}, {
+			"home_team": "Castlebar Mitchels",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Senior Championship - Group 4",
+			"time": "14:00",
+			"away_team": "Ballinrobe",
+			"pitch": "Pirc Josie Munnelly",
+			"date": "18/06/2017"
+		}, {
+			"home_team": "Swinford",
+			"referee": "TBC",
+			"comp": "Under 8 Go Games 2017 Group B",
+			"time": "11:00",
+			"away_team": "Ballinrobe",
+			"pitch": "Robert McCallion Memorial pitch",
+			"date": "24/06/2017"
+		}, {
+			"home_team": "The Neale",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1B",
+			"time": "00:00",
+			"away_team": "Ballinrobe",
+			"pitch": "Cong GAA Pitch",
+			"date": "24/06/2017"
+		}],
+		"home_fixtures": [{
+			"home_team": "Ballinrobe",
+			"referee": "Mark Tuffy",
+			"comp": "O'Mara Cup Group 1",
+			"time": "19:00",
+			"away_team": "Claremorris",
+			"pitch": "Ballinrobe",
+			"date": "10/06/2017"
+		}, {
+			"home_team": "Ballinrobe",
+			"referee": "Martin Kennedy",
+			"comp": "Under 14 B Championship Group A",
+			"time": "19:00",
+			"away_team": "Breaffy",
+			"pitch": "Ballinrobe",
+			"date": "15/06/2017"
+		}, {
+			"home_team": "Ballinrobe",
+			"referee": "TBC",
+			"comp": "South Mayo Junior Championship",
+			"time": "20:00",
+			"away_team": "Kilmaine",
+			"pitch": "Ballinrobe",
+			"date": "21/06/2017"
+		}, {
+			"home_team": "Ballinrobe",
+			"referee": "TBC (Pending)",
+			"comp": "Minor League Division 2A",
+			"time": "19:00",
+			"away_team": "Davitts",
+			"pitch": "Ballinrobe",
+			"date": "21/06/2017"
+		}]
+	},
+	"Lahardane": {
+		"away_fixtures": [{
+			"home_team": "Bonniconlon",
+			"referee": "TBC",
+			"comp": "Under 8 Go Games 2017 Group F",
+			"time": "11:00",
+			"away_team": "Lahardane",
+			"pitch": "Bonniconlon",
+			"date": "24/06/2017"
+		}],
+		"home_fixtures": [{
+			"home_team": "Lahardane",
+			"referee": "TBC",
+			"comp": "Mayo Junior A Championship - Group 3",
+			"time": "16:00",
+			"away_team": "Ballycastle",
+			"pitch": "Bofeenaun",
+			"date": "18/06/2017"
+		}, {
+			"home_team": "Lahardane",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1C",
+			"time": "00:00",
+			"away_team": "Ardagh",
+			"pitch": "Bofeenaun",
+			"date": "24/06/2017"
+		}]
+	},
+	"CLG Carndomhnaigh": {
+		"away_fixtures": [{
+			"home_team": "Westport GAA",
+			"referee": "TBC",
+			"comp": "John West Feile na nGael Camogie Div 6 Group A",
+			"time": "18:15",
+			"away_team": "CLG Carndomhnaigh",
+			"pitch": "Lisdowney",
+			"date": "16/06/2017"
+		}]
+	},
+	"Southern Gaels": {
+		"away_fixtures": [{
+			"home_team": "Tuairn",
+			"referee": "Frankie Fitzpatrick",
+			"comp": "John West Feile na nGael Boys Div 9 Group A",
+			"time": "18:15",
+			"away_team": "Southern Gaels",
+			"pitch": "Borris",
+			"date": "16/06/2017"
+		}]
+	},
+	"Ardnaree": {
+		"away_fixtures": [{
+			"home_team": "Parke/Keelogues /Crimlin",
+			"referee": "TBC",
+			"comp": "Under 14C Championship 2017 Group C",
+			"time": "19:00",
+			"away_team": "Ardnaree",
+			"pitch": "Parke GAA Club",
+			"date": "15/06/2017"
+		}],
+		"home_fixtures": [{
+			"home_team": "Ardnaree",
+			"referee": "TBC",
+			"comp": "Mayo Intermediate Championship - Group 1",
+			"time": "18:30",
+			"away_team": "Ballyhaunis",
+			"pitch": "Ardnaree",
+			"date": "17/06/2017"
+		}, {
+			"home_team": "Ardnaree",
+			"referee": "TBC",
+			"comp": "Mayo Junior B Championship - Group 3",
+			"time": "14:00",
+			"away_team": "Ballaghaderreen",
+			"pitch": "Ardnaree",
+			"date": "18/06/2017"
+		}, {
+			"home_team": "Ardnaree",
+			"referee": "TBC",
+			"comp": "Under 8 Go Games 2017 Group E",
+			"time": "11:00",
+			"away_team": "Naomh Padraig",
+			"pitch": "Ardnaree",
+			"date": "24/06/2017"
+		}, {
+			"home_team": "Ardnaree",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1B",
+			"time": "00:00",
+			"away_team": "Islandeady",
+			"pitch": "Ardnaree",
+			"date": "24/06/2017"
+		}]
+	},
+	"Castlebar Mitchels Hurling": {
+		"away_fixtures": [{
+			"home_team": "Tuairn",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo GAA U8/u10s hurling",
+			"time": "00:00",
+			"away_team": "Castlebar Mitchels Hurling",
+			"pitch": "Tooreen",
+			"date": "11/06/2017"
+		}, {
+			"home_team": "Claremorris",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo GAA U8/u10s hurling",
+			"time": "18:00",
+			"away_team": "Castlebar Mitchels Hurling",
+			"pitch": "Claremorris",
+			"date": "11/06/2017"
+		}, {
+			"home_team": "Western Gaels",
+			"referee": "TBC (Pending)",
+			"comp": "Dermot Molloy Hurling League Group 2",
+			"time": "20:00",
+			"away_team": "Castlebar Mitchels Hurling",
+			"pitch": "Enniscrone",
+			"date": "17/06/2017"
+		}, {
+			"home_team": "Westport GAA",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo GAA Go Games u12 Hurling",
+			"time": "18:00",
+			"away_team": "Castlebar Mitchels Hurling",
+			"pitch": "Westport GAA Club",
+			"date": "18/06/2017"
+		}],
+		"home_fixtures": [{
+			"home_team": "Castlebar Mitchels Hurling",
+			"referee": "TBC (Pending)",
+			"comp": "Dermot Molloy Hurling League Group 2",
+			"time": "19:00",
+			"away_team": "Tuairn",
+			"pitch": "Munnelly Park",
+			"date": "09/06/2017"
+		}]
+	},
+	"Kilmeena": {
+		"away_fixtures": [{
+			"home_team": "Ballina Stephenites",
+			"referee": "TBC",
+			"comp": "Mayo Junior A Championship - Group 1",
+			"time": "16:00",
+			"away_team": "Kilmeena",
+			"pitch": "James Stephens Park",
+			"date": "18/06/2017"
+		}, {
+			"home_team": "Balla",
+			"referee": "TBC",
+			"comp": "West Mayo Junior B Group 1",
+			"time": "19:30",
+			"away_team": "Kilmeena",
+			"pitch": "Balla",
+			"date": "21/06/2017"
+		}],
+		"home_fixtures": [{
+			"home_team": "Kilmeena",
+			"referee": "Neil Cooney",
+			"comp": "Kelly Cup Group 3",
+			"time": "19:00",
+			"away_team": "Tuar Mhic adaigh",
+			"pitch": "Kilmeena",
+			"date": "10/06/2017"
+		}, {
+			"home_team": "Kilmeena",
+			"referee": "TBC",
+			"comp": "West Mayo Junior B Group 1",
+			"time": "19:30",
+			"away_team": "Burrishoole",
+			"pitch": "Kilmeena",
+			"date": "14/06/2017"
+		}, {
+			"home_team": "Kilmeena",
+			"referee": "TBC (Pending)",
+			"comp": "Minor League Division 2A",
+			"time": "19:00",
+			"away_team": "Hollymount-Carramore",
+			"pitch": "Kilmeena",
+			"date": "21/06/2017"
+		}, {
+			"home_team": "Kilmeena",
+			"referee": "TBC",
+			"comp": "Under 8 Go Games 2017 Group C",
+			"time": "11:00",
+			"away_team": "Louisburgh",
+			"pitch": "Kilmeena",
+			"date": "24/06/2017"
+		}, {
+			"home_team": "Kilmeena",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1D",
+			"time": "00:00",
+			"away_team": "Ballycastle",
+			"pitch": "Kilmeena",
+			"date": "24/06/2017"
+		}]
+	},
+	"Kilmaine": {
+		"away_fixtures": [{
+			"home_team": "Knockmore",
+			"referee": "TBC",
+			"comp": "Mayo Junior A Championship - Group 2",
+			"time": "14:00",
+			"away_team": "Kilmaine",
+			"pitch": "St. Joseph's Park",
+			"date": "18/06/2017"
+		}, {
+			"home_team": "Ballinrobe",
+			"referee": "TBC",
+			"comp": "South Mayo Junior Championship",
+			"time": "20:00",
+			"away_team": "Kilmaine",
+			"pitch": "Ballinrobe",
+			"date": "21/06/2017"
+		}, {
+			"home_team": "Kiltane",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1B",
+			"time": "00:00",
+			"away_team": "Kilmaine",
+			"pitch": "Bangor Erris",
+			"date": "24/06/2017"
+		}],
+		"home_fixtures": [{
+			"home_team": "Kilmaine",
+			"referee": "John Glavey",
+			"comp": "Mayo Snr League 2017-Group 1B",
+			"time": "18:00",
+			"away_team": "Bohola Moy Davitts",
+			"pitch": "Kilmaine",
+			"date": "10/06/2017"
+		}, {
+			"home_team": "Kilmaine",
+			"referee": "TBC",
+			"comp": "South Mayo Junior Championship",
+			"time": "20:00",
+			"away_team": "Garrymore",
+			"pitch": "Kilmaine",
+			"date": "14/06/2017"
+		}, {
+			"home_team": "Kilmaine",
+			"referee": "TBC",
+			"comp": "Mayo Junior C Championship - Group 2",
+			"time": "20:00",
+			"away_team": "The Neale",
+			"pitch": "Kilmaine",
+			"date": "16/06/2017"
+		}]
+	},
+	"Mayo Gaels": {
+		"away_fixtures": [{
+			"home_team": "Shrule/Glencorrib",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Intermediate Championship - Group 2",
+			"time": "14:00",
+			"away_team": "Mayo Gaels",
+			"pitch": "Glencorrib Community Ground",
+			"date": "18/06/2017"
+		}, {
+			"home_team": "Ardmoy MacHales",
+			"referee": "TBC (Pending)",
+			"comp": "Minor League Division 3",
+			"time": "19:00",
+			"away_team": "Mayo Gaels",
+			"pitch": "Quarter Final 2 Winners",
+			"date": "21/06/2017"
+		}, {
+			"home_team": "The Neale",
+			"referee": "TBC",
+			"comp": "Under 8 Go Games 2017 Group D",
+			"time": "11:00",
+			"away_team": "Mayo Gaels",
+			"pitch": "Cong GAA Pitch",
+			"date": "24/06/2017"
+		}, {
+			"home_team": "Bohola Moy Davitts",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1B",
+			"time": "00:00",
+			"away_team": "Mayo Gaels",
+			"pitch": "Foxford",
+			"date": "24/06/2017"
+		}],
+		"home_fixtures": [{
+			"home_team": "Mayo Gaels",
+			"referee": "Martin Murphy",
+			"comp": "Under 12 Spring League Group F",
+			"time": "19:00",
+			"away_team": "Kilmovee Shamrocks",
+			"pitch": "Mayo Gaels Main Pitch",
+			"date": "12/06/2017"
+		}, {
+			"home_team": "Mayo Gaels",
+			"referee": "TBC",
+			"comp": "Mayo Junior C Championship - Group 3",
+			"time": "19:00",
+			"away_team": "Islandeady",
+			"pitch": "Mayo Gaels Main Pitch",
+			"date": "17/06/2017"
+		}, {
+			"home_team": "Mayo Gaels",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1F",
+			"time": "00:00",
+			"away_team": "Bonniconlon",
+			"pitch": "Mayo Gaels Main Pitch",
+			"date": "24/06/2017"
+		}]
+	},
+	"Claremorris": {
+		"away_fixtures": [{
+			"home_team": "Ballinrobe",
+			"referee": "Mark Tuffy",
+			"comp": "O'Mara Cup Group 1",
+			"time": "19:00",
+			"away_team": "Claremorris",
+			"pitch": "Ballinrobe",
+			"date": "10/06/2017"
+		}, {
+			"home_team": "Ballintubber",
+			"referee": "Brian Kilkelly",
+			"comp": "Under 14 A Championship 2017 Group A",
+			"time": "19:00",
+			"away_team": "Claremorris",
+			"pitch": "Ray Prendergast Memorial Park",
+			"date": "15/06/2017"
+		}, {
+			"home_team": "Kiltane",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Senior Championship - Group 3",
+			"time": "18:00",
+			"away_team": "Claremorris",
+			"pitch": "Bangor Erris",
+			"date": "17/06/2017"
+		}, {
+			"home_team": "Eastern Gaels",
+			"referee": "TBC",
+			"comp": "Mayo Junior B Championship - Group 1",
+			"time": "16:00",
+			"away_team": "Claremorris",
+			"pitch": "Brickens",
+			"date": "18/06/2017"
+		}, {
+			"home_team": "Caiseal Gaels",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo GAA Go Games u12 Hurling",
+			"time": "18:00",
+			"away_team": "Claremorris",
+			"pitch": "Ballaghaderreen",
+			"date": "18/06/2017"
+		}, {
+			"home_team": "Hollymount-Carramore",
+			"referee": "TBC",
+			"comp": "South Mayo Junior Championship",
+			"time": "20:00",
+			"away_team": "Claremorris",
+			"pitch": "Carramore",
+			"date": "21/06/2017"
+		}, {
+			"home_team": "Westport GAA",
+			"referee": "TBC",
+			"comp": "Under 8 Go Games 2017 Group A",
+			"time": "11:00",
+			"away_team": "Claremorris",
+			"pitch": "Westport GAA Club",
+			"date": "24/06/2017"
+		}, {
+			"home_team": "Westport GAA",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1E",
+			"time": "00:00",
+			"away_team": "Claremorris",
+			"pitch": "Westport GAA Club",
+			"date": "24/06/2017"
+		}],
+		"home_fixtures": [{
+			"home_team": "Claremorris",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo GAA U8/u10s hurling",
+			"time": "18:00",
+			"away_team": "Castlebar Mitchels Hurling",
+			"pitch": "Claremorris",
+			"date": "11/06/2017"
+		}, {
+			"home_team": "Claremorris",
+			"referee": "TBC",
+			"comp": "South Mayo Junior Championship",
+			"time": "20:00",
+			"away_team": "Davitts",
+			"pitch": "Claremorris",
+			"date": "14/06/2017"
+		}, {
+			"home_team": "Claremorris",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1A",
+			"time": "00:00",
+			"away_team": "Garrymore",
+			"pitch": "Claremorris",
+			"date": "24/06/2017"
+		}]
+	},
+	"Achill": {
+		"away_fixtures": [{
+			"home_team": "Balla",
+			"referee": "Martin Walsh",
+			"comp": "Kelly Cup Group 3",
+			"time": "19:00",
+			"away_team": "Achill",
+			"pitch": "Balla",
+			"date": "10/06/2017"
+		}, {
+			"home_team": "Ballycroy",
+			"referee": "TBC",
+			"comp": "Mayo Junior A Championship - Group 2",
+			"time": "14:00",
+			"away_team": "Achill",
+			"pitch": "Belmullet Gaa Pitch",
+			"date": "18/06/2017"
+		}, {
+			"home_team": "Swinford",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1C",
+			"time": "00:00",
+			"away_team": "Achill",
+			"pitch": "Robert McCallion Memorial pitch",
+			"date": "24/06/2017"
+		}],
+		"home_fixtures": [{
+			"home_team": "Achill",
+			"referee": "TBC",
+			"comp": "Minor League Division 4",
+			"time": "19:00",
+			"away_team": "Shrule/Glencorrib",
+			"pitch": "Achill",
+			"date": "21/06/2017"
+		}, {
+			"home_team": "Achill",
+			"referee": "TBC",
+			"comp": "Under 8 Go Games 2017 Group C",
+			"time": "11:00",
+			"away_team": "Tuar Mhic adaigh",
+			"pitch": "Achill",
+			"date": "24/06/2017"
+		}]
+	},
+	"Shrule/Glencorrib": {
+		"away_fixtures": [{
+			"home_team": "Kiltimagh",
+			"referee": "Brian Kilkelly",
+			"comp": "Michael Walsh Intermediate Knockout",
+			"time": "18:00",
+			"away_team": "Shrule/Glencorrib",
+			"pitch": "Hollymount",
+			"date": "10/06/2017"
+		}, {
+			"home_team": "Ballyhaunis",
+			"referee": "TBC",
+			"comp": "Under 14 E Championship 2017 Group B",
+			"time": "19:00",
+			"away_team": "Shrule/Glencorrib",
+			"pitch": "Ballyhaunis",
+			"date": "15/06/2017"
+		}, {
+			"home_team": "Garrymore",
+			"referee": "TBC",
+			"comp": "South Mayo Junior Championship",
+			"time": "20:00",
+			"away_team": "Shrule/Glencorrib",
+			"pitch": "Garrymore GAA Pitch",
+			"date": "21/06/2017"
+		}, {
+			"home_team": "Achill",
+			"referee": "TBC",
+			"comp": "Minor League Division 4",
+			"time": "19:00",
+			"away_team": "Shrule/Glencorrib",
+			"pitch": "Achill",
+			"date": "21/06/2017"
+		}, {
+			"home_team": "Carras",
+			"referee": "TBC",
+			"comp": "Under 8 Go Games 2017 Group D",
+			"time": "11:00",
+			"away_team": "Shrule/Glencorrib",
+			"pitch": "Carras",
+			"date": "24/06/2017"
+		}],
+		"home_fixtures": [{
+			"home_team": "Shrule/Glencorrib",
+			"referee": "TBC",
+			"comp": "South Mayo Junior Championship",
+			"time": "20:00",
+			"away_team": "Ballinrobe",
+			"pitch": "Shrule Community Ground",
+			"date": "14/06/2017"
+		}, {
+			"home_team": "Shrule/Glencorrib",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Intermediate Championship - Group 2",
+			"time": "14:00",
+			"away_team": "Mayo Gaels",
+			"pitch": "Glencorrib Community Ground",
+			"date": "18/06/2017"
+		}, {
+			"home_team": "Shrule/Glencorrib",
+			"referee": "TBC",
+			"comp": "Mayo Junior B Championship - Group 4",
+			"time": "16:30",
+			"away_team": "Westport GAA",
+			"pitch": "Glencorrib Community Ground",
+			"date": "18/06/2017"
+		}, {
+			"home_team": "Shrule/Glencorrib",
+			"referee": "TBC",
+			"comp": "Under 14 E Championship 2017 Group B",
+			"time": "19:00",
+			"away_team": "Tuar Mhic adaigh",
+			"pitch": "Glencorrib Community Ground",
+			"date": "22/06/2017"
+		}, {
+			"home_team": "Shrule/Glencorrib",
+			"referee": "TBC",
+			"comp": "Minor League Division 4",
+			"time": "19:00",
+			"away_team": "Tuar Mhic adaigh",
+			"pitch": "Glencorrib Community Ground",
+			"date": "23/06/2017"
+		}, {
+			"home_team": "Shrule/Glencorrib",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1C",
+			"time": "00:00",
+			"away_team": "Parke/Keelogues /Crimlin",
+			"pitch": "Glencorrib Community Ground",
+			"date": "24/06/2017"
+		}]
+	},
+	"Bohola Moy Davitts": {
+		"away_fixtures": [{
+			"home_team": "Kilmaine",
+			"referee": "John Glavey",
+			"comp": "Mayo Snr League 2017-Group 1B",
+			"time": "18:00",
+			"away_team": "Bohola Moy Davitts",
+			"pitch": "Kilmaine",
+			"date": "10/06/2017"
+		}],
+		"home_fixtures": [{
+			"home_team": "Bohola Moy Davitts",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1B",
+			"time": "00:00",
+			"away_team": "Mayo Gaels",
+			"pitch": "Foxford",
+			"date": "24/06/2017"
+		}]
+	},
+	"Davitts": {
+		"away_fixtures": [{
+			"home_team": "Claremorris",
+			"referee": "TBC",
+			"comp": "South Mayo Junior Championship",
+			"time": "20:00",
+			"away_team": "Davitts",
+			"pitch": "Claremorris",
+			"date": "14/06/2017"
+		}, {
+			"home_team": "Ballinrobe",
+			"referee": "TBC (Pending)",
+			"comp": "Minor League Division 2A",
+			"time": "19:00",
+			"away_team": "Davitts",
+			"pitch": "Ballinrobe",
+			"date": "21/06/2017"
+		}, {
+			"home_team": "Hollymount-Carramore",
+			"referee": "TBC",
+			"comp": "Under 8 Go Games 2017 Group D",
+			"time": "11:00",
+			"away_team": "Davitts",
+			"pitch": "Hollymount",
+			"date": "24/06/2017"
+		}, {
+			"home_team": "Killala",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1D",
+			"time": "00:00",
+			"away_team": "Davitts",
+			"pitch": "Killala",
+			"date": "24/06/2017"
+		}],
+		"home_fixtures": [{
+			"home_team": "Davitts",
+			"referee": "Jon Finn",
+			"comp": "Minor B Summer League 2017",
+			"time": "19:00",
+			"away_team": "Hollymount-Carramore",
+			"pitch": "Davitts GAA Club",
+			"date": "09/06/2017"
+		}, {
+			"home_team": "Davitts",
+			"referee": "TBC",
+			"comp": "Minor B Summer League 2017",
+			"time": "19:00",
+			"away_team": "Burrishoole",
+			"pitch": "Davitts GAA Club",
+			"date": "16/06/2017"
+		}, {
+			"home_team": "Davitts",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Senior Championship - Group 2",
+			"time": "19:00",
+			"away_team": "Ballaghaderreen",
+			"pitch": "Davitts GAA Club",
+			"date": "17/06/2017"
+		}, {
+			"home_team": "Davitts",
+			"referee": "TBC",
+			"comp": "Mayo Junior B Championship - Group 1",
+			"time": "14:00",
+			"away_team": "Lacken",
+			"pitch": "Davitts GAA Club",
+			"date": "18/06/2017"
+		}, {
+			"home_team": "Davitts",
+			"referee": "TBC",
+			"comp": "South Mayo Junior Championship",
+			"time": "20:00",
+			"away_team": "The Neale",
+			"pitch": "Ballindine",
+			"date": "21/06/2017"
+		}, {
+			"home_team": "Davitts",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1A",
+			"time": "00:00",
+			"away_team": "Ballaghaderreen",
+			"pitch": "Davitts GAA Club",
+			"date": "24/06/2017"
+		}]
+	},
+	"Killala": {
+		"away_fixtures": [{
+			"home_team": "Ballycroy",
+			"referee": "Richard Cosgrove",
+			"comp": "North Mayo Junior A Championship",
+			"time": "19:00",
+			"away_team": "Killala",
+			"pitch": "Ballycroy",
+			"date": "10/06/2017"
+		}, {
+			"home_team": "Kilfian",
+			"referee": "TBC",
+			"comp": "Mayo Junior A Championship  - Group 4",
+			"time": "14:00",
+			"away_team": "Killala",
+			"pitch": "Kilfian",
+			"date": "18/06/2017"
+		}],
+		"home_fixtures": [{
+			"home_team": "Killala",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1D",
+			"time": "00:00",
+			"away_team": "Davitts",
+			"pitch": "Killala",
+			"date": "24/06/2017"
+		}]
+	},
+	"Tuairn": {
+		"away_fixtures": [{
+			"home_team": "Castlebar Mitchels Hurling",
+			"referee": "TBC (Pending)",
+			"comp": "Dermot Molloy Hurling League Group 2",
+			"time": "19:00",
+			"away_team": "Tuairn",
+			"pitch": "Munnelly Park",
+			"date": "09/06/2017"
+		}, {
+			"home_team": "Western Gaels",
+			"referee": "Pat Maguire",
+			"comp": "Dermot Molloy Hurling League Group 2",
+			"time": "19:30",
+			"away_team": "Tuairn",
+			"pitch": "Enniscrone",
+			"date": "10/06/2017"
+		}, {
+			"home_team": "Pdraig Pearses",
+			"referee": "TBC (Pending)",
+			"comp": "Eurona Brisknet Under 14 Hurling League - Group B",
+			"time": "19:00",
+			"away_team": "Tuairn",
+			"pitch": "Pairc an Phiarsaigh",
+			"date": "10/06/2017"
+		}, {
+			"home_team": "Clara",
+			"referee": "Frankie Fitzpatrick",
+			"comp": "John West Feile na nGael Boys Div 9 Group A",
+			"time": "16:45",
+			"away_team": "Tuairn",
+			"pitch": "Borris",
+			"date": "16/06/2017"
+		}, {
+			"home_team": "Mt Leinster Rangers",
+			"referee": "",
+			"comp": "John West Feile na nGael Boys Div 9 Group A",
+			"time": "09:45",
+			"away_team": "Tuairn",
+			"pitch": "Borris",
+			"date": "17/06/2017"
+		}, {
+			"home_team": "Tuarloistrein/Tourlestrane",
+			"referee": "TBC (Pending)",
+			"comp": "Dermot Molloy Hurling League Group 2",
+			"time": "20:00",
+			"away_team": "Tuairn",
+			"pitch": "Tourlestrane",
+			"date": "17/06/2017"
+		}, {
+			"home_team": "James Stephens Hurling",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo GAA Go Games u12 Hurling",
+			"time": "18:00",
+			"away_team": "Tuairn",
+			"pitch": "James Stephens Park",
+			"date": "18/06/2017"
+		}],
+		"home_fixtures": [{
+			"home_team": "Tuairn",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo GAA U8/u10s hurling",
+			"time": "00:00",
+			"away_team": "Castlebar Mitchels Hurling",
+			"pitch": "Tooreen",
+			"date": "11/06/2017"
+		}, {
+			"home_team": "Tuairn",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo GAA U8/u10s hurling",
+			"time": "18:00",
+			"away_team": "Westport GAA",
+			"pitch": "Tooreen",
+			"date": "11/06/2017"
+		}, {
+			"home_team": "Tuairn",
+			"referee": "Frankie Fitzpatrick",
+			"comp": "John West Feile na nGael Boys Div 9 Group A",
+			"time": "18:15",
+			"away_team": "Southern Gaels",
+			"pitch": "Borris",
+			"date": "16/06/2017"
+		}]
+	},
+	"Hollymount-Carramore": {
+		"away_fixtures": [{
+			"home_team": "Davitts",
+			"referee": "Jon Finn",
+			"comp": "Minor B Summer League 2017",
+			"time": "19:00",
+			"away_team": "Hollymount-Carramore",
+			"pitch": "Davitts GAA Club",
+			"date": "09/06/2017"
+		}, {
+			"home_team": "The Neale",
+			"referee": "TBC",
+			"comp": "South Mayo Junior Championship",
+			"time": "20:00",
+			"away_team": "Hollymount-Carramore",
+			"pitch": "Cong GAA Pitch",
+			"date": "14/06/2017"
+		}, {
+			"home_team": "Mayo North",
+			"referee": "TBC",
+			"comp": "Under 14 D Championship 2017 Group B",
+			"time": "19:00",
+			"away_team": "Hollymount-Carramore",
+			"pitch": "Cill Chomain",
+			"date": "15/06/2017"
+		}, {
+			"home_team": "Kilmeena",
+			"referee": "TBC (Pending)",
+			"comp": "Minor League Division 2A",
+			"time": "19:00",
+			"away_team": "Hollymount-Carramore",
+			"pitch": "Kilmeena",
+			"date": "21/06/2017"
+		}],
+		"home_fixtures": [{
+			"home_team": "Hollymount-Carramore",
+			"referee": "Mark Tuffy",
+			"comp": "O'Mara Cup Group 2",
+			"time": "20:00",
+			"away_team": "Garrymore",
+			"pitch": "Hollymount",
+			"date": "10/06/2017"
+		}, {
+			"home_team": "Hollymount-Carramore",
+			"referee": "TBC",
+			"comp": "Minor B Summer League 2017",
+			"time": "19:00",
+			"away_team": "Naomh Padraig",
+			"pitch": "Hollymount",
+			"date": "16/06/2017"
+		}, {
+			"home_team": "Hollymount-Carramore",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Senior Championship - Group 2",
+			"time": "17:00",
+			"away_team": "Breaffy",
+			"pitch": "Hollymount-Carramore",
+			"date": "17/06/2017"
+		}, {
+			"home_team": "Hollymount-Carramore",
+			"referee": "TBC",
+			"comp": "Mayo Junior B Championship - Group 2",
+			"time": "14:00",
+			"away_team": "Kilmovee Shamrocks",
+			"pitch": "Hollymount-Carramore",
+			"date": "18/06/2017"
+		}, {
+			"home_team": "Hollymount-Carramore",
+			"referee": "TBC",
+			"comp": "South Mayo Junior Championship",
+			"time": "20:00",
+			"away_team": "Claremorris",
+			"pitch": "Carramore",
+			"date": "21/06/2017"
+		}, {
+			"home_team": "Hollymount-Carramore",
+			"referee": "TBC",
+			"comp": "Under 14 D Championship 2017 Group B",
+			"time": "19:00",
+			"away_team": "Naomh Padraig",
+			"pitch": "Hollymount",
+			"date": "22/06/2017"
+		}, {
+			"home_team": "Hollymount-Carramore",
+			"referee": "TBC",
+			"comp": "Under 8 Go Games 2017 Group D",
+			"time": "11:00",
+			"away_team": "Davitts",
+			"pitch": "Hollymount",
+			"date": "24/06/2017"
+		}, {
+			"home_team": "Hollymount-Carramore",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1A",
+			"time": "00:00",
+			"away_team": "Aghamore",
+			"pitch": "Hollymount",
+			"date": "24/06/2017"
+		}, {
+			"home_team": "Hollymount-Carramore",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1E",
+			"time": "00:00",
+			"away_team": "Aghamore",
+			"pitch": "Hollymount",
+			"date": "24/06/2017"
+		}]
+	},
+	"Ballina Stephenites": {
+		"away_fixtures": [{
+			"home_team": "Boholla Moy Davitts",
+			"referee": "TBC",
+			"comp": "Under 14 A Championship 2017 Group B",
+			"time": "19:00",
+			"away_team": "Ballina Stephenites",
+			"pitch": "Foxford",
+			"date": "22/06/2017"
+		}, {
+			"home_team": "Cill Chomain",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1D",
+			"time": "00:00",
+			"away_team": "Ballina Stephenites",
+			"pitch": "Cill Chomain",
+			"date": "24/06/2017"
+		}],
+		"home_fixtures": [{
+			"home_team": "Ballina Stephenites",
+			"referee": "TBC",
+			"comp": "Under 14 F Championship 2017 Group B",
+			"time": "19:00",
+			"away_team": "Castlebar Mitchels",
+			"pitch": "James Stephens Park",
+			"date": "15/06/2017"
+		}, {
+			"home_team": "Ballina Stephenites",
+			"referee": "Charlie Collins",
+			"comp": "Under 14 A Championship 2017 Group B",
+			"time": "19:00",
+			"away_team": "Castlebar Mitchels",
+			"pitch": "James Stephens Park",
+			"date": "15/06/2017"
+		}, {
+			"home_team": "Ballina Stephenites",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Senior Championship - Group 4",
+			"time": "19:30",
+			"away_team": "Crossmolina Deel Rovers",
+			"pitch": "James Stephens Park",
+			"date": "17/06/2017"
+		}, {
+			"home_team": "Ballina Stephenites",
+			"referee": "TBC",
+			"comp": "Mayo Junior A Championship - Group 1",
+			"time": "16:00",
+			"away_team": "Kilmeena",
+			"pitch": "James Stephens Park",
+			"date": "18/06/2017"
+		}, {
+			"home_team": "Ballina Stephenites",
+			"referee": "TBC",
+			"comp": "Under 8 Go Games 2017 Group A",
+			"time": "11:00",
+			"away_team": "Castlebar Mitchels",
+			"pitch": "James Stephens Park",
+			"date": "24/06/2017"
+		}, {
+			"home_team": "Ballina Stephenites",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1B",
+			"time": "00:00",
+			"away_team": "Westport GAA",
+			"pitch": "James Stephens Park",
+			"date": "24/06/2017"
+		}]
+	},
+	"Tuar Mhic adaigh": {
+		"away_fixtures": [{
+			"home_team": "Kilmeena",
+			"referee": "Neil Cooney",
+			"comp": "Kelly Cup Group 3",
+			"time": "19:00",
+			"away_team": "Tuar Mhic adaigh",
+			"pitch": "Kilmeena",
+			"date": "10/06/2017"
+		}, {
+			"home_team": "Bonniconlon",
+			"referee": "TBC",
+			"comp": "Under 14 E Championship 2017 Group B",
+			"time": "19:00",
+			"away_team": "Tuar Mhic adaigh",
+			"pitch": "Bonniconlon",
+			"date": "15/06/2017"
+		}, {
+			"home_team": "Shrule/Glencorrib",
+			"referee": "TBC",
+			"comp": "Under 14 E Championship 2017 Group B",
+			"time": "19:00",
+			"away_team": "Tuar Mhic adaigh",
+			"pitch": "Glencorrib Community Ground",
+			"date": "22/06/2017"
+		}, {
+			"home_team": "Shrule/Glencorrib",
+			"referee": "TBC",
+			"comp": "Minor League Division 4",
+			"time": "19:00",
+			"away_team": "Tuar Mhic adaigh",
+			"pitch": "Glencorrib Community Ground",
+			"date": "23/06/2017"
+		}, {
+			"home_team": "Achill",
+			"referee": "TBC",
+			"comp": "Under 8 Go Games 2017 Group C",
+			"time": "11:00",
+			"away_team": "Tuar Mhic adaigh",
+			"pitch": "Achill",
+			"date": "24/06/2017"
+		}],
+		"home_fixtures": [{
+			"home_team": "Tuar Mhic adaigh",
+			"referee": "TBC",
+			"comp": "Mayo Intermediate Championship - Group 4",
+			"time": "19:00",
+			"away_team": "Boholla Moy Davitts",
+			"pitch": "Pirc Naomh Mhuire",
+			"date": "17/06/2017"
+		}, {
+			"home_team": "Tuar Mhic adaigh",
+			"referee": "TBC",
+			"comp": "Minor League Division 4",
+			"time": "19:00",
+			"away_team": "Eastern Gaels",
+			"pitch": "Pirc Naomh Mhuire",
+			"date": "21/06/2017"
+		}, {
+			"home_team": "Tuar Mhic adaigh",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1D",
+			"time": "00:00",
+			"away_team": "Crossmolina Deel Rovers",
+			"pitch": "Pirc Naomh Mhuire",
+			"date": "24/06/2017"
+		}]
+	},
+	"Ballintubber": {
+		"away_fixtures": [{
+			"home_team": "Aghamore",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Senior Championship - Group 3",
+			"time": "19:30",
+			"away_team": "Ballintubber",
+			"pitch": "Aghamore",
+			"date": "17/06/2017"
+		}, {
+			"home_team": "Carras",
+			"referee": "TBC (Pending)",
+			"comp": "Minor League Division 2A",
+			"time": "19:00",
+			"away_team": "Ballintubber",
+			"pitch": "Carras",
+			"date": "21/06/2017"
+		}, {
+			"home_team": "Westport GAA",
+			"referee": "TBC",
+			"comp": "Under 14 A Championship 2017 Group A",
+			"time": "19:00",
+			"away_team": "Ballintubber",
+			"pitch": "Westport GAA Club",
+			"date": "22/06/2017"
+		}],
+		"home_fixtures": [{
+			"home_team": "Ballintubber",
+			"referee": "Kevin Corcoran",
+			"comp": "Kelly Cup Group 1",
+			"time": "19:00",
+			"away_team": "Westport GAA",
+			"pitch": "Ray Prendergast Memorial Park",
+			"date": "10/06/2017"
+		}, {
+			"home_team": "Ballintubber",
+			"referee": "Brian Kilkelly",
+			"comp": "Under 14 A Championship 2017 Group A",
+			"time": "19:00",
+			"away_team": "Claremorris",
+			"pitch": "Ray Prendergast Memorial Park",
+			"date": "15/06/2017"
+		}, {
+			"home_team": "Ballintubber",
+			"referee": "TBC",
+			"comp": "Mayo Junior A Championship - Group 3",
+			"time": "14:00",
+			"away_team": "Ardagh",
+			"pitch": "Ray Prendergast Memorial Park",
+			"date": "18/06/2017"
+		}, {
+			"home_team": "Ballintubber",
+			"referee": "TBC",
+			"comp": "Minor League Division 2A",
+			"time": "19:00",
+			"away_team": "Ballaghaderreen",
+			"pitch": "TBC",
+			"date": "23/06/2017"
+		}, {
+			"home_team": "Ballintubber",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1A",
+			"time": "00:00",
+			"away_team": "Breaffy",
+			"pitch": "Ray Prendergast Memorial Park",
+			"date": "24/06/2017"
+		}]
+	},
+	"Carras": {
+		"home_fixtures": [{
+			"home_team": "Carras",
+			"referee": "TBC",
+			"comp": "Under 14 E Championship 2017 Group A",
+			"time": "19:00",
+			"away_team": "Kilmovee Shamrocks",
+			"pitch": "Carras",
+			"date": "15/06/2017"
+		}, {
+			"home_team": "Carras",
+			"referee": "TBC (Pending)",
+			"comp": "Minor League Division 2A",
+			"time": "19:00",
+			"away_team": "Ballintubber",
+			"pitch": "Carras",
+			"date": "21/06/2017"
+		}, {
+			"home_team": "Carras",
+			"referee": "TBC",
+			"comp": "Under 14 E Championship 2017 Group A",
+			"time": "19:00",
+			"away_team": "Islandeady",
+			"pitch": "Carras",
+			"date": "22/06/2017"
+		}, {
+			"home_team": "Carras",
+			"referee": "TBC",
+			"comp": "Under 8 Go Games 2017 Group D",
+			"time": "11:00",
+			"away_team": "Shrule/Glencorrib",
+			"pitch": "Carras",
+			"date": "24/06/2017"
+		}]
+	},
+	"Erris St. Pats": {
+		"home_fixtures": [{
+			"home_team": "Erris St. Pats",
+			"referee": "Michael Herr",
+			"comp": "Under 14C Championship 2017 Group A",
+			"time": "19:00",
+			"away_team": "Kiltimagh",
+			"pitch": "Erris St. Pats",
+			"date": "15/06/2017"
+		}]
+	},
+	"Mayo North": {
+		"home_fixtures": [{
+			"home_team": "Mayo North",
+			"referee": "TBC",
+			"comp": "Under 14 D Championship 2017 Group B",
+			"time": "19:00",
+			"away_team": "Hollymount-Carramore",
+			"pitch": "Cill Chomain",
+			"date": "15/06/2017"
+		}, {
+			"home_team": "Mayo North",
+			"referee": "TBC",
+			"comp": "Under 14 D Championship 2017 Group B",
+			"time": "19:00",
+			"away_team": "Aghamore",
+			"pitch": "Cill Chomain",
+			"date": "22/06/2017"
+		}]
+	},
+	"Garrymore": {
+		"away_fixtures": [{
+			"home_team": "Hollymount-Carramore",
+			"referee": "Mark Tuffy",
+			"comp": "O'Mara Cup Group 2",
+			"time": "20:00",
+			"away_team": "Garrymore",
+			"pitch": "Hollymount",
+			"date": "10/06/2017"
+		}, {
+			"home_team": "Kilmaine",
+			"referee": "TBC",
+			"comp": "South Mayo Junior Championship",
+			"time": "20:00",
+			"away_team": "Garrymore",
+			"pitch": "Kilmaine",
+			"date": "14/06/2017"
+		}, {
+			"home_team": "Knockmore",
+			"referee": "TBC",
+			"comp": "Mayo Senior Championship - Group 1",
+			"time": "17:30",
+			"away_team": "Garrymore",
+			"pitch": "St. Joseph's Park",
+			"date": "17/06/2017"
+		}, {
+			"home_team": "Claremorris",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1A",
+			"time": "00:00",
+			"away_team": "Garrymore",
+			"pitch": "Claremorris",
+			"date": "24/06/2017"
+		}],
+		"home_fixtures": [{
+			"home_team": "Garrymore",
+			"referee": "TBC",
+			"comp": "South Mayo Junior Championship",
+			"time": "20:00",
+			"away_team": "Shrule/Glencorrib",
+			"pitch": "Garrymore GAA Pitch",
+			"date": "21/06/2017"
+		}, {
+			"home_team": "Garrymore",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1D",
+			"time": "00:00",
+			"away_team": "Kilfian",
+			"pitch": "Garrymore GAA Pitch",
+			"date": "24/06/2017"
+		}]
+	},
+	"Naomh Padraig": {
+		"away_fixtures": [{
+			"home_team": "Burrishoole",
+			"referee": "TBC",
+			"comp": "Minor B Summer League 2017",
+			"time": "19:00",
+			"away_team": "Naomh Padraig",
+			"pitch": "Newport",
+			"date": "09/06/2017"
+		}, {
+			"home_team": "Aghamore",
+			"referee": "Michael Daly",
+			"comp": "Under 14 D Championship 2017 Group B",
+			"time": "19:00",
+			"away_team": "Naomh Padraig",
+			"pitch": "Aghamore",
+			"date": "15/06/2017"
+		}, {
+			"home_team": "Hollymount-Carramore",
+			"referee": "TBC",
+			"comp": "Minor B Summer League 2017",
+			"time": "19:00",
+			"away_team": "Naomh Padraig",
+			"pitch": "Hollymount",
+			"date": "16/06/2017"
+		}, {
+			"home_team": "Hollymount-Carramore",
+			"referee": "TBC",
+			"comp": "Under 14 D Championship 2017 Group B",
+			"time": "19:00",
+			"away_team": "Naomh Padraig",
+			"pitch": "Hollymount",
+			"date": "22/06/2017"
+		}, {
+			"home_team": "Ardnaree",
+			"referee": "TBC",
+			"comp": "Under 8 Go Games 2017 Group E",
+			"time": "11:00",
+			"away_team": "Naomh Padraig",
+			"pitch": "Ardnaree",
+			"date": "24/06/2017"
+		}]
+	},
+	"Knockmore": {
+		"away_fixtures": [{
+			"home_team": "Westport GAA",
+			"referee": "Martin Walsh",
+			"comp": "Minor A Summer League 2017 Group 2",
+			"time": "20:00",
+			"away_team": "Knockmore",
+			"pitch": "Westport GAA Club",
+			"date": "09/06/2017"
+		}, {
+			"home_team": "Westport GAA",
+			"referee": "TBC",
+			"comp": "Under 14 F Championship 2017 Group A",
+			"time": "19:00",
+			"away_team": "Knockmore",
+			"pitch": "Westport GAA Club",
+			"date": "15/06/2017"
+		}, {
+			"home_team": "Bal an Mhuirthead",
+			"referee": "TBC",
+			"comp": "Mayo Junior C Championship - Group 4",
+			"time": "19:00",
+			"away_team": "Knockmore",
+			"pitch": "Tallagh",
+			"date": "17/06/2017"
+		}, {
+			"home_team": "Castlebar Mitchels",
+			"referee": "TBC",
+			"comp": "Under 16 Division 1 Cup",
+			"time": "00:00",
+			"away_team": "Knockmore",
+			"pitch": "TBC",
+			"date": "20/06/2017"
+		}, {
+			"home_team": "Crossmolina Deel Rovers",
+			"referee": "Liam Henry",
+			"comp": "Under 14 B Championship Group B",
+			"time": "19:00",
+			"away_team": "Knockmore",
+			"pitch": "Crossmolina",
+			"date": "20/06/2017"
+		}, {
+			"home_team": "Parke/Keelogues /Crimlin",
+			"referee": "TBC",
+			"comp": "Under 8 Go Games 2017 Group A",
+			"time": "11:00",
+			"away_team": "Knockmore",
+			"pitch": "St. Joseph's Park",
+			"date": "24/06/2017"
+		}, {
+			"home_team": "Charlestown Sarsfields",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1A",
+			"time": "00:00",
+			"away_team": "Knockmore",
+			"pitch": "Fr. O'Hara Park",
+			"date": "24/06/2017"
+		}, {
+			"home_team": "Charlestown Sarsfields",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1D",
+			"time": "00:00",
+			"away_team": "Knockmore",
+			"pitch": "Fr. O'Hara Park",
+			"date": "24/06/2017"
+		}],
+		"home_fixtures": [{
+			"home_team": "Knockmore",
+			"referee": "Vincent Neary",
+			"comp": "Under 14 B Championship Group B",
+			"time": "19:00",
+			"away_team": "Ballaghaderreen",
+			"pitch": "St. Joseph's Park",
+			"date": "15/06/2017"
+		}, {
+			"home_team": "Knockmore",
+			"referee": "Liam Devenney",
+			"comp": "Minor A Summer League 2017 Group 2",
+			"time": "19:00",
+			"away_team": "Parke/Keelogues /Crimlin",
+			"pitch": "St. Joseph's Park",
+			"date": "16/06/2017"
+		}, {
+			"home_team": "Knockmore",
+			"referee": "TBC",
+			"comp": "Mayo Senior Championship - Group 1",
+			"time": "17:30",
+			"away_team": "Garrymore",
+			"pitch": "St. Joseph's Park",
+			"date": "17/06/2017"
+		}, {
+			"home_team": "Knockmore",
+			"referee": "TBC",
+			"comp": "Mayo Junior A Championship - Group 2",
+			"time": "14:00",
+			"away_team": "Kilmaine",
+			"pitch": "St. Joseph's Park",
+			"date": "18/06/2017"
+		}]
+	},
+	"Ardagh": {
+		"away_fixtures": [{
+			"home_team": "Ballintubber",
+			"referee": "TBC",
+			"comp": "Mayo Junior A Championship - Group 3",
+			"time": "14:00",
+			"away_team": "Ardagh",
+			"pitch": "Ray Prendergast Memorial Park",
+			"date": "18/06/2017"
+		}, {
+			"home_team": "Lahardane",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1C",
+			"time": "00:00",
+			"away_team": "Ardagh",
+			"pitch": "Bofeenaun",
+			"date": "24/06/2017"
+		}]
+	},
+	"Danesfort": {
+		"home_fixtures": [{
+			"home_team": "Danesfort",
+			"referee": "Conor Everard",
+			"comp": "John West Feile na nGael Boys Div 3 Group A",
+			"time": "10:30",
+			"away_team": "Westport GAA",
+			"pitch": "Danesfort",
+			"date": "17/06/2017"
+		}]
+	},
+	"Ardmoy MacHales": {
+		"away_fixtures": [{
+			"home_team": "The Neale",
+			"referee": "Martin Murphy",
+			"comp": "Under 14 D Championship 2017 Group A",
+			"time": "19:00",
+			"away_team": "Ardmoy MacHales",
+			"pitch": "Cong GAA Pitch",
+			"date": "15/06/2017"
+		}],
+		"home_fixtures": [{
+			"home_team": "Ardmoy MacHales",
+			"referee": "TBC (Pending)",
+			"comp": "Minor League Division 3",
+			"time": "19:00",
+			"away_team": "Mayo Gaels",
+			"pitch": "Quarter Final 2 Winners",
+			"date": "21/06/2017"
+		}, {
+			"home_team": "Ardmoy MacHales",
+			"referee": "TBC",
+			"comp": "Under 14 D Championship 2017 Group A",
+			"time": "19:00",
+			"away_team": "Swinford",
+			"pitch": "Quarter Final 2 Winners",
+			"date": "22/06/2017"
+		}]
+	},
+	"Islandeady": {
+		"away_fixtures": [{
+			"home_team": "Louisburgh",
+			"referee": "Mel Kenny",
+			"comp": "Kelly Cup Group 2",
+			"time": "19:00",
+			"away_team": "Islandeady",
+			"pitch": "Louisburgh Gaa pitch",
+			"date": "10/06/2017"
+		}, {
+			"home_team": "Mayo Gaels",
+			"referee": "TBC",
+			"comp": "Mayo Junior C Championship - Group 3",
+			"time": "19:00",
+			"away_team": "Islandeady",
+			"pitch": "Mayo Gaels Main Pitch",
+			"date": "17/06/2017"
+		}, {
+			"home_team": "Carras",
+			"referee": "TBC",
+			"comp": "Under 14 E Championship 2017 Group A",
+			"time": "19:00",
+			"away_team": "Islandeady",
+			"pitch": "Carras",
+			"date": "22/06/2017"
+		}, {
+			"home_team": "Burrishoole",
+			"referee": "TBC",
+			"comp": "Under 8 Go Games 2017 Group C",
+			"time": "11:00",
+			"away_team": "Islandeady",
+			"pitch": "Newport",
+			"date": "24/06/2017"
+		}, {
+			"home_team": "Ardnaree",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1B",
+			"time": "00:00",
+			"away_team": "Islandeady",
+			"pitch": "Ardnaree",
+			"date": "24/06/2017"
+		}, {
+			"home_team": "Kiltane",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1F",
+			"time": "00:00",
+			"away_team": "Islandeady",
+			"pitch": "Bangor Erris",
+			"date": "24/06/2017"
+		}],
+		"home_fixtures": [{
+			"home_team": "Islandeady",
+			"referee": "TBC",
+			"comp": "Under 14 E Championship 2017 Group A",
+			"time": "19:00",
+			"away_team": "Louisburgh",
+			"pitch": "Islandeady",
+			"date": "15/06/2017"
+		}, {
+			"home_team": "Islandeady",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Intermediate Championship - Group 2",
+			"time": "16:00",
+			"away_team": "Swinford",
+			"pitch": "Islandeady",
+			"date": "18/06/2017"
+		}]
+	},
+	"Burren Rangers Juvenile Club": {
+		"home_fixtures": [{
+			"home_team": "Burren Rangers Juvenile Club",
+			"referee": "TBC",
+			"comp": "John West Feile na nGael Camogie Div 6 Group A",
+			"time": "16:45",
+			"away_team": "Westport GAA",
+			"pitch": "Lisdowney",
+			"date": "16/06/2017"
+		}]
+	},
+	"Lisdowney / Naomh Brid": {
+		"home_fixtures": [{
+			"home_team": "Lisdowney / Naomh Brid",
+			"referee": "",
+			"comp": "John West Feile na nGael Camogie Div 6 Group A",
+			"time": "11:15",
+			"away_team": "Westport GAA",
+			"pitch": "Lisdowney",
+			"date": "17/06/2017"
+		}]
+	},
+	"The Neale": {
+		"away_fixtures": [{
+			"home_team": "Kilmaine",
+			"referee": "TBC",
+			"comp": "Mayo Junior C Championship - Group 2",
+			"time": "20:00",
+			"away_team": "The Neale",
+			"pitch": "Kilmaine",
+			"date": "16/06/2017"
+		}, {
+			"home_team": "Burrishoole",
+			"referee": "TBC",
+			"comp": "Mayo Intermediate Championship - Group 3",
+			"time": "17:30",
+			"away_team": "The Neale",
+			"pitch": "Newport",
+			"date": "17/06/2017"
+		}, {
+			"home_team": "Davitts",
+			"referee": "TBC",
+			"comp": "South Mayo Junior Championship",
+			"time": "20:00",
+			"away_team": "The Neale",
+			"pitch": "Ballindine",
+			"date": "21/06/2017"
+		}],
+		"home_fixtures": [{
+			"home_team": "The Neale",
+			"referee": "TBC",
+			"comp": "South Mayo Junior Championship",
+			"time": "20:00",
+			"away_team": "Hollymount-Carramore",
+			"pitch": "Cong GAA Pitch",
+			"date": "14/06/2017"
+		}, {
+			"home_team": "The Neale",
+			"referee": "Martin Murphy",
+			"comp": "Under 14 D Championship 2017 Group A",
+			"time": "19:00",
+			"away_team": "Ardmoy MacHales",
+			"pitch": "Cong GAA Pitch",
+			"date": "15/06/2017"
+		}, {
+			"home_team": "The Neale",
+			"referee": "TBC (Pending)",
+			"comp": "Minor League Division 3",
+			"time": "19:00",
+			"away_team": "Kiltimagh",
+			"pitch": "Cong GAA Pitch",
+			"date": "21/06/2017"
+		}, {
+			"home_team": "The Neale",
+			"referee": "TBC",
+			"comp": "Under 8 Go Games 2017 Group D",
+			"time": "11:00",
+			"away_team": "Mayo Gaels",
+			"pitch": "Cong GAA Pitch",
+			"date": "24/06/2017"
+		}, {
+			"home_team": "The Neale",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1B",
+			"time": "00:00",
+			"away_team": "Ballinrobe",
+			"pitch": "Cong GAA Pitch",
+			"date": "24/06/2017"
+		}]
+	},
+	"Tuarloistrein/Tourlestrane": {
+		"home_fixtures": [{
+			"home_team": "Tuarloistrein/Tourlestrane",
+			"referee": "TBC (Pending)",
+			"comp": "Dermot Molloy Hurling League Group 2",
+			"time": "20:00",
+			"away_team": "Tuairn",
+			"pitch": "Tourlestrane",
+			"date": "17/06/2017"
+		}]
+	},
+	"Swinford": {
+		"away_fixtures": [{
+			"home_team": "Charlestown Sarsfields",
+			"referee": "John Glavey",
+			"comp": "Centenary Cup Group 1",
+			"time": "19:00",
+			"away_team": "Swinford",
+			"pitch": "Fr. O'Hara Park",
+			"date": "10/06/2017"
+		}, {
+			"home_team": "Islandeady",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Intermediate Championship - Group 2",
+			"time": "16:00",
+			"away_team": "Swinford",
+			"pitch": "Islandeady",
+			"date": "18/06/2017"
+		}, {
+			"home_team": "Westport GAA",
+			"referee": "TBC (Pending)",
+			"comp": "Minor League Division 3",
+			"time": "19:00",
+			"away_team": "Swinford",
+			"pitch": "Westport GAA Club",
+			"date": "21/06/2017"
+		}, {
+			"home_team": "Ardmoy MacHales",
+			"referee": "TBC",
+			"comp": "Under 14 D Championship 2017 Group A",
+			"time": "19:00",
+			"away_team": "Swinford",
+			"pitch": "Quarter Final 2 Winners",
+			"date": "22/06/2017"
+		}, {
+			"home_team": "Kilmovee Shamrocks",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1E",
+			"time": "00:00",
+			"away_team": "Swinford",
+			"pitch": "Kilmovee",
+			"date": "24/06/2017"
+		}],
+		"home_fixtures": [{
+			"home_team": "Swinford",
+			"referee": "TBC",
+			"comp": "Mayo Junior B Championship - Group 4",
+			"time": "20:00",
+			"away_team": "Kiltimagh",
+			"pitch": "Robert McCallion Memorial pitch",
+			"date": "16/06/2017"
+		}, {
+			"home_team": "Swinford",
+			"referee": "TBC",
+			"comp": "Under 8 Go Games 2017 Group B",
+			"time": "11:00",
+			"away_team": "Ballinrobe",
+			"pitch": "Robert McCallion Memorial pitch",
+			"date": "24/06/2017"
+		}, {
+			"home_team": "Swinford",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1C",
+			"time": "00:00",
+			"away_team": "Achill",
+			"pitch": "Robert McCallion Memorial pitch",
+			"date": "24/06/2017"
+		}]
+	},
+	"Kilfian": {
+		"away_fixtures": [{
+			"home_team": "Garrymore",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1D",
+			"time": "00:00",
+			"away_team": "Kilfian",
+			"pitch": "Garrymore GAA Pitch",
+			"date": "24/06/2017"
+		}],
+		"home_fixtures": [{
+			"home_team": "Kilfian",
+			"referee": "TBC",
+			"comp": "Mayo Junior A Championship  - Group 4",
+			"time": "14:00",
+			"away_team": "Killala",
+			"pitch": "Kilfian",
+			"date": "18/06/2017"
+		}]
+	},
+	"Boholla Moy Davitts": {
+		"away_fixtures": [{
+			"home_team": "Tuar Mhic adaigh",
+			"referee": "TBC",
+			"comp": "Mayo Intermediate Championship - Group 4",
+			"time": "19:00",
+			"away_team": "Boholla Moy Davitts",
+			"pitch": "Pirc Naomh Mhuire",
+			"date": "17/06/2017"
+		}, {
+			"home_team": "Castlebar Mitchels",
+			"referee": "Liam Henry",
+			"comp": "Under 14 A Championship 2017 Group B",
+			"time": "19:00",
+			"away_team": "Boholla Moy Davitts",
+			"pitch": "Pirc Josie Munnelly",
+			"date": "19/06/2017"
+		}],
+		"home_fixtures": [{
+			"home_team": "Boholla Moy Davitts",
+			"referee": "TBC",
+			"comp": "Mayo Junior B Championship - Group 3",
+			"time": "14:00",
+			"away_team": "Aghamore",
+			"pitch": "Foxford",
+			"date": "18/06/2017"
+		}, {
+			"home_team": "Boholla Moy Davitts",
+			"referee": "TBC",
+			"comp": "Under 14 A Championship 2017 Group B",
+			"time": "19:00",
+			"away_team": "Ballina Stephenites",
+			"pitch": "Foxford",
+			"date": "22/06/2017"
+		}, {
+			"home_team": "Boholla Moy Davitts",
+			"referee": "TBC",
+			"comp": "Under 8 Go Games 2017 Group B",
+			"time": "11:00",
+			"away_team": "Kiltimagh",
+			"pitch": "Foxford",
+			"date": "24/06/2017"
+		}]
+	},
+	"Castlebar Mitchels": {
+		"away_fixtures": [{
+			"home_team": "Louisburgh",
+			"referee": "Mel Kenny",
+			"comp": "Minor A Summer League 2017 Group 1",
+			"time": "19:00",
+			"away_team": "Castlebar Mitchels",
+			"pitch": "Louisburgh Gaa pitch",
+			"date": "09/06/2017"
+		}, {
+			"home_team": "Breaffy",
+			"referee": "TBC (Pending)",
+			"comp": "Kelly Cup Group 1",
+			"time": "19:00",
+			"away_team": "Castlebar Mitchels",
+			"pitch": "Breaffy",
+			"date": "10/06/2017"
+		}, {
+			"home_team": "Ballina Stephenites",
+			"referee": "TBC",
+			"comp": "Under 14 F Championship 2017 Group B",
+			"time": "19:00",
+			"away_team": "Castlebar Mitchels",
+			"pitch": "James Stephens Park",
+			"date": "15/06/2017"
+		}, {
+			"home_team": "Ballina Stephenites",
+			"referee": "Charlie Collins",
+			"comp": "Under 14 A Championship 2017 Group B",
+			"time": "19:00",
+			"away_team": "Castlebar Mitchels",
+			"pitch": "James Stephens Park",
+			"date": "15/06/2017"
+		}, {
+			"home_team": "Kiltimagh",
+			"referee": "TBC",
+			"comp": "Mayo Intermediate Championship - Group 4",
+			"time": "17:30",
+			"away_team": "Castlebar Mitchels",
+			"pitch": "Kiltimagh",
+			"date": "17/06/2017"
+		}, {
+			"home_team": "Ballina Stephenites",
+			"referee": "TBC",
+			"comp": "Under 8 Go Games 2017 Group A",
+			"time": "11:00",
+			"away_team": "Castlebar Mitchels",
+			"pitch": "James Stephens Park",
+			"date": "24/06/2017"
+		}, {
+			"home_team": "Crossmolina Deel Rovers",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1A",
+			"time": "00:00",
+			"away_team": "Castlebar Mitchels",
+			"pitch": "Crossmolina",
+			"date": "24/06/2017"
+		}],
+		"home_fixtures": [{
+			"home_team": "Castlebar Mitchels",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Senior Championship - Group 4",
+			"time": "14:00",
+			"away_team": "Ballinrobe",
+			"pitch": "Pirc Josie Munnelly",
+			"date": "18/06/2017"
+		}, {
+			"home_team": "Castlebar Mitchels",
+			"referee": "Liam Henry",
+			"comp": "Under 14 A Championship 2017 Group B",
+			"time": "19:00",
+			"away_team": "Boholla Moy Davitts",
+			"pitch": "Pirc Josie Munnelly",
+			"date": "19/06/2017"
+		}, {
+			"home_team": "Castlebar Mitchels",
+			"referee": "TBC",
+			"comp": "Under 16 Division 1 Cup",
+			"time": "00:00",
+			"away_team": "Knockmore",
+			"pitch": "TBC",
+			"date": "20/06/2017"
+		}, {
+			"home_team": "Castlebar Mitchels",
+			"referee": "TBC",
+			"comp": "West Mayo Junior B Group 2",
+			"time": "19:30",
+			"away_team": "Westport GAA",
+			"pitch": "Pirc Josie Munnelly",
+			"date": "21/06/2017"
+		}, {
+			"home_team": "Castlebar Mitchels",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1C",
+			"time": "00:00",
+			"away_team": "Louisburgh",
+			"pitch": "Pirc Josie Munnelly",
+			"date": "24/06/2017"
+		}, {
+			"home_team": "Castlebar Mitchels",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1F",
+			"time": "00:00",
+			"away_team": "Balla",
+			"pitch": "Pirc Josie Munnelly",
+			"date": "24/06/2017"
+		}]
+	},
+	"James Stephens Hurling": {
+		"away_fixtures": [{
+			"home_team": "Caiseal Gaels",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo GAA U8/u10s hurling",
+			"time": "00:00",
+			"away_team": "James Stephens Hurling",
+			"pitch": "Charlestown",
+			"date": "11/06/2017"
+		}, {
+			"home_team": "Beal Atha Bhearraigh",
+			"referee": "Michael Bolger",
+			"comp": "Mayo GAA U8/u10s hurling",
+			"time": "18:00",
+			"away_team": "James Stephens Hurling",
+			"pitch": "Ballyvary Community Pitch",
+			"date": "11/06/2017"
+		}],
+		"home_fixtures": [{
+			"home_team": "James Stephens Hurling",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo GAA Go Games u12 Hurling",
+			"time": "18:00",
+			"away_team": "Tuairn",
+			"pitch": "James Stephens Park",
+			"date": "18/06/2017"
+		}]
+	},
+	"Parke/Keelogues /Crimlin": {
+		"away_fixtures": [{
+			"home_team": "Burrishoole",
+			"referee": "TBC (Pending)",
+			"comp": "Kelly Cup Group 2",
+			"time": "19:00",
+			"away_team": "Parke/Keelogues /Crimlin",
+			"pitch": "Newport",
+			"date": "10/06/2017"
+		}, {
+			"home_team": "Knockmore",
+			"referee": "Liam Devenney",
+			"comp": "Minor A Summer League 2017 Group 2",
+			"time": "19:00",
+			"away_team": "Parke/Keelogues /Crimlin",
+			"pitch": "St. Joseph's Park",
+			"date": "16/06/2017"
+		}, {
+			"home_team": "Balla",
+			"referee": "Martin Kennedy",
+			"comp": "Under 14C Championship 2017 Group C",
+			"time": "19:00",
+			"away_team": "Parke/Keelogues /Crimlin",
+			"pitch": "Balla",
+			"date": "19/06/2017"
+		}, {
+			"home_team": "Shrule/Glencorrib",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1C",
+			"time": "00:00",
+			"away_team": "Parke/Keelogues /Crimlin",
+			"pitch": "Glencorrib Community Ground",
+			"date": "24/06/2017"
+		}],
+		"home_fixtures": [{
+			"home_team": "Parke/Keelogues /Crimlin",
+			"referee": "Christopher Burke",
+			"comp": "Under 12 Spring League Group J",
+			"time": "19:00",
+			"away_team": "Westport GAA",
+			"pitch": "Parke GAA Club",
+			"date": "12/06/2017"
+		}, {
+			"home_team": "Parke/Keelogues /Crimlin",
+			"referee": "Pat Conlon",
+			"comp": "Under 12 Spring League Group A",
+			"time": "18:00",
+			"away_team": "Westport GAA",
+			"pitch": "Parke GAA Club",
+			"date": "12/06/2017"
+		}, {
+			"home_team": "Parke/Keelogues /Crimlin",
+			"referee": "TBC",
+			"comp": "Under 14C Championship 2017 Group C",
+			"time": "19:00",
+			"away_team": "Ardnaree",
+			"pitch": "Parke GAA Club",
+			"date": "15/06/2017"
+		}, {
+			"home_team": "Parke/Keelogues /Crimlin",
+			"referee": "TBC",
+			"comp": "Mayo Intermediate Championship - Group 1",
+			"time": "16:00",
+			"away_team": "Bal an Mhuirthead",
+			"pitch": "Parke GAA Club",
+			"date": "18/06/2017"
+		}, {
+			"home_team": "Parke/Keelogues /Crimlin",
+			"referee": "TBC",
+			"comp": "Under 8 Go Games 2017 Group A",
+			"time": "11:00",
+			"away_team": "Knockmore",
+			"pitch": "St. Joseph's Park",
+			"date": "24/06/2017"
+		}]
+	},
+	"Bonniconlon": {
+		"away_fixtures": [{
+			"home_team": "Louisburgh",
+			"referee": "TBC",
+			"comp": "Mayo Intermediate Championship - Group 3",
+			"time": "14:00",
+			"away_team": "Bonniconlon",
+			"pitch": "Louisburgh Gaa pitch",
+			"date": "18/06/2017"
+		}, {
+			"home_team": "Ballyhaunis",
+			"referee": "TBC",
+			"comp": "Under 14 E Championship 2017 Group B",
+			"time": "19:00",
+			"away_team": "Bonniconlon",
+			"pitch": "Ballyhaunis",
+			"date": "22/06/2017"
+		}, {
+			"home_team": "Mayo Gaels",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1F",
+			"time": "00:00",
+			"away_team": "Bonniconlon",
+			"pitch": "Mayo Gaels Main Pitch",
+			"date": "24/06/2017"
+		}],
+		"home_fixtures": [{
+			"home_team": "Bonniconlon",
+			"referee": "TBC",
+			"comp": "Under 14 E Championship 2017 Group B",
+			"time": "19:00",
+			"away_team": "Tuar Mhic adaigh",
+			"pitch": "Bonniconlon",
+			"date": "15/06/2017"
+		}, {
+			"home_team": "Bonniconlon",
+			"referee": "TBC",
+			"comp": "Mayo Junior C Championship - Group 3",
+			"time": "17:30",
+			"away_team": "Balla",
+			"pitch": "Bonniconlon",
+			"date": "18/06/2017"
+		}, {
+			"home_team": "Bonniconlon",
+			"referee": "TBC",
+			"comp": "Under 8 Go Games 2017 Group F",
+			"time": "11:00",
+			"away_team": "Lahardane",
+			"pitch": "Bonniconlon",
+			"date": "24/06/2017"
+		}, {
+			"home_team": "Bonniconlon",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1C",
+			"time": "00:00",
+			"away_team": "Ballyhaunis",
+			"pitch": "Bonniconlon",
+			"date": "24/06/2017"
+		}]
+	},
+	"Kiltane": {
+		"home_fixtures": [{
+			"home_team": "Kiltane",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Senior Championship - Group 3",
+			"time": "18:00",
+			"away_team": "Claremorris",
+			"pitch": "Bangor Erris",
+			"date": "17/06/2017"
+		}, {
+			"home_team": "Kiltane",
+			"referee": "TBC",
+			"comp": "Under 8 Go Games 2017 Group E",
+			"time": "11:00",
+			"away_team": "Crossmolina Deel Rovers",
+			"pitch": "Bangor Erris",
+			"date": "24/06/2017"
+		}, {
+			"home_team": "Kiltane",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1B",
+			"time": "00:00",
+			"away_team": "Kilmaine",
+			"pitch": "Bangor Erris",
+			"date": "24/06/2017"
+		}, {
+			"home_team": "Kiltane",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1F",
+			"time": "00:00",
+			"away_team": "Islandeady",
+			"pitch": "Bangor Erris",
+			"date": "24/06/2017"
+		}]
+	},
+	"Beal Atha Bhearraigh": {
+		"home_fixtures": [{
+			"home_team": "Beal Atha Bhearraigh",
+			"referee": "Michael Bolger",
+			"comp": "Mayo GAA U8/u10s hurling",
+			"time": "18:00",
+			"away_team": "James Stephens Hurling",
+			"pitch": "Ballyvary Community Pitch",
+			"date": "11/06/2017"
+		}]
+	},
+	"Lacken": {
+		"away_fixtures": [{
+			"home_team": "Davitts",
+			"referee": "TBC",
+			"comp": "Mayo Junior B Championship - Group 1",
+			"time": "14:00",
+			"away_team": "Lacken",
+			"pitch": "Davitts GAA Club",
+			"date": "18/06/2017"
+		}],
+		"home_fixtures": [{
+			"home_team": "Lacken",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1F",
+			"time": "00:00",
+			"away_team": "Moygownagh",
+			"pitch": "Lacken",
+			"date": "24/06/2017"
+		}]
+	},
+	"Balla": {
+		"away_fixtures": [{
+			"home_team": "Bonniconlon",
+			"referee": "TBC",
+			"comp": "Mayo Junior C Championship - Group 3",
+			"time": "17:30",
+			"away_team": "Balla",
+			"pitch": "Bonniconlon",
+			"date": "18/06/2017"
+		}, {
+			"home_team": "Breaffy",
+			"referee": "TBC",
+			"comp": "Under 8 Go Games 2017 Group B",
+			"time": "11:00",
+			"away_team": "Balla",
+			"pitch": "Breaffy",
+			"date": "24/06/2017"
+		}, {
+			"home_team": "Burrishoole",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1C",
+			"time": "00:00",
+			"away_team": "Balla",
+			"pitch": "Newport",
+			"date": "24/06/2017"
+		}, {
+			"home_team": "Castlebar Mitchels",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1F",
+			"time": "00:00",
+			"away_team": "Balla",
+			"pitch": "Pirc Josie Munnelly",
+			"date": "24/06/2017"
+		}],
+		"home_fixtures": [{
+			"home_team": "Balla",
+			"referee": "Martin Walsh",
+			"comp": "Kelly Cup Group 3",
+			"time": "19:00",
+			"away_team": "Achill",
+			"pitch": "Balla",
+			"date": "10/06/2017"
+		}, {
+			"home_team": "Balla",
+			"referee": "TBC",
+			"comp": "West Mayo Junior B Group 1",
+			"time": "19:30",
+			"away_team": "Louisburgh",
+			"pitch": "Balla",
+			"date": "14/06/2017"
+		}, {
+			"home_team": "Balla",
+			"referee": "TBC",
+			"comp": "Mayo Junior A Championship  - Group 4",
+			"time": "19:00",
+			"away_team": "Cill Chomain",
+			"pitch": "Balla",
+			"date": "17/06/2017"
+		}, {
+			"home_team": "Balla",
+			"referee": "Martin Kennedy",
+			"comp": "Under 14C Championship 2017 Group C",
+			"time": "19:00",
+			"away_team": "Parke/Keelogues /Crimlin",
+			"pitch": "Balla",
+			"date": "19/06/2017"
+		}, {
+			"home_team": "Balla",
+			"referee": "TBC",
+			"comp": "West Mayo Junior B Group 1",
+			"time": "19:30",
+			"away_team": "Kilmeena",
+			"pitch": "Balla",
+			"date": "21/06/2017"
+		}]
+	},
+	"Moygownagh": {
+		"away_fixtures": [{
+			"home_team": "Ballycastle",
+			"referee": "TBC",
+			"comp": "Mayo Junior C Championship - Group 1",
+			"time": "19:00",
+			"away_team": "Moygownagh",
+			"pitch": "Ballycastle",
+			"date": "17/06/2017"
+		}, {
+			"home_team": "Lacken",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1F",
+			"time": "00:00",
+			"away_team": "Moygownagh",
+			"pitch": "Lacken",
+			"date": "24/06/2017"
+		}]
+	},
+	"Crossmolina Deel Rovers": {
+		"away_fixtures": [{
+			"home_team": "Ballina Stephenites",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Senior Championship - Group 4",
+			"time": "19:30",
+			"away_team": "Crossmolina Deel Rovers",
+			"pitch": "James Stephens Park",
+			"date": "17/06/2017"
+		}, {
+			"home_team": "Kiltane",
+			"referee": "TBC",
+			"comp": "Under 8 Go Games 2017 Group E",
+			"time": "11:00",
+			"away_team": "Crossmolina Deel Rovers",
+			"pitch": "Bangor Erris",
+			"date": "24/06/2017"
+		}, {
+			"home_team": "Tuar Mhic adaigh",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1D",
+			"time": "00:00",
+			"away_team": "Crossmolina Deel Rovers",
+			"pitch": "Pirc Naomh Mhuire",
+			"date": "24/06/2017"
+		}],
+		"home_fixtures": [{
+			"home_team": "Crossmolina Deel Rovers",
+			"referee": "Vincent Neary",
+			"comp": "Mayo Snr League 2017-Group 1A",
+			"time": "18:00",
+			"away_team": "Breaffy",
+			"pitch": "Crossmolina",
+			"date": "10/06/2017"
+		}, {
+			"home_team": "Crossmolina Deel Rovers",
+			"referee": "TBC",
+			"comp": "Mayo Junior A Championship - Group 1",
+			"time": "14:00",
+			"away_team": "Charlestown Sarsfields",
+			"pitch": "Crossmolina",
+			"date": "18/06/2017"
+		}, {
+			"home_team": "Crossmolina Deel Rovers",
+			"referee": "Liam Henry",
+			"comp": "Under 14 B Championship Group B",
+			"time": "19:00",
+			"away_team": "Knockmore",
+			"pitch": "Crossmolina",
+			"date": "20/06/2017"
+		}, {
+			"home_team": "Crossmolina Deel Rovers",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1A",
+			"time": "00:00",
+			"away_team": "Castlebar Mitchels",
+			"pitch": "Crossmolina",
+			"date": "24/06/2017"
+		}]
+	},
+	"Ballaghaderreen": {
+		"away_fixtures": [{
+			"home_team": "Knockmore",
+			"referee": "Vincent Neary",
+			"comp": "Under 14 B Championship Group B",
+			"time": "19:00",
+			"away_team": "Ballaghaderreen",
+			"pitch": "St. Joseph's Park",
+			"date": "15/06/2017"
+		}, {
+			"home_team": "Davitts",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Senior Championship - Group 2",
+			"time": "19:00",
+			"away_team": "Ballaghaderreen",
+			"pitch": "Davitts GAA Club",
+			"date": "17/06/2017"
+		}, {
+			"home_team": "Ardnaree",
+			"referee": "TBC",
+			"comp": "Mayo Junior B Championship - Group 3",
+			"time": "14:00",
+			"away_team": "Ballaghaderreen",
+			"pitch": "Ardnaree",
+			"date": "18/06/2017"
+		}, {
+			"home_team": "Ballintubber",
+			"referee": "TBC",
+			"comp": "Minor League Division 2A",
+			"time": "19:00",
+			"away_team": "Ballaghaderreen",
+			"pitch": "TBC",
+			"date": "23/06/2017"
+		}, {
+			"home_team": "Eastern Gaels",
+			"referee": "TBC",
+			"comp": "Under 8 Go Games 2017 Group G",
+			"time": "11:00",
+			"away_team": "Ballaghaderreen",
+			"pitch": "Brickens",
+			"date": "24/06/2017"
+		}, {
+			"home_team": "Davitts",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1A",
+			"time": "00:00",
+			"away_team": "Ballaghaderreen",
+			"pitch": "Davitts GAA Club",
+			"date": "24/06/2017"
+		}, {
+			"home_team": "Bal an Mhuirthead",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1F",
+			"time": "00:00",
+			"away_team": "Ballaghaderreen",
+			"pitch": "Tallagh",
+			"date": "24/06/2017"
+		}]
+	},
+	"Aghamore": {
+		"away_fixtures": [{
+			"home_team": "Boholla Moy Davitts",
+			"referee": "TBC",
+			"comp": "Mayo Junior B Championship - Group 3",
+			"time": "14:00",
+			"away_team": "Aghamore",
+			"pitch": "Foxford",
+			"date": "18/06/2017"
+		}, {
+			"home_team": "Mayo North",
+			"referee": "TBC",
+			"comp": "Under 14 D Championship 2017 Group B",
+			"time": "19:00",
+			"away_team": "Aghamore",
+			"pitch": "Cill Chomain",
+			"date": "22/06/2017"
+		}, {
+			"home_team": "Ballyhaunis",
+			"referee": "TBC",
+			"comp": "Under 8 Go Games 2017 Group G",
+			"time": "11:00",
+			"away_team": "Aghamore",
+			"pitch": "Ballyhaunis",
+			"date": "24/06/2017"
+		}, {
+			"home_team": "Hollymount-Carramore",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1A",
+			"time": "00:00",
+			"away_team": "Aghamore",
+			"pitch": "Hollymount",
+			"date": "24/06/2017"
+		}, {
+			"home_team": "Hollymount-Carramore",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1E",
+			"time": "00:00",
+			"away_team": "Aghamore",
+			"pitch": "Hollymount",
+			"date": "24/06/2017"
+		}],
+		"home_fixtures": [{
+			"home_team": "Aghamore",
+			"referee": "Michael Daly",
+			"comp": "Under 14 D Championship 2017 Group B",
+			"time": "19:00",
+			"away_team": "Naomh Padraig",
+			"pitch": "Aghamore",
+			"date": "15/06/2017"
+		}, {
+			"home_team": "Aghamore",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Senior Championship - Group 3",
+			"time": "19:30",
+			"away_team": "Ballintubber",
+			"pitch": "Aghamore",
+			"date": "17/06/2017"
+		}]
+	},
+	"Mt Leinster Rangers": {
+		"home_fixtures": [{
+			"home_team": "Mt Leinster Rangers",
+			"referee": "",
+			"comp": "John West Feile na nGael Boys Div 9 Group A",
+			"time": "09:45",
+			"away_team": "Tuairn",
+			"pitch": "Borris",
+			"date": "17/06/2017"
+		}]
+	},
+	"Westport GAA": {
+		"away_fixtures": [{
+			"home_team": "Ballintubber",
+			"referee": "Kevin Corcoran",
+			"comp": "Kelly Cup Group 1",
+			"time": "19:00",
+			"away_team": "Westport GAA",
+			"pitch": "Ray Prendergast Memorial Park",
+			"date": "10/06/2017"
+		}, {
+			"home_team": "Ballyhaunis",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo GAA U8/u10s hurling",
+			"time": "00:00",
+			"away_team": "Westport GAA",
+			"pitch": "Ballyhaunis",
+			"date": "11/06/2017"
+		}, {
+			"home_team": "Tuairn",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo GAA U8/u10s hurling",
+			"time": "18:00",
+			"away_team": "Westport GAA",
+			"pitch": "Tooreen",
+			"date": "11/06/2017"
+		}, {
+			"home_team": "Parke/Keelogues /Crimlin",
+			"referee": "Christopher Burke",
+			"comp": "Under 12 Spring League Group J",
+			"time": "19:00",
+			"away_team": "Westport GAA",
+			"pitch": "Parke GAA Club",
+			"date": "12/06/2017"
+		}, {
+			"home_team": "Parke/Keelogues /Crimlin",
+			"referee": "Pat Conlon",
+			"comp": "Under 12 Spring League Group A",
+			"time": "18:00",
+			"away_team": "Westport GAA",
+			"pitch": "Parke GAA Club",
+			"date": "12/06/2017"
+		}, {
+			"home_team": "Burren Rangers Juvenile Club",
+			"referee": "TBC",
+			"comp": "John West Feile na nGael Camogie Div 6 Group A",
+			"time": "16:45",
+			"away_team": "Westport GAA",
+			"pitch": "Lisdowney",
+			"date": "16/06/2017"
+		}, {
+			"home_team": "Piltown",
+			"referee": "",
+			"comp": "John West Feile na nGael Boys Div 3 Group A",
+			"time": "17:00",
+			"away_team": "Westport GAA",
+			"pitch": "Danesfort",
+			"date": "16/06/2017"
+		}, {
+			"home_team": "Danesfort",
+			"referee": "Conor Everard",
+			"comp": "John West Feile na nGael Boys Div 3 Group A",
+			"time": "10:30",
+			"away_team": "Westport GAA",
+			"pitch": "Danesfort",
+			"date": "17/06/2017"
+		}, {
+			"home_team": "Lisdowney / Naomh Brid",
+			"referee": "",
+			"comp": "John West Feile na nGael Camogie Div 6 Group A",
+			"time": "11:15",
+			"away_team": "Westport GAA",
+			"pitch": "Lisdowney",
+			"date": "17/06/2017"
+		}, {
+			"home_team": "Shrule/Glencorrib",
+			"referee": "TBC",
+			"comp": "Mayo Junior B Championship - Group 4",
+			"time": "16:30",
+			"away_team": "Westport GAA",
+			"pitch": "Glencorrib Community Ground",
+			"date": "18/06/2017"
+		}, {
+			"home_team": "Castlebar Mitchels",
+			"referee": "TBC",
+			"comp": "West Mayo Junior B Group 2",
+			"time": "19:30",
+			"away_team": "Westport GAA",
+			"pitch": "Pirc Josie Munnelly",
+			"date": "21/06/2017"
+		}, {
+			"home_team": "Ballina Stephenites",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1B",
+			"time": "00:00",
+			"away_team": "Westport GAA",
+			"pitch": "James Stephens Park",
+			"date": "24/06/2017"
+		}],
+		"home_fixtures": [{
+			"home_team": "Westport GAA",
+			"referee": "Martin Walsh",
+			"comp": "Minor A Summer League 2017 Group 2",
+			"time": "20:00",
+			"away_team": "Knockmore",
+			"pitch": "Westport GAA Club",
+			"date": "09/06/2017"
+		}, {
+			"home_team": "Westport GAA",
+			"referee": "TBC",
+			"comp": "West Mayo Junior B Group 2",
+			"time": "19:30",
+			"away_team": "Breaffy",
+			"pitch": "Westport GAA Club",
+			"date": "14/06/2017"
+		}, {
+			"home_team": "Westport GAA",
+			"referee": "TBC",
+			"comp": "Under 14 F Championship 2017 Group A",
+			"time": "19:00",
+			"away_team": "Knockmore",
+			"pitch": "Westport GAA Club",
+			"date": "15/06/2017"
+		}, {
+			"home_team": "Westport GAA",
+			"referee": "TBC",
+			"comp": "John West Feile na nGael Camogie Div 6 Group A",
+			"time": "18:15",
+			"away_team": "CLG Carndomhnaigh",
+			"pitch": "Lisdowney",
+			"date": "16/06/2017"
+		}, {
+			"home_team": "Westport GAA",
+			"referee": "TBC",
+			"comp": "Mayo Senior Championship - Group 1",
+			"time": "19:30",
+			"away_team": "Charlestown Sarsfields",
+			"pitch": "Westport GAA Club",
+			"date": "17/06/2017"
+		}, {
+			"home_team": "Westport GAA",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo GAA Go Games u12 Hurling",
+			"time": "18:00",
+			"away_team": "Castlebar Mitchels Hurling",
+			"pitch": "Westport GAA Club",
+			"date": "18/06/2017"
+		}, {
+			"home_team": "Westport GAA",
+			"referee": "TBC (Pending)",
+			"comp": "Minor League Division 3",
+			"time": "19:00",
+			"away_team": "Swinford",
+			"pitch": "Westport GAA Club",
+			"date": "21/06/2017"
+		}, {
+			"home_team": "Westport GAA",
+			"referee": "TBC",
+			"comp": "Under 14 A Championship 2017 Group A",
+			"time": "19:00",
+			"away_team": "Ballintubber",
+			"pitch": "Westport GAA Club",
+			"date": "22/06/2017"
+		}, {
+			"home_team": "Westport GAA",
+			"referee": "TBC",
+			"comp": "Under 8 Go Games 2017 Group A",
+			"time": "11:00",
+			"away_team": "Claremorris",
+			"pitch": "Westport GAA Club",
+			"date": "24/06/2017"
+		}, {
+			"home_team": "Westport GAA",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1E",
+			"time": "00:00",
+			"away_team": "Claremorris",
+			"pitch": "Westport GAA Club",
+			"date": "24/06/2017"
+		}]
+	},
+	"Kiltimagh": {
+		"away_fixtures": [{
+			"home_team": "Erris St. Pats",
+			"referee": "Michael Herr",
+			"comp": "Under 14C Championship 2017 Group A",
+			"time": "19:00",
+			"away_team": "Kiltimagh",
+			"pitch": "Erris St. Pats",
+			"date": "15/06/2017"
+		}, {
+			"home_team": "Swinford",
+			"referee": "TBC",
+			"comp": "Mayo Junior B Championship - Group 4",
+			"time": "20:00",
+			"away_team": "Kiltimagh",
+			"pitch": "Robert McCallion Memorial pitch",
+			"date": "16/06/2017"
+		}, {
+			"home_team": "The Neale",
+			"referee": "TBC (Pending)",
+			"comp": "Minor League Division 3",
+			"time": "19:00",
+			"away_team": "Kiltimagh",
+			"pitch": "Cong GAA Pitch",
+			"date": "21/06/2017"
+		}, {
+			"home_team": "Boholla Moy Davitts",
+			"referee": "TBC",
+			"comp": "Under 8 Go Games 2017 Group B",
+			"time": "11:00",
+			"away_team": "Kiltimagh",
+			"pitch": "Foxford",
+			"date": "24/06/2017"
+		}, {
+			"home_team": "Bal an Mhuirthead",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1B",
+			"time": "00:00",
+			"away_team": "Kiltimagh",
+			"pitch": "Tallagh",
+			"date": "24/06/2017"
+		}, {
+			"home_team": "Ballycroy",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1E",
+			"time": "00:00",
+			"away_team": "Kiltimagh",
+			"pitch": "Belmullet Gaa Pitch",
+			"date": "24/06/2017"
+		}],
+		"home_fixtures": [{
+			"home_team": "Kiltimagh",
+			"referee": "Brian Kilkelly",
+			"comp": "Michael Walsh Intermediate Knockout",
+			"time": "18:00",
+			"away_team": "Shrule/Glencorrib",
+			"pitch": "Hollymount",
+			"date": "10/06/2017"
+		}, {
+			"home_team": "Kiltimagh",
+			"referee": "TBC",
+			"comp": "Mayo Intermediate Championship - Group 4",
+			"time": "17:30",
+			"away_team": "Castlebar Mitchels",
+			"pitch": "Kiltimagh",
+			"date": "17/06/2017"
+		}]
+	},
+	"Ardmoy": {
+		"away_fixtures": [{
+			"home_team": "Ballycroy",
+			"referee": "TBC",
+			"comp": "Under 8 Go Games 2017 Group F",
+			"time": "11:00",
+			"away_team": "Ardmoy",
+			"pitch": "Belmullet Gaa Pitch",
+			"date": "24/06/2017"
+		}]
+	},
+	"Burrishoole": {
+		"away_fixtures": [{
+			"home_team": "Kilmeena",
+			"referee": "TBC",
+			"comp": "West Mayo Junior B Group 1",
+			"time": "19:30",
+			"away_team": "Burrishoole",
+			"pitch": "Kilmeena",
+			"date": "14/06/2017"
+		}, {
+			"home_team": "Charlestown Sarsfields",
+			"referee": "Paul Lydon",
+			"comp": "Under 14C Championship 2017 Group D",
+			"time": "19:00",
+			"away_team": "Burrishoole",
+			"pitch": "Fr. O'Hara Park",
+			"date": "15/06/2017"
+		}, {
+			"home_team": "Davitts",
+			"referee": "TBC",
+			"comp": "Minor B Summer League 2017",
+			"time": "19:00",
+			"away_team": "Burrishoole",
+			"pitch": "Davitts GAA Club",
+			"date": "16/06/2017"
+		}],
+		"home_fixtures": [{
+			"home_team": "Burrishoole",
+			"referee": "TBC",
+			"comp": "Minor B Summer League 2017",
+			"time": "19:00",
+			"away_team": "Naomh Padraig",
+			"pitch": "Newport",
+			"date": "09/06/2017"
+		}, {
+			"home_team": "Burrishoole",
+			"referee": "TBC (Pending)",
+			"comp": "Kelly Cup Group 2",
+			"time": "19:00",
+			"away_team": "Parke/Keelogues /Crimlin",
+			"pitch": "Newport",
+			"date": "10/06/2017"
+		}, {
+			"home_team": "Burrishoole",
+			"referee": "TBC",
+			"comp": "Mayo Intermediate Championship - Group 3",
+			"time": "17:30",
+			"away_team": "The Neale",
+			"pitch": "Newport",
+			"date": "17/06/2017"
+		}, {
+			"home_team": "Burrishoole",
+			"referee": "TBC",
+			"comp": "Mayo Junior B Championship - Group 2",
+			"time": "14:00",
+			"away_team": "Breaffy",
+			"pitch": "Newport",
+			"date": "18/06/2017"
+		}, {
+			"home_team": "Burrishoole",
+			"referee": "TBC",
+			"comp": "West Mayo Junior B Group 1",
+			"time": "19:30",
+			"away_team": "Louisburgh",
+			"pitch": "Newport",
+			"date": "21/06/2017"
+		}, {
+			"home_team": "Burrishoole",
+			"referee": "TBC",
+			"comp": "Under 8 Go Games 2017 Group C",
+			"time": "11:00",
+			"away_team": "Islandeady",
+			"pitch": "Newport",
+			"date": "24/06/2017"
+		}, {
+			"home_team": "Burrishoole",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1C",
+			"time": "00:00",
+			"away_team": "Balla",
+			"pitch": "Newport",
+			"date": "24/06/2017"
+		}]
+	},
+	"Eastern Gaels": {
+		"away_fixtures": [{
+			"home_team": "Bal an Mhuirthead",
+			"referee": "TBC",
+			"comp": "Under 14C Championship 2017 Group B",
+			"time": "19:00",
+			"away_team": "Eastern Gaels",
+			"pitch": "Tallagh",
+			"date": "15/06/2017"
+		}, {
+			"home_team": "Tuar Mhic adaigh",
+			"referee": "TBC",
+			"comp": "Minor League Division 4",
+			"time": "19:00",
+			"away_team": "Eastern Gaels",
+			"pitch": "Pirc Naomh Mhuire",
+			"date": "21/06/2017"
+		}],
+		"home_fixtures": [{
+			"home_team": "Eastern Gaels",
+			"referee": "TBC",
+			"comp": "Mayo Junior B Championship - Group 1",
+			"time": "16:00",
+			"away_team": "Claremorris",
+			"pitch": "Brickens",
+			"date": "18/06/2017"
+		}, {
+			"home_team": "Eastern Gaels",
+			"referee": "TBC",
+			"comp": "Under 8 Go Games 2017 Group G",
+			"time": "11:00",
+			"away_team": "Ballaghaderreen",
+			"pitch": "Brickens",
+			"date": "24/06/2017"
+		}, {
+			"home_team": "Eastern Gaels",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1E",
+			"time": "00:00",
+			"away_team": "Breaffy",
+			"pitch": "Brickens",
+			"date": "24/06/2017"
+		}]
+	},
+	"Clara": {
+		"home_fixtures": [{
+			"home_team": "Clara",
+			"referee": "Frankie Fitzpatrick",
+			"comp": "John West Feile na nGael Boys Div 9 Group A",
+			"time": "16:45",
+			"away_team": "Tuairn",
+			"pitch": "Borris",
+			"date": "16/06/2017"
+		}]
+	},
+	"Bal an Mhuirthead": {
+		"away_fixtures": [{
+			"home_team": "Parke/Keelogues /Crimlin",
+			"referee": "TBC",
+			"comp": "Mayo Intermediate Championship - Group 1",
+			"time": "16:00",
+			"away_team": "Bal an Mhuirthead",
+			"pitch": "Parke GAA Club",
+			"date": "18/06/2017"
+		}],
+		"home_fixtures": [{
+			"home_team": "Bal an Mhuirthead",
+			"referee": "TBC",
+			"comp": "Under 14C Championship 2017 Group B",
+			"time": "19:00",
+			"away_team": "Eastern Gaels",
+			"pitch": "Tallagh",
+			"date": "15/06/2017"
+		}, {
+			"home_team": "Bal an Mhuirthead",
+			"referee": "TBC",
+			"comp": "Mayo Junior C Championship - Group 4",
+			"time": "19:00",
+			"away_team": "Knockmore",
+			"pitch": "Tallagh",
+			"date": "17/06/2017"
+		}, {
+			"home_team": "Bal an Mhuirthead",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1B",
+			"time": "00:00",
+			"away_team": "Kiltimagh",
+			"pitch": "Tallagh",
+			"date": "24/06/2017"
+		}, {
+			"home_team": "Bal an Mhuirthead",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1F",
+			"time": "00:00",
+			"away_team": "Ballaghaderreen",
+			"pitch": "Tallagh",
+			"date": "24/06/2017"
+		}]
+	},
+	"Piltown": {
+		"home_fixtures": [{
+			"home_team": "Piltown",
+			"referee": "",
+			"comp": "John West Feile na nGael Boys Div 3 Group A",
+			"time": "17:00",
+			"away_team": "Westport GAA",
+			"pitch": "Danesfort",
+			"date": "16/06/2017"
+		}]
+	},
+	"Louisburgh": {
+		"away_fixtures": [{
+			"home_team": "Balla",
+			"referee": "TBC",
+			"comp": "West Mayo Junior B Group 1",
+			"time": "19:30",
+			"away_team": "Louisburgh",
+			"pitch": "Balla",
+			"date": "14/06/2017"
+		}, {
+			"home_team": "Islandeady",
+			"referee": "TBC",
+			"comp": "Under 14 E Championship 2017 Group A",
+			"time": "19:00",
+			"away_team": "Louisburgh",
+			"pitch": "Islandeady",
+			"date": "15/06/2017"
+		}, {
+			"home_team": "Breaffy",
+			"referee": "TBC",
+			"comp": "Minor A Summer League 2017 Group 1",
+			"time": "19:00",
+			"away_team": "Louisburgh",
+			"pitch": "Breaffy",
+			"date": "16/06/2017"
+		}, {
+			"home_team": "Burrishoole",
+			"referee": "TBC",
+			"comp": "West Mayo Junior B Group 1",
+			"time": "19:30",
+			"away_team": "Louisburgh",
+			"pitch": "Newport",
+			"date": "21/06/2017"
+		}, {
+			"home_team": "Kilmovee Shamrocks",
+			"referee": "TBC",
+			"comp": "Under 14 E Championship 2017 Group A",
+			"time": "19:00",
+			"away_team": "Louisburgh",
+			"pitch": "Kilmovee",
+			"date": "22/06/2017"
+		}, {
+			"home_team": "Kilmeena",
+			"referee": "TBC",
+			"comp": "Under 8 Go Games 2017 Group C",
+			"time": "11:00",
+			"away_team": "Louisburgh",
+			"pitch": "Kilmeena",
+			"date": "24/06/2017"
+		}, {
+			"home_team": "Castlebar Mitchels",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1C",
+			"time": "00:00",
+			"away_team": "Louisburgh",
+			"pitch": "Pirc Josie Munnelly",
+			"date": "24/06/2017"
+		}],
+		"home_fixtures": [{
+			"home_team": "Louisburgh",
+			"referee": "Mel Kenny",
+			"comp": "Minor A Summer League 2017 Group 1",
+			"time": "19:00",
+			"away_team": "Castlebar Mitchels",
+			"pitch": "Louisburgh Gaa pitch",
+			"date": "09/06/2017"
+		}, {
+			"home_team": "Louisburgh",
+			"referee": "Mel Kenny",
+			"comp": "Kelly Cup Group 2",
+			"time": "19:00",
+			"away_team": "Islandeady",
+			"pitch": "Louisburgh Gaa pitch",
+			"date": "10/06/2017"
+		}, {
+			"home_team": "Louisburgh",
+			"referee": "TBC",
+			"comp": "Mayo Junior C Championship - Group 2",
+			"time": "19:00",
+			"away_team": "Kilmovee Shamrocks",
+			"pitch": "Louisburgh Gaa pitch",
+			"date": "17/06/2017"
+		}, {
+			"home_team": "Louisburgh",
+			"referee": "TBC",
+			"comp": "Mayo Intermediate Championship - Group 3",
+			"time": "14:00",
+			"away_team": "Bonniconlon",
+			"pitch": "Louisburgh Gaa pitch",
+			"date": "18/06/2017"
+		}]
+	},
+	"Kilmovee Shamrocks": {
+		"away_fixtures": [{
+			"home_team": "Mayo Gaels",
+			"referee": "Martin Murphy",
+			"comp": "Under 12 Spring League Group F",
+			"time": "19:00",
+			"away_team": "Kilmovee Shamrocks",
+			"pitch": "Mayo Gaels Main Pitch",
+			"date": "12/06/2017"
+		}, {
+			"home_team": "Carras",
+			"referee": "TBC",
+			"comp": "Under 14 E Championship 2017 Group A",
+			"time": "19:00",
+			"away_team": "Kilmovee Shamrocks",
+			"pitch": "Carras",
+			"date": "15/06/2017"
+		}, {
+			"home_team": "Louisburgh",
+			"referee": "TBC",
+			"comp": "Mayo Junior C Championship - Group 2",
+			"time": "19:00",
+			"away_team": "Kilmovee Shamrocks",
+			"pitch": "Louisburgh Gaa pitch",
+			"date": "17/06/2017"
+		}, {
+			"home_team": "Hollymount-Carramore",
+			"referee": "TBC",
+			"comp": "Mayo Junior B Championship - Group 2",
+			"time": "14:00",
+			"away_team": "Kilmovee Shamrocks",
+			"pitch": "Hollymount-Carramore",
+			"date": "18/06/2017"
+		}],
+		"home_fixtures": [{
+			"home_team": "Kilmovee Shamrocks",
+			"referee": "TBC",
+			"comp": "Under 14 E Championship 2017 Group A",
+			"time": "19:00",
+			"away_team": "Louisburgh",
+			"pitch": "Kilmovee",
+			"date": "22/06/2017"
+		}, {
+			"home_team": "Kilmovee Shamrocks",
+			"referee": "TBC",
+			"comp": "Under 8 Go Games 2017 Group G",
+			"time": "11:00",
+			"away_team": "Charlestown Sarsfields",
+			"pitch": "Kilmovee",
+			"date": "24/06/2017"
+		}, {
+			"home_team": "Kilmovee Shamrocks",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1E",
+			"time": "00:00",
+			"away_team": "Swinford",
+			"pitch": "Kilmovee",
+			"date": "24/06/2017"
+		}]
+	},
+	"Breaffy": {
+		"away_fixtures": [{
+			"home_team": "Crossmolina Deel Rovers",
+			"referee": "Vincent Neary",
+			"comp": "Mayo Snr League 2017-Group 1A",
+			"time": "18:00",
+			"away_team": "Breaffy",
+			"pitch": "Crossmolina",
+			"date": "10/06/2017"
+		}, {
+			"home_team": "Westport GAA",
+			"referee": "TBC",
+			"comp": "West Mayo Junior B Group 2",
+			"time": "19:30",
+			"away_team": "Breaffy",
+			"pitch": "Westport GAA Club",
+			"date": "14/06/2017"
+		}, {
+			"home_team": "Ballinrobe",
+			"referee": "Martin Kennedy",
+			"comp": "Under 14 B Championship Group A",
+			"time": "19:00",
+			"away_team": "Breaffy",
+			"pitch": "Ballinrobe",
+			"date": "15/06/2017"
+		}, {
+			"home_team": "Hollymount-Carramore",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Senior Championship - Group 2",
+			"time": "17:00",
+			"away_team": "Breaffy",
+			"pitch": "Hollymount-Carramore",
+			"date": "17/06/2017"
+		}, {
+			"home_team": "Burrishoole",
+			"referee": "TBC",
+			"comp": "Mayo Junior B Championship - Group 2",
+			"time": "14:00",
+			"away_team": "Breaffy",
+			"pitch": "Newport",
+			"date": "18/06/2017"
+		}, {
+			"home_team": "Ballintubber",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1A",
+			"time": "00:00",
+			"away_team": "Breaffy",
+			"pitch": "Ray Prendergast Memorial Park",
+			"date": "24/06/2017"
+		}, {
+			"home_team": "Eastern Gaels",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1E",
+			"time": "00:00",
+			"away_team": "Breaffy",
+			"pitch": "Brickens",
+			"date": "24/06/2017"
+		}],
+		"home_fixtures": [{
+			"home_team": "Breaffy",
+			"referee": "TBC (Pending)",
+			"comp": "Kelly Cup Group 1",
+			"time": "19:00",
+			"away_team": "Castlebar Mitchels",
+			"pitch": "Breaffy",
+			"date": "10/06/2017"
+		}, {
+			"home_team": "Breaffy",
+			"referee": "TBC",
+			"comp": "Minor A Summer League 2017 Group 1",
+			"time": "19:00",
+			"away_team": "Louisburgh",
+			"pitch": "Breaffy",
+			"date": "16/06/2017"
+		}, {
+			"home_team": "Breaffy",
+			"referee": "TBC",
+			"comp": "Under 8 Go Games 2017 Group B",
+			"time": "11:00",
+			"away_team": "Balla",
+			"pitch": "Breaffy",
+			"date": "24/06/2017"
+		}]
+	},
+	"Ballycastle": {
+		"away_fixtures": [{
+			"home_team": "Lahardane",
+			"referee": "TBC",
+			"comp": "Mayo Junior A Championship - Group 3",
+			"time": "16:00",
+			"away_team": "Ballycastle",
+			"pitch": "Bofeenaun",
+			"date": "18/06/2017"
+		}, {
+			"home_team": "Kilmeena",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1D",
+			"time": "00:00",
+			"away_team": "Ballycastle",
+			"pitch": "Kilmeena",
+			"date": "24/06/2017"
+		}],
+		"home_fixtures": [{
+			"home_team": "Ballycastle",
+			"referee": "TBC",
+			"comp": "Mayo Junior C Championship - Group 1",
+			"time": "19:00",
+			"away_team": "Moygownagh",
+			"pitch": "Ballycastle",
+			"date": "17/06/2017"
+		}]
+	},
+	"Charlestown Sarsfields": {
+		"away_fixtures": [{
+			"home_team": "Westport GAA",
+			"referee": "TBC",
+			"comp": "Mayo Senior Championship - Group 1",
+			"time": "19:30",
+			"away_team": "Charlestown Sarsfields",
+			"pitch": "Westport GAA Club",
+			"date": "17/06/2017"
+		}, {
+			"home_team": "Crossmolina Deel Rovers",
+			"referee": "TBC",
+			"comp": "Mayo Junior A Championship - Group 1",
+			"time": "14:00",
+			"away_team": "Charlestown Sarsfields",
+			"pitch": "Crossmolina",
+			"date": "18/06/2017"
+		}, {
+			"home_team": "Kilmovee Shamrocks",
+			"referee": "TBC",
+			"comp": "Under 8 Go Games 2017 Group G",
+			"time": "11:00",
+			"away_team": "Charlestown Sarsfields",
+			"pitch": "Kilmovee",
+			"date": "24/06/2017"
+		}],
+		"home_fixtures": [{
+			"home_team": "Charlestown Sarsfields",
+			"referee": "John Glavey",
+			"comp": "Centenary Cup Group 1",
+			"time": "19:00",
+			"away_team": "Swinford",
+			"pitch": "Fr. O'Hara Park",
+			"date": "10/06/2017"
+		}, {
+			"home_team": "Charlestown Sarsfields",
+			"referee": "Paul Lydon",
+			"comp": "Under 14C Championship 2017 Group D",
+			"time": "19:00",
+			"away_team": "Burrishoole",
+			"pitch": "Fr. O'Hara Park",
+			"date": "15/06/2017"
+		}, {
+			"home_team": "Charlestown Sarsfields",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1A",
+			"time": "00:00",
+			"away_team": "Knockmore",
+			"pitch": "Fr. O'Hara Park",
+			"date": "24/06/2017"
+		}, {
+			"home_team": "Charlestown Sarsfields",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1D",
+			"time": "00:00",
+			"away_team": "Knockmore",
+			"pitch": "Fr. O'Hara Park",
+			"date": "24/06/2017"
+		}]
+	},
+	"Western Gaels": {
+		"home_fixtures": [{
+			"home_team": "Western Gaels",
+			"referee": "Pat Maguire",
+			"comp": "Dermot Molloy Hurling League Group 2",
+			"time": "19:30",
+			"away_team": "Tuairn",
+			"pitch": "Enniscrone",
+			"date": "10/06/2017"
+		}, {
+			"home_team": "Western Gaels",
+			"referee": "TBC (Pending)",
+			"comp": "Dermot Molloy Hurling League Group 2",
+			"time": "20:00",
+			"away_team": "Castlebar Mitchels Hurling",
+			"pitch": "Enniscrone",
+			"date": "17/06/2017"
+		}]
+	},
+	"Ballycroy": {
+		"home_fixtures": [{
+			"home_team": "Ballycroy",
+			"referee": "Richard Cosgrove",
+			"comp": "North Mayo Junior A Championship",
+			"time": "19:00",
+			"away_team": "Killala",
+			"pitch": "Ballycroy",
+			"date": "10/06/2017"
+		}, {
+			"home_team": "Ballycroy",
+			"referee": "TBC",
+			"comp": "Mayo Junior A Championship - Group 2",
+			"time": "14:00",
+			"away_team": "Achill",
+			"pitch": "Belmullet Gaa Pitch",
+			"date": "18/06/2017"
+		}, {
+			"home_team": "Ballycroy",
+			"referee": "TBC",
+			"comp": "Under 8 Go Games 2017 Group F",
+			"time": "11:00",
+			"away_team": "Ardmoy",
+			"pitch": "Belmullet Gaa Pitch",
+			"date": "24/06/2017"
+		}, {
+			"home_team": "Ballycroy",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1E",
+			"time": "00:00",
+			"away_team": "Kiltimagh",
+			"pitch": "Belmullet Gaa Pitch",
+			"date": "24/06/2017"
+		}]
+	},
+	"Cill Chomain": {
+		"away_fixtures": [{
+			"home_team": "Balla",
+			"referee": "TBC",
+			"comp": "Mayo Junior A Championship  - Group 4",
+			"time": "19:00",
+			"away_team": "Cill Chomain",
+			"pitch": "Balla",
+			"date": "17/06/2017"
+		}],
+		"home_fixtures": [{
+			"home_team": "Cill Chomain",
+			"referee": "TBC (Pending)",
+			"comp": "Mayo Snr League 2017-Group 1D",
+			"time": "00:00",
+			"away_team": "Ballina Stephenites",
+			"pitch": "Cill Chomain",
+			"date": "24/06/2017"
+		}]
+	}
+}
