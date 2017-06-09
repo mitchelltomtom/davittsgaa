@@ -14,7 +14,6 @@ var router = express.Router();              // get an instance of the express Ro
 // middleware to use for all requests
 router.use(function(req, res, next) {
     // do logging
-    console.log('Something is happening.');
     next(); // make sure we go to the next routes and don't stop here
 });
 
@@ -23,6 +22,29 @@ router.route('/fixtures/:club_id')
     .get(function(req, res) {
         var club_fixtures = fixtures[req.params.club_id];
         res.json(club_fixtures);
+    });
+
+router.route('/fixtures/:club_id/home_fixtures')
+    // get the bear with that id (accessed at GET http://localhost:8080/api/bears/:bear_id)
+    .get(function(req, res) {
+        var club_fixtures = fixtures[req.params.club_id];
+        if(club_fixtures){
+          res.json(club_fixtures['home_fixtures']);
+        }else{
+          res.json({});
+        }
+
+    });
+
+router.route('/fixtures/:club_id/away_fixtures')
+    // get the bear with that id (accessed at GET http://localhost:8080/api/bears/:bear_id)
+    .get(function(req, res) {
+        var club_fixtures = fixtures[req.params.club_id];
+        if(club_fixtures){
+          res.json(club_fixtures['away_fixtures']);
+        }else{
+          res.json({});
+        }
     });
 
 // test route to make sure everything is working (accessed at GET http://localhost:8080/api)
