@@ -18,7 +18,6 @@ export default class Tabbar extends Component {
 
   render () {
     const {tab} = this.props
-
     return (
       <View style={[styles.container, styles[tab]]}>
         <TouchableHighlight onPress={this.onPress.bind(this, 'game')} underlayColor='transparent' style={styles.tab}>
@@ -27,6 +26,16 @@ export default class Tabbar extends Component {
               <Text style={styles.tabtext}>GAME</Text>
             </View>
             {tab === 'game' &&
+              <View style={styles.active} />
+            }
+          </View>
+        </TouchableHighlight>
+        <TouchableHighlight onPress={this.onPress.bind(this, 'fixtures')} underlayColor='transparent' style={styles.tab}>
+          <View style={styles.tabview}>
+            <View style={styles.tabviewInner}>
+              <Text style={styles.tabtext}>FIXTURES</Text>
+            </View>
+            {tab === 'fixtures' &&
               <View style={styles.active} />
             }
           </View>

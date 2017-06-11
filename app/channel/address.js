@@ -17,8 +17,13 @@ const address = {
    * @params gameDate: {String} {Format: yearmonthdate}
    * @example gameDate: 20151125
    */
+  fixtureGeneral: (club) => {
+     console.log("called fixtureGeneral with club: " + club); // Some dates return an error.
+     return `http://localhost:3000/api/fixtures/${club}`;
+  },
+
   gameGeneral: (gameDate) => {
-    console.log("called gameGeneral with date:" + gameDate); // Some dates return an error.
+    console.log("called gameGeneral with date: " + gameDate); // Some dates return an error.
     return `http://data.nba.com/data/5s/json/cms/noseason/scoreboard/${defaultDate}/games.json`;
   },
   /**

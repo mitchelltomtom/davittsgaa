@@ -12,20 +12,21 @@ import React, {
   Platform
 } from 'react-native'
 
-import GameDetail from './GameDetail'
+import FixtureDetail from './FixtureDetail'
 import teamMap from '../../utils/team-map'
 
-export default class GamePanel extends Component {
+export default class FixturePanel extends Component {
 
   onPressRow () {
-    const {navigator, game, date, actions} = this.props
-    if (game.type !== 'unstart') {
-      actions.toNavigation('gameDetail')
+    const {navigator, fixture, date, actions} = this.props
+    fixture.type = "unstart"; //all the fixtures are unstarted for now.
+    if (fixture.type !== 'unstart') {
+      actions.toNavigation('fixtureDetail')
         .then(() => {
           navigator.push(Object.assign({}, {
-            name: 'GameDetail',
-            component: GameDetail,
-            game,
+            name: 'fixtureDetail',
+            component: fixtureDetail,
+            fixture,
             date
           }))
         })
@@ -34,73 +35,71 @@ export default class GamePanel extends Component {
   }
 
   render () {
-    const {game} = this.props
-    const homeAbb = game.home.team.toLowerCase()
-    const visitorAbb = game.visitor.team.toLowerCase()
-
-    let gameProcess = ''
+    console.log("rendering panel");
+    const {fixture} = this.props
+    const homeTeam = fixture.home_team.toLowerCase()
+    const awayTeam = fixture.away_team.toLowerCase()
+    fixture.type = 'unstart'
+    let fixtureDate = ''
+    const fixtureTime = fixture.time
     let cssType = ''
-    switch (game.type) {
+    switch (fixture.type) {
       case 'unstart':
-        gameProcess = game.date.replace(/\s*ET\s*/, '')
+        fixtureDate = fixture.date
         cssType = 'Unstart'
         break
-      case 'live':
-        gameProcess += game.process.quarter + ' '
-        gameProcess += game.process.time.replace(/\s+/, '')
-        cssType = 'Live'
-        break
       case 'over':
-        gameProcess = 'Final'
+        fixtureDate = 'Finished'
         cssType = 'Over'
         break
       default:
         return
     }
-
-    const homeTeamLogo = teamMap[homeAbb].logo
-    const visitorTeamLogo = teamMap[visitorAbb].logo
-
+    const awayTeamLogo = teamMap[awayTeam] ? teamMap[awayTeam].logo : teamMap['uta'].logo
+    const homeTeamLogo = teamMap[homeTeam] ? teamMap[homeTeam].logo : teamMap['uta'].logo
+    const localHome = fixture.home_team === "Davitts"
+    const homeTeamColor = "#bf0000cc"
     return (
       <TouchableHighlight onPress={this.onPressRow.bind(this)} underlayColor='transparent'>
-        <View style={[styles.container, {backgroundColor: teamMap[homeAbb].color}]} >
+        <View style={[styles.container, {backgroundColor: homeTeamColor}]} >
+          {!localHome &&
+            <View style={styles.team}>
+            <Image style={styles.teamLogo} source={homeTeamLogo} />
+            <Text style={styles.teamName} numberOfLines={1} ellipsizeMode={'middle'}>{fixture.home_team}</Text>
+          </View>}
 
-          <View style={styles.team}>
-            <Image style={styles.teamLogo} source={homeTeamLogo}/>
-            <Text style={styles.teamCity}>{teamMap[homeAbb].city}</Text>
-            <Text style={styles.teamName}>{teamMap[homeAbb].team}</Text>
-          </View>
-
-          <View style={styles.gameInfo}>
-            <Text style={[styles.infoProcess, styles[`process${cssType}`]]}>{gameProcess}</Text>
-            {game.type !== 'unstart' &&
+          <View style={styles.fixtureInfo}>
+            <Text style={[styles.fixtureAgeGroup]} ellipsizeMode={'tail'}>{fixture.comp_details.age_group}</Text>
+            <Text style={[styles.fixtureComp]} ellipsizeMode={'tail'}>{fixture.comp_details.comp_name}</Text>
+            <Text style={[styles.fixtureDate]}>{fixtureDate}</Text>
+            <Text style={[styles.fixtureTime]}>{fixtureTime}</Text>
+            {fixture.type !== 'unstart' &&
               <View style={styles.infoScorePanel}>
-                <Text style={styles.infoScore}>{game.home.score}</Text>
+                <Text style={styles.infoScore}>0</Text>
                 <View style={styles.infoDivider} />
-                <Text style={styles.infoScore}>{game.visitor.score}</Text>
+                <Text style={styles.infoScore}>0</Text>
               </View>
             }
           </View>
-
-          <View style={styles.team}>
-            <Image style={styles.teamLogo} source={visitorTeamLogo} />
-            <Text style={styles.teamCity}>{teamMap[visitorAbb].city}</Text>
-            <Text style={styles.teamName}>{teamMap[visitorAbb].team}</Text>
-          </View>
+          {localHome &&
+            <View style={styles.team}>
+            <Image style={styles.teamLogo} source={awayTeamLogo} />
+            <Text style={styles.teamName}>{fixture.away_team}</Text>
+          </View>}
         </View>
       </TouchableHighlight>
     )
   }
 }
 
-GamePanel.propTypes = {
+FixturePanel.propTypes = {
   navigator: PropTypes.object,
   game: PropTypes.object,
   date: PropTypes.array,
   actions: PropTypes.object
 }
 
-const gameFontSize = Platform.OS === 'ios' ? 31 : 25
+const fixureFontSize = Platform.OS === 'ios' ? 31 : 25
 
 const styles = StyleSheet.create({
   container: {
@@ -115,12 +114,39 @@ const styles = StyleSheet.create({
   team: {
     alignItems: 'center',
     borderRadius: 5,
-    flex: 1.5
+    height: 85,
+    marginTop: 5,
+    marginLeft: 5,
+    marginRight: 5,
+    width: 105,
+    backgroundColor: "white"
+  },
+  leftTeam: {
+    position: "absolute",
+    width: 30
+  },
+  slant: {
+    width: 0,
+    height: 0,
+    borderStyle: 'solid',
+    borderRightWidth: 95,
+    borderTopWidth: 95,
+    borderRightColor: 'transparent',
+    borderTopColor: 'red',
+    marginLeft: 20,
+    position: "absolute"
+  },
+  slant_rotate: {
+
   },
   teamLogo: {
     width: 50,
     height: 50,
-    marginTop: 10
+    marginTop: 10,
+    backgroundColor: "transparent"
+  },
+  teamLogoLeft: {
+    marginTop: 25
   },
   teamCity: {
     color: '#fff',
@@ -128,22 +154,43 @@ const styles = StyleSheet.create({
     marginTop: 2
   },
   teamName: {
-    color: '#fff',
+    color: '#000',
     fontWeight: 'bold',
-    fontSize: 13,
-    position: 'relative',
+    fontSize: 12,
     top: 0
   },
+  teamNameLeft: {
+    position: "absolute",
+    marginLeft: -45,
+    marginTop: 10
+  },
   // Info
-  gameInfo: {
+  fixtureInfo: {
+    borderRadius: 5,
     alignItems: 'center',
-    flex: 1.5,
+    flex: 2,
     flexDirection: 'column'
   },
-  infoProcess: {
+  fixtureAgeGroup: {
+    color: '#fff',
+    fontSize: 20,
+    fontWeight: "bold",
+    marginBottom: 3
+  },
+  fixtureComp: {
+    color: '#fff',
+    flex: 0.8,
+    fontSize: 15,
+    marginBottom: 3
+  },
+  fixtureTime: {
     color: '#fff',
     fontSize: 10,
-    marginTop: 22,
+    marginBottom: 3
+  },
+  fixtureDate: {
+    color: '#fff',
+    fontSize: 12,
     marginBottom: 3
   },
   processUnstart: {
@@ -159,7 +206,7 @@ const styles = StyleSheet.create({
   infoScore: {
     color: '#fff',
     fontWeight: '100',
-    fontSize: gameFontSize,
+    fontSize: fixureFontSize,
     textAlign: 'center',
     width: 50
   },

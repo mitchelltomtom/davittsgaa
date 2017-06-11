@@ -8,6 +8,11 @@ export const APP = {
   'NAVIGATION': 'APP.NAVIGATION'
 }
 // Enum('TAB', 'NAVIGATION')
+export const FIXTURE = {
+  INFO: 'FIXTURE.INFO',
+  DETAIL: 'FIXTURE.DETAIL',
+  STANDING: 'FIXTURE.STANDING'
+}
 
 export const GAME = {
   INFO: 'GAME.INFO',

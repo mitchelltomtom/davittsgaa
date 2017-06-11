@@ -26,7 +26,7 @@ export default class TeamList extends Component {
     const {actions} = this.props
     const dateString = moment.tz(Date.now(), 'America/Los_Angeles').format()
     const dateArray = dateString.replace('T', '-').split('-')
-    actions.getTeamRank(dateArray[0], dateArray[1], dateArray[2])
+    //actions.getTeamRank(dateArray[0], dateArray[1], dateArray[2])
   }
 
   scrollEnd (x, y) {
@@ -52,7 +52,7 @@ export default class TeamList extends Component {
           <Text style={styles.confLabel}>conference</Text>
         </View>
         <Tabbar tab={'teams'} {...this.props}/>
-        {team.loaded &&
+        {team && team.loaded &&
           <CollectionView scrollEnd={this.scrollEnd.bind(this)}>
           {[<TeamConference data={team.data.western} {...this.props} key={0}/>, <TeamConference data={team.data.eastern} {...this.props} key={1} />]}
           </CollectionView>

@@ -12,17 +12,16 @@ import React, {
 
 import {Icon} from 'react-native-icons'
 import moment from 'moment-timezone'
-import GamePanel from './GamePanel'
+import FixturePanel from './FixturePanel'
 import Tabbar from '../share/Tabbar'
 
-export default class GameList extends Component {
+export default class FixtureList extends Component {
   constructor (props) {
     super(props)
     this.state = {
       dataSource: new ListView.DataSource({
         rowHasChanged: (row1, row2) => row1 !== row2
       }),
-      date: this.getToday(),
       isToday: true
     }
     this.mount = true // Control the state of mount
@@ -35,7 +34,7 @@ export default class GameList extends Component {
   componentDidMount () {
     const {actions} = this.props
     const {date} = this.state
-    actions.getGameGeneral(date[0], date[1], date[2])
+    actions.getFixtureGeneral('Davitts')
   }
 
   componentWillReceiveProps (props) {
@@ -44,16 +43,16 @@ export default class GameList extends Component {
     const rows = live.data.concat(unstart.data).concat(over.data)
 
     /* Judge if the navigator is on Game List page */
-    if (application.navigator === 'gameIndex') {
+    if (application.navigator === 'fixturesIndex') {
       if (live.data.length > 0) {
         clearTimeout(this.timeout)
         this.timeout = setTimeout(() => {
-          actions.getGameGeneral(date[0], date[1], date[2])
+          actions.getFixtureGeneral('Davitts')
         }, 5000)
       } else if (unstart.data.length > 0) {
         clearTimeout(this.timeout)
         this.timeout = setTimeout(() => {
-          actions.getGameGeneral(date[0], date[1], date[2])
+          actions.getFixtureGeneral('Davitts')
         }, 120000)
       }
     }
@@ -69,48 +68,13 @@ export default class GameList extends Component {
     this.mount = false
   }
 
-  renderRow (game, _, index) {
+  renderRow (fixture, _, index) {
     const {date} = this.state
     if (this.mount) {
-      return (<GamePanel game={game} date={date} index={index} {...this.props}/>)
+      return (<FixturePanel fixture={fixture} date={date} index={index} {...this.props}/>)
     }
   }
 
-  /* Get date format */
-  getToday () {
-    const dateString = moment.tz(Date.now(), 'America/Los_Angeles').format()
-    const dateArray = dateString.replace('T', '-').split('-')
-    return dateArray.splice(0, 3)
-  }
-
-  getYesterday () {
-    let d = new Date()
-    d.setDate(d.getDate() - 1)
-    const dateString = moment.tz(d, 'America/Los_Angeles').format()
-    const dateArray = dateString.replace('T', '-').split('-')
-    return dateArray.splice(0, 3)
-  }
-
-  /* Swith between yesterday and today */
-  changeDate () {
-    const {isToday} = this.state
-    const {actions} = this.props
-    if (isToday) {
-      const date = this.getYesterday()
-      actions.getGameGeneral(date[0], date[1], date[2])
-      this.setState({
-        date,
-        isToday: false
-      })
-    } else {
-      const date = this.getToday()
-      actions.getGameGeneral(date[0], date[1], date[2])
-      this.setState({
-        date,
-        isToday: true
-      })
-    }
-  }
 
   search(){
     console.log("searched");
@@ -153,7 +117,7 @@ export default class GameList extends Component {
   }
 }
 
-GameList.propTypes = {
+FixtureList.propTypes = {
   actions: PropTypes.object,
   live: PropTypes.object,
   unstart: PropTypes.object,

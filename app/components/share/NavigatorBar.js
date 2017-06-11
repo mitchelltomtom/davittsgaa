@@ -40,4 +40,3 @@ export default class NavigatorBar extends Component {
 NavigatorBar.propTypes = {
   navState: PropTypes.object
 }
-

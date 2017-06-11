@@ -13,10 +13,12 @@ import applicationActions from '../actions/application'
 import gameActions from '../actions/game'
 import playerActions from '../actions/player'
 import teamActions from '../actions/team'
+import fixtureActions from '../actions/fixture'
 
 import Game from './Game'
 import Player from './Player'
 import Team from './Team'
+import Fixture from './Fixture'
 
 export class App extends Component {
 
@@ -36,11 +38,14 @@ export class App extends Component {
 
   render () {
     const {tab} = this.state
-    const {game, player, team, gameActions, playerActions, teamActions} = this.props
+    const {game, player, team, fixture, gameActions, playerActions, teamActions, fixtureActions} = this.props
     return (
       <View style={styles.container}>
         {tab === 'game' &&
           <Game {...game} actions={gameActions} />
+        }
+        {tab === 'fixtures' &&
+          <Fixture {...fixture} actions={fixtureActions} />
         }
         {tab === 'players' &&
           <Player {...player} actions={playerActions} />
@@ -63,15 +68,24 @@ App.propTypes = {
   game: PropTypes.object,
   player: PropTypes.object,
   team: PropTypes.object,
+  fixture: PropTypes.object,
   gameActions: PropTypes.object,
   playerActions: PropTypes.object,
-  teamActions: PropTypes.object
+  teamActions: PropTypes.object,
+  fixtureActions: PropTypes.object
 }
 
 export default connect(state => {
   return {
     application: state.application,
     game: {
+      live: state.live,
+      over: state.over,
+      unstart: state.unstart,
+      standing: state.standing,
+      application: state.application
+    },
+    fixture: {
       live: state.live,
       over: state.over,
       unstart: state.unstart,
@@ -90,6 +104,7 @@ export default connect(state => {
 }, dispatch => {
   return {
     gameActions: bindActionCreators(Object.assign({}, applicationActions, gameActions), dispatch),
+    fixtureActions: bindActionCreators(Object.assign({}, applicationActions, fixtureActions), dispatch),
     playerActions: bindActionCreators(Object.assign({}, applicationActions, playerActions), dispatch),
     teamActions: bindActionCreators(Object.assign({}, applicationActions, playerActions, teamActions), dispatch)
   }

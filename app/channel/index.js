@@ -9,10 +9,19 @@ export default class Channel {
     this.options = options
   }
 
+
+  getFixtureGeneral (club) {
+    const gen_url = address.fixtureGeneral(club)
+    return window.fetch(gen_url)
+      .then(res => {
+        console.log("get Fixture general for: " + gen_url)
+        return res.json()
+      })
+  }
+
+
   getGameGeneral (year, month, date) {
     const gen_url = address.gameGeneral(`${year}${month}${date}`)
-    console.log("Nav ->\n");
-    console.log(window.navigator);
     return window.fetch(gen_url)
       .then(res => res.json())
       .then(data => {
