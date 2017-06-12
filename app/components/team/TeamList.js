@@ -68,8 +68,8 @@ const styles = StyleSheet.create({
   },
   // Header
   header: {
-    backgroundColor: '#2DB43D',
-    height: 100,
+    backgroundColor: 'black',
+    height: 50,
     justifyContent: 'center',
     paddingHorizontal: 20
   },

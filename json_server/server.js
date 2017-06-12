@@ -54,7 +54,7 @@ router.route('/fixtures/:club_id')
 router.route('/fixtures/:club_id/home_fixtures')
     // get the bear with that id (accessed at GET http://localhost:8080/api/bears/:bear_id)
     .get(function(req, res) {
-        var club_fixtures = fixtures[req.params.club_id];
+        var club_fixtures = fixtures[req.params.club_id]['home_fixtures'];
         if(club_fixtures){
           all_fixtures = club_fixtures.map(x => {x.comp_details = comp_ref[x.comp];return x})
           res.json(all_fixtures);
@@ -67,7 +67,7 @@ router.route('/fixtures/:club_id/home_fixtures')
 router.route('/fixtures/:club_id/away_fixtures')
     // get the bear with that id (accessed at GET http://localhost:8080/api/bears/:bear_id)
     .get(function(req, res) {
-        var club_fixtures = fixtures[req.params.club_id];
+        var club_fixtures = fixtures[req.params.club_id]['away_fixtures'];
         if(club_fixtures){
           all_fixtures = club_fixtures.map(x => {x.comp_details = comp_ref[x.comp];return x})
           res.json(all_fixtures);

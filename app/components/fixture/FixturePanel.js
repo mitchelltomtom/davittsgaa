@@ -58,7 +58,7 @@ export default class FixturePanel extends Component {
     const awayTeamLogo = teamMap[awayTeam] ? teamMap[awayTeam].logo : teamMap['uta'].logo
     const homeTeamLogo = teamMap[homeTeam] ? teamMap[homeTeam].logo : teamMap['uta'].logo
     const localHome = fixture.home_team === "Davitts"
-    const homeTeamColor = "#bf0000cc"
+    const homeTeamColor = "#ff0000dd"
     return (
       <TouchableHighlight onPress={this.onPressRow.bind(this)} underlayColor='transparent'>
         <View style={[styles.container, {backgroundColor: homeTeamColor}]} >
@@ -71,8 +71,8 @@ export default class FixturePanel extends Component {
           <View style={styles.fixtureInfo}>
             <Text style={[styles.fixtureAgeGroup]} ellipsizeMode={'tail'}>{fixture.comp_details.age_group}</Text>
             <Text style={[styles.fixtureComp]} ellipsizeMode={'tail'}>{fixture.comp_details.comp_name}</Text>
-            <Text style={[styles.fixtureDate]}>{fixtureDate}</Text>
-            <Text style={[styles.fixtureTime]}>{fixtureTime}</Text>
+            <Text style={[styles.fixtureComp]} ellipsizeMode={'tail'}>{fixture.pitch}</Text>
+            <Text style={[styles.fixtureDate]}>{`${fixtureDate} (${fixtureTime})`}</Text>
             {fixture.type !== 'unstart' &&
               <View style={styles.infoScorePanel}>
                 <Text style={styles.infoScore}>0</Text>

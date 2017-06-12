@@ -6,8 +6,8 @@ import {APP} from '../constant'
 
 /* First navigatore of each tab named [tab]Index */
 const initialState = {
-  tab: 'game',
-  navigator: 'gameIndex'
+  tab: 'fixtures',
+  navigator: 'fixturesIndex'
 }
 
 const actionHandler = {

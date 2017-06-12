@@ -17,10 +17,11 @@ export default class Tabbar extends Component {
   }
 
   render () {
+    console.log(tab);
     const {tab} = this.props
     return (
       <View style={[styles.container, styles[tab]]}>
-        <TouchableHighlight onPress={this.onPress.bind(this, 'game')} underlayColor='transparent' style={styles.tab}>
+        {/*<TouchableHighlight onPress={this.onPress.bind(this, 'game')} underlayColor='transparent' style={styles.tab}>
           <View style={styles.tabview}>
             <View style={styles.tabviewInner}>
               <Text style={styles.tabtext}>GAME</Text>
@@ -29,7 +30,7 @@ export default class Tabbar extends Component {
               <View style={styles.active} />
             }
           </View>
-        </TouchableHighlight>
+        </TouchableHighlight>*/}
         <TouchableHighlight onPress={this.onPress.bind(this, 'fixtures')} underlayColor='transparent' style={styles.tab}>
           <View style={styles.tabview}>
             <View style={styles.tabviewInner}>
@@ -91,9 +92,9 @@ const styles = StyleSheet.create({
   },
   // Active
   active: {
-    backgroundColor: '#fff',
+    backgroundColor: 'red',
     bottom: 0,
-    height: 2,
+    height: 3,
     left: 0,
     position: 'absolute',
     right: 0
@@ -102,11 +103,14 @@ const styles = StyleSheet.create({
   game: {
     backgroundColor: '#000000'
   },
+  fixtures: {
+    backgroundColor: '#000000dd'
+  },
   players: {
-    backgroundColor: '#BD4C29'
+    backgroundColor: '#000000dd'
   },
   teams: {
-    backgroundColor: '#1C8929'
+    backgroundColor: '#000000dd'
   },
   roster: {}
 })

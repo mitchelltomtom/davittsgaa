@@ -149,9 +149,9 @@ const styles = StyleSheet.create({
   // Header
   header: {
     alignItems: 'center',
-    backgroundColor: '#E66840',
+    backgroundColor: '#000000',
     flexDirection: 'row',
-    height: 100
+    height: 50
   },
   headerInner: {
     flex: 1,
@@ -159,7 +159,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center'
   },
   textInput: {
-    backgroundColor: '#BD4C29',
+    backgroundColor: '#ffffff',
     borderRadius: 5,
     color: '#fff',
     fontSize: 14,
@@ -168,7 +168,7 @@ const styles = StyleSheet.create({
     width: 260
   },
   searchIconView: {
-    backgroundColor: '#BD4C29',
+    backgroundColor: 'red',
     borderTopRightRadius: 5,
     borderBottomRightRadius: 5,
     height: 40,

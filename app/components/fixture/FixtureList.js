@@ -106,7 +106,7 @@ export default class FixtureList extends Component {
           {/*<Text style={styles.gameDate}>{date[0] + '-' + date[1] + '-' + date[2]}</Text>
           <Text style={styles.gameCount}>{gameCount + ' Games'}</Text>*/}
         </View>
-        <Tabbar tab={'game'} {...this.props}/>
+        <Tabbar tab={'fixtures'} {...this.props}/>
         <ListView
           dataSource={dataSource}
           renderRow={this.renderRow.bind(this)}
@@ -126,7 +126,7 @@ FixtureList.propTypes = {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1
+    flex: 1,
   },
   // Header
   header: {
@@ -149,8 +149,8 @@ const styles = StyleSheet.create({
     width: 30
   },
   clubName: {
-    color: '#fff',
-    fontWeight: '300',
+    color: 'white',
+    fontWeight: '400',
     fontSize: 28,
     marginLeft: 0,
     marginTop: 5,

@@ -60,7 +60,7 @@ export class App extends Component {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1
+    flex: 1,
   }
 })
 
@@ -103,7 +103,7 @@ export default connect(state => {
   }
 }, dispatch => {
   return {
-    gameActions: bindActionCreators(Object.assign({}, applicationActions, gameActions), dispatch),
+    //gameActions: bindActionCreators(Object.assign({}, applicationActions, gameActions), dispatch),
     fixtureActions: bindActionCreators(Object.assign({}, applicationActions, fixtureActions), dispatch),
     playerActions: bindActionCreators(Object.assign({}, applicationActions, playerActions), dispatch),
     teamActions: bindActionCreators(Object.assign({}, applicationActions, playerActions, teamActions), dispatch)
