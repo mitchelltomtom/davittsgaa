@@ -114,7 +114,7 @@ const styles = StyleSheet.create({
     flex: 1,
     flexDirection: 'row',
     justifyContent: 'center',
-    marginTop: 3,
+    marginTop: 0
   },clubName: {
     color: 'white',
     fontWeight: '400',

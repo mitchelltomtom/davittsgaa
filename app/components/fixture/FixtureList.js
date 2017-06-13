@@ -5,10 +5,12 @@ import React, {
   StyleSheet,
   ListView,
   View,
+  ScrollView,
   Text,
   TextInput,
   PropTypes,
-  TouchableHighlight
+  TouchableHighlight,
+  Animated
 } from 'react-native'
 
 import {Icon} from 'react-native-icons'
@@ -25,11 +27,20 @@ export default class FixtureList extends Component {
       }),
       isToday: true,
       showSearch: false,
-      searchText: ""
+      searchText: "",
     }
     this.mount = true // Control the state of mount
     this.timeout = null // Control the state of setTimeout
     this.inputDelay = null
+    this.headerHeight = new Animated.Value(50)
+    this.scrollOffset = 0
+  }
+
+  _setAnimation(hideHeader,duration=250) {
+     Animated.timing(this.headerHeight, {
+       duration: duration,
+       toValue: hideHeader ? 0 : 50
+     }).start()
   }
 
  /**
@@ -87,14 +98,12 @@ export default class FixtureList extends Component {
       this.setState({
         ...this.state, searchText: text
       })
-      console.log("searching: " + this.state.searchText);
     }, 1000)
 
     this.inputDelay = setTimeout(() => {
       this.setState({
         ...this.state, showSearch:!this.state.showSearch
       })
-      console.log("changing to: " + this.state.showSearch);
     }, 4000)
   }
 
@@ -105,6 +114,16 @@ export default class FixtureList extends Component {
     console.log("searched");
   }
 
+  showHeader(){
+    this._setAnimation(false,400)
+  }
+  handleScroll(event){
+    let currentOffset = event.nativeEvent.contentOffset.y;
+    const direction = currentOffset > this.scrollOffset ? 'down' : 'up';
+    this.scrollOffset = currentOffset;
+    console.log(direction)
+    this._setAnimation(direction === "up")
+  }
 
   render () {
     //let showSearch = false;
@@ -113,7 +132,7 @@ export default class FixtureList extends Component {
     const gameCount = live.data.length + over.data.length + unstart.data.length
     return (
       <View style={styles.container}>
-        <View style={styles.header}>
+        <Animated.View style={[styles.header,{ height: this.headerHeight }]}>
           {!this.state.showSearch &&
             <View style={styles.headerInner}>
             <Text style={styles.clubName}>{'Davitt\'s GAA'}</Text>
@@ -148,13 +167,15 @@ export default class FixtureList extends Component {
           </TouchableHighlight>
           {/*<Text style={styles.gameDate}>{date[0] + '-' + date[1] + '-' + date[2]}</Text>
           <Text style={styles.gameCount}>{gameCount + ' Games'}</Text>*/}
-        </View>
+        </Animated.View>
         <Tabbar tab={'fixtures'} {...this.props}/>
-        <ListView
-          dataSource={dataSource}
-          renderRow={this.renderRow.bind(this)}
-          style={styles.listView}
-        />
+        <ScrollView onScroll={this.handleScroll.bind(this)} onMomentumScrollEnd={this.showHeader.bind(this)}>
+          <ListView
+            dataSource={dataSource}
+            renderRow={this.renderRow.bind(this)}
+            style={styles.listView}
+          />
+        </ScrollView>
       </View>
     )
   }
@@ -182,7 +203,7 @@ const styles = StyleSheet.create({
     flex: 1,
     flexDirection: 'row',
     justifyContent: 'center',
-    marginTop: 3,
+    marginTop: 0,
   },
   searchIcon: {
     height: 40,

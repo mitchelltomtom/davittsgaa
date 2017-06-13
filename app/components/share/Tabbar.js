@@ -95,9 +95,9 @@ const styles = StyleSheet.create({
     backgroundColor: 'red',
     bottom: 0,
     height: 3,
-    left: 0,
+    left: -35,
     position: 'absolute',
-    right: 0
+    right: -35
   },
   // Background
   game: {
