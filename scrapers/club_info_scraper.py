@@ -44,6 +44,7 @@ for region, url in urls.items():
             team_details[team_name][k]=v
 
 clubInfoJson = json.dumps(team_details, ensure_ascii=False, indent=4, sort_keys=True).encode('ascii', 'xmlcharrefreplace')
+clubInfoJson.replace("&#160;","").replace(':"','"')
 dir_path = os.path.dirname(os.path.realpath(__file__))
 out_file_name = dir_path + '/../json_server/public/data/mayo_clubs_details.json'
 with open(out_file_name, 'w') as f:

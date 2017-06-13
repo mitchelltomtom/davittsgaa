@@ -23,6 +23,16 @@ const getFixtureGeneral = (club) => {
   }
 }
 
+const showHideSearch = (searchDisplayed) => {
+  console.log("searchDisplayed: " + searchDisplayed)
+  return (dispatch) => {
+    return Promise.resolve(dispatch({
+      type: APP.TAB,
+      data: !searchDisplayed
+    }))
+  }
+}
+
 export default {
   getFixtureGeneral
 }

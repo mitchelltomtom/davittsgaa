@@ -14,6 +14,8 @@ import React, {
 
 import FixtureDetail from './FixtureDetail'
 import teamMap from '../../utils/team-map'
+import clubMap from '../../utils/mayo-club-team-map'
+import Flag from './Flag'
 
 export default class FixturePanel extends Component {
 
@@ -35,10 +37,9 @@ export default class FixturePanel extends Component {
   }
 
   render () {
-    console.log("rendering panel");
     const {fixture} = this.props
-    const homeTeam = fixture.home_team.toLowerCase()
-    const awayTeam = fixture.away_team.toLowerCase()
+    const homeTeam = fixture.home_team
+    const awayTeam = fixture.away_team
     fixture.type = 'unstart'
     let fixtureDate = ''
     const fixtureTime = fixture.time
@@ -59,12 +60,19 @@ export default class FixturePanel extends Component {
     const homeTeamLogo = teamMap[homeTeam] ? teamMap[homeTeam].logo : teamMap['uta'].logo
     const localHome = fixture.home_team === "Davitts"
     const homeTeamColor = "#ff0000dd"
+    const homeColor1 = clubMap[homeTeam] && clubMap[homeTeam]["Colours"] && clubMap[homeTeam]["Colours"].length && clubMap[homeTeam]["Colours"][0].toLowerCase() || "white"
+    const homeColor2 = clubMap[homeTeam] && clubMap[homeTeam]["Colours"] && clubMap[homeTeam]["Colours"].length && clubMap[homeTeam]["Colours"][1].toLowerCase() || homeColor1
+    const awayColor1 = clubMap[awayTeam] && clubMap[awayTeam]["Colours"] && clubMap[awayTeam]["Colours"].length && clubMap[awayTeam]["Colours"][0].toLowerCase() || "white"
+    const awayColor2 = clubMap[awayTeam] && clubMap[awayTeam]["Colours"] && clubMap[awayTeam]["Colours"].length && clubMap[awayTeam]["Colours"][1].toLowerCase() || awayColor1
+
+
     return (
       <TouchableHighlight onPress={this.onPressRow.bind(this)} underlayColor='transparent'>
         <View style={[styles.container, {backgroundColor: homeTeamColor}]} >
           {!localHome &&
             <View style={styles.team}>
-            <Image style={styles.teamLogo} source={homeTeamLogo} />
+            {true && <Flag colorLeft={homeColor1} colorRight={homeColor2} />}
+            {false && <Image style={styles.teamLogo} source={homeColor1} />}
             <Text style={styles.teamName} numberOfLines={1} ellipsizeMode={'middle'}>{fixture.home_team}</Text>
           </View>}
 
@@ -83,7 +91,8 @@ export default class FixturePanel extends Component {
           </View>
           {localHome &&
             <View style={styles.team}>
-            <Image style={styles.teamLogo} source={awayTeamLogo} />
+            {false && <Image style={styles.teamLogo} source={awayTeamLogo} />}
+            {true && <Flag colorLeft={awayColor1} colorRight={awayColor2} />}
             <Text style={styles.teamName}>{fixture.away_team}</Text>
           </View>}
         </View>
@@ -109,6 +118,19 @@ const styles = StyleSheet.create({
     height: 95,
     marginHorizontal: 12,
     marginBottom: 10
+  },
+  flag:{
+    width: 82,
+    height: 45,
+    marginTop: 15,
+    alignItems: "center",
+    flexDirection: "row"
+  },
+  flag_left: {
+    marginLeft: -41
+  },
+  flag_right: {
+    marginLeft: 0
   },
   // Team
   team: {

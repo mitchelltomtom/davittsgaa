@@ -5,18 +5,21 @@ import React, {
   PropTypes,
   View,
   Text,
-  StyleSheet
+  StyleSheet,
+  TouchableHighlight
 } from 'react-native'
 
 import Tabbar from '../share/Tabbar'
 import moment from 'moment-timezone'
 import TeamConference from './TeamConference'
 import CollectionView from '../../lib/collection'
+import {Icon} from 'react-native-icons'
 
 export default class TeamList extends Component {
 
   constructor (props) {
     super(props)
+    this.showSearch = false;
     this.state = {
       conference: 'western'
     }
@@ -41,6 +44,10 @@ export default class TeamList extends Component {
     }
   }
 
+  search(){
+    console.log("searched Team Page");
+  }
+
   render () {
     const {conference} = this.state
     const {team} = this.props
@@ -48,8 +55,38 @@ export default class TeamList extends Component {
     return (
       <View style={styles.container}>
         <View style={styles.header}>
-          <Text style={styles.conference}>{conference.toUpperCase()}</Text>
-          <Text style={styles.confLabel}>conference</Text>
+          {!this.showSearch &&
+            <View style={styles.headerInner}>
+            <Text style={styles.clubName}>{'Davitt\'s GAA'}</Text>
+            <TouchableHighlight onPress={this.search.bind(this)} underlayColor='transparent'>
+              <Icon name='ion|search'
+                  size={25}
+                  color='#fff'
+                  style={styles.searchIcon}
+              />
+            </TouchableHighlight>
+          </View>}
+          {this.showSearch &&
+          <View style={styles.headerInner}>
+            <TextInput
+              style={styles.textInput}
+              //onChangeText={this.onInput.bind(this)}
+              keyboardType={'default'}
+              textAlignVertical={'center'}
+              autoCorrect={false}
+              placeholder={'Find fixture'}
+            />
+            <View style={styles.searchIconView}>
+              <Icon name='ion|search' size={16} color='#fff' style={styles.searchBarIcon} />
+            </View>
+          </View>}
+          <TouchableHighlight onPress={this.search.bind(this)} underlayColor='transparent'>
+            <Icon name='ion|navicon'
+              size={30}
+              color='#fff'
+              style={styles.settingsIcon}
+            />
+          </TouchableHighlight>
         </View>
         <Tabbar tab={'teams'} {...this.props}/>
         {team && team.loaded &&
@@ -68,21 +105,36 @@ const styles = StyleSheet.create({
   },
   // Header
   header: {
-    backgroundColor: 'black',
+    backgroundColor: '#000000',
     height: 50,
+    flexDirection: 'row',
+    paddingLeft: 15
+  },
+  headerInner: {
+    flex: 1,
+    flexDirection: 'row',
     justifyContent: 'center',
-    paddingHorizontal: 20
+    marginTop: 3,
+  },clubName: {
+    color: 'white',
+    fontWeight: '400',
+    fontSize: 28,
+    marginLeft: 0,
+    marginTop: 5,
+    flex: 1
   },
-  conference: {
-    color: '#fff',
-    fontSize: 25,
-    fontWeight: '300'
+  searchIcon: {
+    height: 40,
+    marginRight: 0,
+    marginTop: 5,
+    width: 30
   },
-  confLabel: {
-    color: '#fff',
-    fontSize: 14,
-    fontWeight: '200'
-  }
+  settingsIcon: {
+    height: 40,
+    marginRight: 5,
+    marginTop: 5,
+    width: 30
+  },
 })
 
 TeamList.propTypes = {

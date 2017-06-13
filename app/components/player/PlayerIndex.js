@@ -156,12 +156,13 @@ const styles = StyleSheet.create({
   headerInner: {
     flex: 1,
     flexDirection: 'row',
-    justifyContent: 'center'
+    justifyContent: 'center',
+    marginTop: 3
   },
   textInput: {
     backgroundColor: '#ffffff',
     borderRadius: 5,
-    color: '#fff',
+    color: '#000000bb',
     fontSize: 14,
     height: 40,
     paddingHorizontal: 5,
