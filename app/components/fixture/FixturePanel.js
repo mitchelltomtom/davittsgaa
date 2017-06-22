@@ -9,14 +9,15 @@ import React, {
   TouchableHighlight,
   Image,
   PixelRatio,
-  Platform
+  Platform,
+  Dimensions
 } from 'react-native'
 
 import FixtureDetail from './FixtureDetail'
 import teamMap from '../../utils/team-map'
 import clubMap from '../../utils/mayo-club-team-map'
 import Flag from './Flag'
-
+let {height, width} = Dimensions.get('window');
 export default class FixturePanel extends Component {
 
   onPressRow () {
@@ -41,12 +42,25 @@ export default class FixturePanel extends Component {
     const homeTeam = fixture.home_team
     const awayTeam = fixture.away_team
     fixture.type = 'unstart'
-    let fixtureDate = ''
-    const fixtureTime = fixture.time
+    const dateSplit = fixture.date.split("/")
+    const timeSplit = fixture.time.split(":")
+    let fixtureDate = "TBC"
+    let fixtureTime = ""
+    console.log(timeSplit)
+    if(dateSplit.length === 3){
+      let _date = new Date(dateSplit[2]+"-"+dateSplit[1]+"-"+dateSplit[0])
+      fixtureDate = _date.toGMTString().replace((" " + _date.getFullYear()), "").replace(" GMT","").replace(" 00:00:00","")
+      if(timeSplit.length >=2){
+        _date.setHours(parseInt(timeSplit[0]))
+        _date.setMinutes(parseInt(timeSplit[1]))
+        fixtureTime = " (" + _date.toLocaleTimeString().substring(0,5) +")"
+
+      }
+    }
+
     let cssType = ''
     switch (fixture.type) {
       case 'unstart':
-        fixtureDate = fixture.date
         cssType = 'Unstart'
         break
       case 'over':
@@ -70,17 +84,19 @@ export default class FixturePanel extends Component {
       <TouchableHighlight onPress={this.onPressRow.bind(this)} underlayColor='transparent'>
         <View style={[styles.container, {backgroundColor: homeTeamColor}]} >
           {!localHome &&
-            <View style={styles.team}>
+          <View style={[styles.team]}>
             {true && <Flag colorLeft={homeColor1} colorRight={homeColor2} />}
             {false && <Image style={styles.teamLogo} source={homeColor1} />}
             <Text style={styles.teamName} numberOfLines={1} ellipsizeMode={'middle'}>{fixture.home_team}</Text>
           </View>}
-
           <View style={styles.fixtureInfo}>
             <Text style={[styles.fixtureAgeGroup]} ellipsizeMode={'tail'}>{fixture.comp_details.age_group}</Text>
-            <Text style={[styles.fixtureComp]} ellipsizeMode={'tail'}>{fixture.comp_details.comp_name}</Text>
-            <Text style={[styles.fixtureComp]} ellipsizeMode={'tail'}>{fixture.pitch}</Text>
-            <Text style={[styles.fixtureDate]}>{`${fixtureDate} (${fixtureTime})`}</Text>
+            <Text style={[styles.fixtureComp]} numberOfLines={1} ellipsizeMode={'middle'}>{fixture.comp_details.comp_name}</Text>
+            <Text>
+              <Text style={[styles.fixtureDate]}>{`${fixtureDate}`}</Text>
+              <Text style={[styles.fixtureTime]}>{` ${fixtureTime}`}</Text>
+            </Text>
+            <Text style={[styles.fixturePitch]} ellipsizeMode={'tail'}>{fixture.pitch}</Text>
             {fixture.type !== 'unstart' &&
               <View style={styles.infoScorePanel}>
                 <Text style={styles.infoScore}>0</Text>
@@ -109,7 +125,8 @@ FixturePanel.propTypes = {
 }
 
 const fixureFontSize = Platform.OS === 'ios' ? 31 : 25
-
+const flagH = 25;
+const flagW = flagH * 2;
 const styles = StyleSheet.create({
   container: {
     borderRadius: 5,
@@ -120,14 +137,14 @@ const styles = StyleSheet.create({
     marginBottom: 10
   },
   flag:{
-    width: 82,
-    height: 45,
+    width: flagW,
+    height: flagH,
     marginTop: 15,
     alignItems: "center",
     flexDirection: "row"
   },
   flag_left: {
-    marginLeft: -41
+    marginLeft: -flagW
   },
   flag_right: {
     marginLeft: 0
@@ -151,15 +168,17 @@ const styles = StyleSheet.create({
     width: 0,
     height: 0,
     borderStyle: 'solid',
-    borderRightWidth: 95,
-    borderTopWidth: 95,
+    borderRightWidth: 45,
+    borderTopWidth: 85,
     borderRightColor: 'transparent',
     borderTopColor: 'red',
-    marginLeft: 20,
-    position: "absolute"
+    position: "absolute",
+    transform: [
+      {rotate: '180deg'}
+    ]
   },
   slant_rotate: {
-
+    rotation: 270
   },
   teamLogo: {
     width: 50,
@@ -195,24 +214,30 @@ const styles = StyleSheet.create({
   },
   fixtureAgeGroup: {
     color: '#fff',
-    fontSize: 20,
-    fontWeight: "bold",
+    fontSize: 22,
     marginBottom: 3
   },
   fixtureComp: {
     color: '#fff',
-    flex: 0.8,
-    fontSize: 15,
+    fontSize: 12,
+    width: (width * 0.55),
+    marginBottom: 10
+  },
+  fixturePitch: {
+    color: '#fff',
+    fontSize: 12,
+    fontStyle: "italic",
     marginBottom: 3
   },
   fixtureTime: {
     color: '#fff',
-    fontSize: 10,
+    fontSize: 13,
     marginBottom: 3
   },
   fixtureDate: {
     color: '#fff',
-    fontSize: 12,
+    fontSize: 15,
+    fontWeight: "bold",
     marginBottom: 3
   },
   processUnstart: {

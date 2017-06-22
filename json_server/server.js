@@ -42,12 +42,21 @@ function timeSorter(a,b){
 router.route('/fixtures/:club_id')
     // get the bear with that id (accessed at GET http://localhost:8080/api/bears/:bear_id)
     .get(function(req, res) {
-        var club_fixtures = fixtures[req.params.club_id];
-        var home_fixtures = club_fixtures.home_fixtures;
-        var away_fixtures = club_fixtures.away_fixtures;
+        var club_fixtures = fixtures[req.params.club_id] || {};
+        var home_fixtures = club_fixtures.home_fixtures || [] ;
+        var away_fixtures = club_fixtures.away_fixtures || [];
         var all_fixtures = home_fixtures.concat(away_fixtures);
         all_fixtures = all_fixtures.sort(timeSorter);
-        all_fixtures = all_fixtures.map(x => {x.comp_details = comp_ref[x.comp];return x})
+        all_fixtures = all_fixtures.map(x => {
+          if(!comp_ref[x.comp]){
+            "No match for comp: " + console.log(x.comp)
+            x.comp_details = {age_group:"unknown", comp_name:"unknown", sport:"unknown"}
+          }else{
+            x.comp_details = comp_ref[x.comp];
+          }
+
+          return x
+        })
         res.json(all_fixtures);
     });
 
@@ -56,7 +65,14 @@ router.route('/fixtures/:club_id/home_fixtures')
     .get(function(req, res) {
         var club_fixtures = fixtures[req.params.club_id]['home_fixtures'];
         if(club_fixtures){
-          all_fixtures = club_fixtures.map(x => {x.comp_details = comp_ref[x.comp];return x})
+          all_fixtures = club_fixtures.map(x => {
+            if(!comp_ref[x.comp]){
+              "No match for comp: " + console.log(x.comp)
+              x.comp_details = {age_group:"unknown", comp_name:"unknown", sport:"unknown"}
+            }
+            x.comp_details = comp_ref[x.comp];
+            return x
+          })
           res.json(all_fixtures);
         }else{
           res.json({});
@@ -69,7 +85,14 @@ router.route('/fixtures/:club_id/away_fixtures')
     .get(function(req, res) {
         var club_fixtures = fixtures[req.params.club_id]['away_fixtures'];
         if(club_fixtures){
-          all_fixtures = club_fixtures.map(x => {x.comp_details = comp_ref[x.comp];return x})
+          all_fixtures = club_fixtures.map(x => {
+            if(!comp_ref[x.comp]){
+              "No match for comp: " + console.log(x.comp)
+              x.comp_details = {age_group:"unknown", comp_name:"unknown", sport:"unknown"}
+            }
+            x.comp_details = comp_ref[x.comp];
+            return x
+          })
           res.json(all_fixtures);
         }else{
           res.json({});

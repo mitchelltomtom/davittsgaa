@@ -1,78 +1,100 @@
 {
-
-"Canon Henry Group 3": {"age_group": "Adult","sport": "Football","comp_name": "Canon Henry"},
-"Centenary Cup Group 1": {"age_group": "Adult","sport": "Football","comp_name": "Centenary Cup"},
-"Dermot Molloy Hurling League Group 2": {"age_group": "Adult","sport": "Hurling","comp_name": "League"},
-"Eurona Brisknet Under 14 Hurling League - Group B": {"age_group": "Under 14","sport": "Hurling","comp_name": "League"},
-"John West Feile na nGael Boys Div 3 Group A": {"age_group": "Boys","sport": "Hurling","comp_name": "Feile"},
-"John West Feile na nGael Boys Div 9 Group A": {"age_group": "Boys","sport": "Hurling","comp_name": "Feile"},
-"John West Feile na nGael Camogie Div 6 Group A": {"age_group": "Girls","sport": "Hurling","comp_name": "Feile"},
-"Kelly Cup Group 2": {"age_group": "Senior","sport": "Football","comp_name": "Kelly Cup"},
-"Kelly Cup Group 3": {"age_group": "Senior","sport": "Football","comp_name": "Kelly Cup"},
-"Mayo GAA Go Games u12 Hurling": {"age_group": "Under 12","sport": "Hurling","comp_name": "Go Games"},
-"Mayo GAA U8/u10s hurling": {"age_group": "Under 8s / 10s","sport": "Hurling","comp_name": ""},
-"Mayo Intermediate Championship - Group 1": {"age_group": "Intermediate","sport": "Football","comp_name": "Inter. Championship"},
-"Mayo Intermediate Championship - Group 2": {"age_group": "Intermediate","sport": "Football","comp_name": "Inter. Championship"},
-"Mayo Intermediate Championship - Group 3": {"age_group": "Intermediate","sport": "Football","comp_name": "Inter. Championship"},
-"Mayo Intermediate Championship - Group 4": {"age_group": "Intermediate","sport": "Football","comp_name": "Inter. Championship"},
-"Mayo Junior A Championship  - Group 4": {"age_group": "Junior","sport": "Football","comp_name": "Jnr. A Championship"},
-"Mayo Junior A Championship - Group 1": {"age_group": "Junior","sport": "Football","comp_name": "Jnr. A Championship"},
-"Mayo Junior A Championship - Group 2": {"age_group": "Junior","sport": "Football","comp_name": "Jnr. A Championship"},
-"Mayo Junior A Championship - Group 3": {"age_group": "Junior","sport": "Football","comp_name": "Jnr. A Championship"},
-"Mayo Junior B Championship - Group 1": {"age_group": "Junior","sport": "Football","comp_name": "Jnr. B Championship"},
-"Mayo Junior B Championship - Group 2": {"age_group": "Junior","sport": "Football","comp_name": "Jnr. B Championship"},
-"Mayo Junior B Championship - Group 3": {"age_group": "Junior","sport": "Football","comp_name": "Jnr. B Championship"},
-"Mayo Junior B Championship - Group 4": {"age_group": "Junior","sport": "Football","comp_name": "Jnr. B Championship"},
-"Mayo Junior C Championship - Group 1": {"age_group": "Junior","sport": "Football","comp_name": "Jnr. C Championship"},
-"Mayo Junior C Championship - Group 2": {"age_group": "Junior","sport": "Football","comp_name": "Jnr. C Championship"},
-"Mayo Junior C Championship - Group 3": {"age_group": "Junior","sport": "Football","comp_name": "Jnr. C Championship"},
-"Mayo Junior C Championship - Group 4": {"age_group": "Junior","sport": "Football","comp_name": "Jnr. C Championship"},
-"Mayo Senior Championship - Group 1": {"age_group": "Senior","sport": "Football","comp_name": "Snr. Championship"},
-"Mayo Senior Championship - Group 2": {"age_group": "Senior","sport": "Football","comp_name": "Snr. Championship"},
-"Mayo Senior Championship - Group 3": {"age_group": "Senior","sport": "Football","comp_name": "Snr. Championship"},
-"Mayo Senior Championship - Group 4": {"age_group": "Senior","sport": "Football","comp_name": "Snr. Championship"},
-"Mayo Snr League 2017-Group 1A": {"age_group": "Senior","sport": "Football","comp_name": "A - League"},
-"Mayo Snr League 2017-Group 1B": {"age_group": "Senior","sport": "Football","comp_name": "B - League"},
-"Mayo Snr League 2017-Group 1C": {"age_group": "Senior","sport": "Football","comp_name": "C - League"},
-"Mayo Snr League 2017-Group 1D": {"age_group": "Senior","sport": "Football","comp_name": "D - League"},
-"Mayo Snr League 2017-Group 1E": {"age_group": "Senior","sport": "Football","comp_name": "E - League"},
-"Mayo Snr League 2017-Group 1F": {"age_group": "Senior","sport": "Football","comp_name": "F - League"},
-"Michael Walsh Intermediate Knockout": {"age_group": "Intermediate","sport": "Football","comp_name": "Michael Walsh (Inter.)"},
-"Minor A Summer League 2017 Group 1": {"age_group": "Minor","sport": "Football","comp_name": "A - Summer League (Grp 2)"},
-"Minor A Summer League 2017 Group 2": {"age_group": "Minor","sport": "Football","comp_name": "A - Summer League (Grp 1)"},
-"Minor B Summer League 2017": {"age_group": "Minor","sport": "Football","comp_name": "B - Summer League"},
-"Minor League Division 2A": {"age_group": "Minor","sport": "Football","comp_name": "2A - League"},
-"Minor League Division 3": {"age_group": "Minor","sport": "Football","comp_name": "3 - League"},
-"Minor League Division 4": {"age_group": "Minor","sport": "Football","comp_name": "4 - League"},
-"North Mayo Junior A Championship": {"age_group": "Junior","sport": "Football","comp_name": "North Jnr. Championship"},
-"O'Mara Cup Group 1": {"age_group": "Senior","sport": "Football","comp_name": "O'Mara Cup (Grp 1)"},
-"O'Mara Cup Group 2": {"age_group": "Senior","sport": "Football","comp_name": "O'Mara Cup (Grp 1)"},
-"South Mayo Junior Championship": {"age_group": "Junior","sport": "Football","comp_name": "South Jnr. Championship"},
-"U14 Hurling Championship": {"age_group": "Under 14","sport": "Hurling","comp_name": "Championship"},
-"Under 12 Spring League Group A": {"age_group": "Under 12","sport": "Football","comp_name": "Spring League (Grp A)"},
-"Under 12 Spring League Group F": {"age_group": "Under 12","sport": "Football","comp_name": "Spring League (Grp F)"},
-"Under 12 Spring League Group J": {"age_group": "Under 12","sport": "Football","comp_name": "Spring League (Grp J)"},
-"Under 12 Spring League Group K": {"age_group": "Under 12","sport": "Football","comp_name": "Spring League (Grp K)"},
-"Under 14 A Championship 2017 Group A": {"age_group": "Under 14","sport": "Football","comp_name": "A - Championship (Grp A)"},
-"Under 14 A Championship 2017 Group B": {"age_group": "Under 14","sport": "Football","comp_name": "A - Championship (Grp B)"},
-"Under 14 B Championship Group A": {"age_group": "Under 14","sport": "Football","comp_name": "B - Championship (Grp A)"},
-"Under 14 B Championship Group B": {"age_group": "Under 14","sport": "Football","comp_name": "B - Championship (Grp B)"},
-"Under 14 E Championship 2017 Group A": {"age_group": "Under 14","sport": "Football","comp_name": "E - Championship (Grp A)"},
-"Under 14 E Championship 2017 Group B": {"age_group": "Under 14","sport": "Football","comp_name": "E - Championship (Grp B)"},
-"Under 14 F Championship 2017 Group A": {"age_group": "Under 14","sport": "Football","comp_name": "F - Championship (Grp A)"},
-"Under 14 F Championship 2017 Group B": {"age_group": "Under 14","sport": "Football","comp_name": "F - Championship (Grp B)"},
-"Under 14C Championship 2017 Group A": {"age_group": "Under 14","sport": "Football","comp_name": "C - Championship (Grp A)"},
-"Under 14C Championship 2017 Group B": {"age_group": "Under 14","sport": "Football","comp_name": "C - Championship (Grp B)"},
-"Under 14C Championship 2017 Group C": {"age_group": "Under 14","sport": "Football","comp_name": "C - Championship (Grp C)"},
-"Under 14C Championship 2017 Group D": {"age_group": "Under 14","sport": "Football","comp_name": "C - Championship (Grp D)"},
-"Under 16 Division 1 Cup": {"age_group": "Under 16","sport": "Football","comp_name": "Division 1 Cup"},
-"Under 8 Go Games 2017 Group A": {"age_group": "Under 8","sport": "Football","comp_name": "Go Games (Grp A)"},
-"Under 8 Go Games 2017 Group B": {"age_group": "Under 8","sport": "Football","comp_name": "Go Games (Grp B)"},
-"Under 8 Go Games 2017 Group C": {"age_group": "Under 8","sport": "Football","comp_name": "Go Games (Grp C)"},
-"Under 8 Go Games 2017 Group D": {"age_group": "Under 8","sport": "Football","comp_name": "Go Games (Grp D)"},
-"Under 8 Go Games 2017 Group E": {"age_group": "Under 8","sport": "Football","comp_name": "Go Games (Grp E)"},
-"Under 8 Go Games 2017 Group F": {"age_group": "Under 8","sport": "Football","comp_name": "Go Games (Grp F)"},
-"Under 8 Go Games 2017 Group G": {"age_group": "Under 8","sport": "Football","comp_name": "Go Games (Grp G)"},
-"West Mayo Junior B Group 1": {"age_group": "Junior","sport": "Football","comp_name": "West Junior B (Grp 2)"},
-"West Mayo Junior B Group 2": {"age_group": "Junior","sport": "Football","comp_name": "West Junior B (Grp 1)"}
+"Boys Division 1 Group C": {"age_group":"Boys","sport":"Football","comp_name":"Boys Division 1 Grp C"}
+,"Canon Henry Group 3": {"age_group":"Senior","sport":"Football","comp_name":"Canon Henry Grp 3"}
+,"Centenary Cup Group 1": {"age_group":"Senior","sport":"Football","comp_name":"Centenary Cup Grp 1"}
+,"Chillout Firewood U16 League Group A": {"age_group":"Under 16s","sport":"Football","comp_name":"Chillout Firewood U16 League Grp A"}
+,"Dermot Molloy Hurling League Group 2": {"age_group":"Senior","sport":"Football","comp_name":"Dermot Molloy Hurling League Grp 2"}
+,"Eurona Brisknet Under 14 Hurling League - Group B": {"age_group":"Under 14s","sport":"Hurling","comp_name":"Eurona Brisknet U 14 Hurling League - Grp B"}
+,"John West Feile na nGael Boys Div 3 Group A": {"age_group":"Boys","sport":"Hurling","comp_name":"John West Feile na nGael Boys Div 3 Grp A"}
+,"John West Feile na nGael Boys Div 9 Group A": {"age_group":"Boys","sport":"Hurling","comp_name":"John West Feile na nGael Boys Div 9 Grp A"}
+,"John West Feile na nGael Camogie Div 6 Group A": {"age_group":"Girls","sport":"Camoige","comp_name":"John West Feile na nGael Camogie Div 6 Grp A"}
+,"Kelly Cup Group 2": {"age_group":"Senior","sport":"Football","comp_name":"Kelly Cup Grp 2"}
+,"Kelly Cup Group 3": {"age_group":"Senior","sport":"Football","comp_name":"Kelly Cup Grp 3"}
+,"Mayo GAA Go Games u12 Hurling": {"age_group":"Under 12s","sport":"Hurling","comp_name":"Mayo GAA Go Games u12 Hurling"}
+,"Mayo GAA U8/u10s hurling": {"age_group":"Under 8/10s","sport":"Hurling","comp_name":"Mayo GAA U8/u10s hurling"}
+,"Mayo Intermediate Championship - Group 1": {"age_group":"Intermediate","sport":"Football","comp_name":"Mayo Inter. Championship - Grp 1"}
+,"Mayo Intermediate Championship - Group 2": {"age_group":"Intermediate","sport":"Football","comp_name":"Mayo Inter. Championship - Grp 2"}
+,"Mayo Intermediate Championship - Group 3": {"age_group":"Intermediate","sport":"Football","comp_name":"Mayo Inter. Championship - Grp 3"}
+,"Mayo Intermediate Championship - Group 4": {"age_group":"Intermediate","sport":"Football","comp_name":"Mayo Inter. Championship - Grp 4"}
+,"Mayo Junior A Championship  - Group 4": {"age_group":"Junior","sport":"Football","comp_name":"Mayo Jnr. A Championship  - Grp 4"}
+,"Mayo Junior A Championship - Group 1": {"age_group":"Junior","sport":"Football","comp_name":"Mayo Jnr. A Championship - Grp 1"}
+,"Mayo Junior A Championship - Group 2": {"age_group":"Junior","sport":"Football","comp_name":"Mayo Jnr. A Championship - Grp 2"}
+,"Mayo Junior A Championship - Group 3": {"age_group":"Junior","sport":"Football","comp_name":"Mayo Jnr. A Championship - Grp 3"}
+,"Mayo Junior B Championship - Group 1": {"age_group":"Junior","sport":"Football","comp_name":"Mayo Jnr. B Championship - Grp 1"}
+,"Mayo Junior B Championship - Group 2": {"age_group":"Junior","sport":"Football","comp_name":"Mayo Jnr. B Championship - Grp 2"}
+,"Mayo Junior B Championship - Group 3": {"age_group":"Junior","sport":"Football","comp_name":"Mayo Jnr. B Championship - Grp 3"}
+,"Mayo Junior B Championship - Group 4": {"age_group":"Junior","sport":"Football","comp_name":"Mayo Jnr. B Championship - Grp 4"}
+,"Mayo Junior C Championship - Group 1": {"age_group":"Junior","sport":"Football","comp_name":"Mayo Jnr. C Championship - Grp 1"}
+,"Mayo Junior C Championship - Group 2": {"age_group":"Junior","sport":"Football","comp_name":"Mayo Jnr. C Championship - Grp 2"}
+,"Mayo Junior C Championship - Group 3": {"age_group":"Junior","sport":"Football","comp_name":"Mayo Jnr. C Championship - Grp 3"}
+,"Mayo Junior C Championship - Group 4": {"age_group":"Junior","sport":"Football","comp_name":"Mayo Jnr. C Championship - Grp 4"}
+,"Mayo Senior Championship - Group 1": {"age_group":"Senior","sport":"Football","comp_name":"Mayo Snr. Championship - Grp 1"}
+,"Mayo Senior Championship - Group 2": {"age_group":"Senior","sport":"Football","comp_name":"Mayo Snr. Championship - Grp 2"}
+,"Mayo Senior Championship - Group 3": {"age_group":"Senior","sport":"Football","comp_name":"Mayo Snr. Championship - Grp 3"}
+,"Mayo Senior Championship - Group 4": {"age_group":"Senior","sport":"Football","comp_name":"Mayo Snr. Championship - Grp 4"}
+,"Mayo Snr League 2017-Group 1A": {"age_group":"Senior","sport":"Football","comp_name":"Mayo Snr League 2017-Grp 1A"}
+,"Mayo Snr League 2017-Group 1B": {"age_group":"Senior","sport":"Football","comp_name":"Mayo Snr League 2017-Grp 1B"}
+,"Mayo Snr League 2017-Group 1C": {"age_group":"Senior","sport":"Football","comp_name":"Mayo Snr League 2017-Grp 1C"}
+,"Mayo Snr League 2017-Group 1D": {"age_group":"Junior","sport":"Football","comp_name":"Mayo Snr League 2017-Grp 1D"}
+,"Mayo Snr League 2017-Group 1E": {"age_group":"Junior","sport":"Football","comp_name":"Mayo Snr League 2017-Grp 1E"}
+,"Mayo Snr League 2017-Group 1F": {"age_group":"Junior","sport":"Football","comp_name":"Mayo Snr League 2017-Grp 1F"}
+,"Mayo U21 Hurling Championship": {"age_group":"Under 21s","sport":"Football","comp_name":"Mayo U21 Hurling Championship"}
+,"Michael Walsh Intermediate Knockout": {"age_group":"Intermediate","sport":"Football","comp_name":"Michael Walsh Inter. Knockout"}
+,"Minor A Summer League 2017 Group 1": {"age_group":"Minor","sport":"Football","comp_name":"Minor A Summer League 2017 Grp 1"}
+,"Minor A Summer League 2017 Group 2": {"age_group":"Minor","sport":"Football","comp_name":"Minor A Summer League 2017 Grp 2"}
+,"Minor B Summer League 2017": {"age_group":"Minor","sport":"Football","comp_name":"Minor B Summer League 2017"}
+,"Minor League Division 2A": {"age_group":"Minor","sport":"Football","comp_name":"Minor League Division 2A"}
+,"Minor League Division 3": {"age_group":"Minor","sport":"Football","comp_name":"Minor League Division 3"}
+,"Minor League Division 4": {"age_group":"Minor","sport":"Football","comp_name":"Minor League Division 4"}
+,"North Mayo Junior A Championship": {"age_group":"Junior","sport":"Football","comp_name":"North Mayo Jnr. A Championship"}
+,"O'Mara Cup Group 1": {"age_group":"Senior","sport":"Football","comp_name":"O'Mara Cup Grp 1"}
+,"O'Mara Cup Group 2": {"age_group":"Senior","sport":"Football","comp_name":"O'Mara Cup Grp 2"}
+,"South Mayo Junior Championship": {"age_group":"Junior","sport":"Football","comp_name":"South Mayo Jnr. Championship"}
+,"U14 Hurling Championship": {"age_group":"Under 14s","sport":"Football","comp_name":"U14 Hurling Championship"}
+,"Under 10 League 2017 Group A": {"age_group":"Under 10s","sport":"Football","comp_name":"U 10 League 2017 Grp A"}
+,"Under 10 Leagues 2017 Group B": {"age_group":"Under 10s","sport":"Football","comp_name":"U 10 Leagues 2017 Grp B"}
+,"Under 10 Leagues 2017 Group C": {"age_group":"Under 10s","sport":"Football","comp_name":"U 10 Leagues 2017 Grp C"}
+,"Under 10 Leagues 2017 Group D": {"age_group":"Under 10s","sport":"Football","comp_name":"U 10 Leagues 2017 Grp D"}
+,"Under 10 Leagues 2017 Group E": {"age_group":"Under 10s","sport":"Football","comp_name":"U 10 Leagues 2017 Grp E"}
+,"Under 10 Leagues 2017 Group F": {"age_group":"Under 10s","sport":"Football","comp_name":"U 10 Leagues 2017 Grp F"}
+,"Under 10 Leagues 2017 Group G": {"age_group":"Under 10s","sport":"Football","comp_name":"U 10 Leagues 2017 Grp G"}
+,"Under 12 Spring League Group A": {"age_group":"Under 12s","sport":"Football","comp_name":"U 12 Spring League Grp A"}
+,"Under 12 Spring League Group F": {"age_group":"Under 12s","sport":"Football","comp_name":"U 12 Spring League Grp F"}
+,"Under 12 Spring League Group J": {"age_group":"Under 12s","sport":"Football","comp_name":"U 12 Spring League Grp J"}
+,"Under 12 Spring League Group K": {"age_group":"Under 12s","sport":"Football","comp_name":"U 12 Spring League Grp K"}
+,"Under 12 Summer League Group A": {"age_group":"Under 12s","sport":"Football","comp_name":"U 12 Summer League Grp A"}
+,"Under 12 Summer League Group B": {"age_group":"Under 12s","sport":"Football","comp_name":"U 12 Summer League Grp B"}
+,"Under 12 Summer League Group C": {"age_group":"Under 12s","sport":"Football","comp_name":"U 12 Summer League Grp C"}
+,"Under 12 Summer League Group D": {"age_group":"Under 12s","sport":"Football","comp_name":"U 12 Summer League Grp D"}
+,"Under 12 Summer League Group E": {"age_group":"Under 12s","sport":"Football","comp_name":"U 12 Summer League Grp E"}
+,"Under 12 Summer League Group F": {"age_group":"Under 12s","sport":"Football","comp_name":"U 12 Summer League Grp F"}
+,"Under 12 Summer League Group G": {"age_group":"Under 12s","sport":"Football","comp_name":"U 12 Summer League Grp G"}
+,"Under 12 Summer League Group H": {"age_group":"Under 12s","sport":"Football","comp_name":"U 12 Summer League Grp H"}
+,"Under 12 Summer League Group J": {"age_group":"Under 12s","sport":"Football","comp_name":"U 12 Summer League Grp J"}
+,"Under 12 Summer League Group K": {"age_group":"Under 12s","sport":"Football","comp_name":"U 12 Summer League Grp K"}
+,"Under 14 A Championship 2017 Group A": {"age_group":"Under 14s","sport":"Football","comp_name":"U 14 A Championship 2017 Grp A"}
+,"Under 14 A Championship 2017 Group B": {"age_group":"Under 14s","sport":"Football","comp_name":"U 14 A Championship 2017 Grp B"}
+,"Under 14 B Championship Group A": {"age_group":"Under 14s","sport":"Football","comp_name":"U 14 B Championship Grp A"}
+,"Under 14 B Championship Group B": {"age_group":"Under 14s","sport":"Football","comp_name":"U 14 B Championship Grp B"}
+,"Under 14 D Championship 2017 Group A": {"age_group":"Under 14s","sport":"Football","comp_name":"U 14 D Championship 2017 Grp A"}
+,"Under 14 D Championship 2017 Group B": {"age_group":"Under 14s","sport":"Football","comp_name":"U 14 D Championship 2017 Grp B"}
+,"Under 14 E Championship 2017 Group A": {"age_group":"Under 14s","sport":"Football","comp_name":"U 14 E Championship 2017 Grp A"}
+,"Under 14 E Championship 2017 Group B": {"age_group":"Under 14s","sport":"Football","comp_name":"U 14 E Championship 2017 Grp B"}
+,"Under 14 F Championship 2017 Group A": {"age_group":"Under 14s","sport":"Football","comp_name":"U 14 F Championship 2017 Grp A"}
+,"Under 14 F Championship 2017 Group B": {"age_group":"Under 14s","sport":"Football","comp_name":"U 14 F Championship 2017 Grp B"}
+,"Under 14C Championship 2017 Group A": {"age_group":"Under 14s","sport":"Football","comp_name":"U 14C Championship 2017 Grp A"}
+,"Under 14C Championship 2017 Group B": {"age_group":"Under 14s","sport":"Football","comp_name":"U 14C Championship 2017 Grp B"}
+,"Under 14C Championship 2017 Group C": {"age_group":"Under 14s","sport":"Football","comp_name":"U 14C Championship 2017 Grp C"}
+,"Under 14C Championship 2017 Group D": {"age_group":"Under 14s","sport":"Football","comp_name":"U 14C Championship 2017 Grp D"}
+,"Under 16 Division 1 Cup": {"age_group":"Under 16s","sport":"Football","comp_name":"U 16 Division 1 Cup"}
+,"Under 16 League Division 3": {"age_group":"Under 16s","sport":"Football","comp_name":"U 16 League Division 3"}
+,"Under 8 Go Games 2017 Group A": {"age_group":"Unders 8s","sport":"Football","comp_name":"U 8 Go Games 2017 Grp A"}
+,"Under 8 Go Games 2017 Group B": {"age_group":"Unders 8s","sport":"Football","comp_name":"U 8 Go Games 2017 Grp B"}
+,"Under 8 Go Games 2017 Group C": {"age_group":"Unders 8s","sport":"Football","comp_name":"U 8 Go Games 2017 Grp C"}
+,"Under 8 Go Games 2017 Group D": {"age_group":"Unders 8s","sport":"Football","comp_name":"U 8 Go Games 2017 Grp D"}
+,"Under 8 Go Games 2017 Group E": {"age_group":"Unders 8s","sport":"Football","comp_name":"U 8 Go Games 2017 Grp E"}
+,"Under 8 Go Games 2017 Group F": {"age_group":"Unders 8s","sport":"Football","comp_name":"U 8 Go Games 2017 Grp F"}
+,"Under 8 Go Games 2017 Group G": {"age_group":"Unders 8s","sport":"Football","comp_name":"U 8 Go Games 2017 Grp G"}
+,"West Mayo Junior B Group 1": {"age_group":"Junior B","sport":"Football","comp_name":"West Mayo Jnr. B Grp 1"}
+,"West Mayo Junior B Group 2": {"age_group":"Junior B","sport":"Football","comp_name":"West Mayo Jnr. B Grp 2"}
 }
