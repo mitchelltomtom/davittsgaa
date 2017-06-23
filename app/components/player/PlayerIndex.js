@@ -8,12 +8,15 @@ import React, {
   ListView,
   TextInput,
   PropTypes,
+  Animated,
+  ScrollView,
   TouchableHighlight
 } from 'react-native'
 
 import {Icon} from 'react-native-icons'
 import Tabbar from '../share/Tabbar'
 import PlayerDetail from './PlayerDetail'
+import HeaderInner from '../share/HeaderInner'
 
 export default class PlayerIndex extends Component {
 
@@ -27,8 +30,11 @@ export default class PlayerIndex extends Component {
     }
     this.playerList = []
     this.searchRecent = []
+    this.mount = true // Control the state of mount
+    this.timeout = null // Control the state of setTimeout
     this.inputDelay = null
-    this.mount = true
+    this.headerHeight = new Animated.Value(50)
+    this.scrollOffset = 0
   }
 
   componentDidMount () {
@@ -86,6 +92,22 @@ export default class PlayerIndex extends Component {
     })
   }
 
+  _setAnimation(hideHeader,duration=250) {
+     Animated.timing(this.headerHeight, {
+       duration: duration,
+       toValue: hideHeader ? 0 : 50
+     }).start()
+  }
+  showHeader(){
+    this._setAnimation(false,400)
+  }
+  handleScroll(event){
+    let currentOffset = event.nativeEvent.contentOffset.y;
+    const direction = currentOffset > this.scrollOffset ? 'down' : 'up';
+    this.scrollOffset = currentOffset;
+    console.log(direction)
+    this._setAnimation(direction === "up")
+  }
   renderRow (player, _, index) {
     console.log("rendering row");
     return (
@@ -115,28 +137,15 @@ export default class PlayerIndex extends Component {
 
     return (
       <View style={styles.container}>
-        <View style={styles.header}>
-          <View style={styles.headerInner}>
-            <TextInput
-              style={styles.textInput}
-              onChangeText={this.onInput.bind(this)}
-              keyboardType={'default'}
-              textAlignVertical={'center'}
-              autoCorrect={false}
-              placeholder={'Find player'}
-              value={text}
-            />
-            <View style={styles.searchIconView}>
-              <Icon name='ion|search' size={16} color='#fff' style={styles.searchIcon} />
-            </View>
-          </View>
-        </View>
+        <HeaderInner headerHeight={this.headerHeight}/>
         <Tabbar tab={'players'} {...this.props}/>
-        <ListView
-          dataSource={myDataSource}
-          renderRow={this.renderRow.bind(this)}
-          style={styles.list}
-        />
+        <ScrollView onScroll={this.handleScroll.bind(this)} onMomentumScrollEnd={this.showHeader.bind(this)}>
+          <ListView
+            dataSource={myDataSource}
+            renderRow={this.renderRow.bind(this)}
+            style={styles.list}
+          />
+        </ScrollView>
       </View>
     )
   }
@@ -145,46 +154,6 @@ export default class PlayerIndex extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1
-  },
-  // Header
-  header: {
-    alignItems: 'center',
-    backgroundColor: '#000000',
-    flexDirection: 'row',
-    height: 50
-  },
-  headerInner: {
-    flex: 1,
-    flexDirection: 'row',
-    justifyContent: 'center',
-    marginTop: 3
-  },
-  textInput: {
-    backgroundColor: '#ffffff',
-    borderRadius: 5,
-    color: '#000000bb',
-    fontSize: 14,
-    height: 40,
-    paddingHorizontal: 5,
-    width: 260
-  },
-  searchIconView: {
-    backgroundColor: 'red',
-    borderTopRightRadius: 5,
-    borderBottomRightRadius: 5,
-    height: 40,
-    left: -5,
-    position: 'relative',
-    width: 40
-  },
-  searchIcon: {
-    width: 16,
-    height: 16,
-    left: 20,
-    marginLeft: -8,
-    marginTop: -8,
-    position: 'absolute',
-    top: 20
   },
   // List
   list: {

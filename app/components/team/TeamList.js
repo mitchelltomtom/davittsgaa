@@ -6,12 +6,15 @@ import React, {
   View,
   Text,
   StyleSheet,
-  TouchableHighlight
+  TouchableHighlight,
+  Animated,
+  ScrollView
 } from 'react-native'
 
 import Tabbar from '../share/Tabbar'
 import moment from 'moment-timezone'
 import TeamConference from './TeamConference'
+import HeaderInner from '../share/HeaderInner'
 import CollectionView from '../../lib/collection'
 import {Icon} from 'react-native-icons'
 
@@ -21,8 +24,14 @@ export default class TeamList extends Component {
     super(props)
     this.showSearch = false;
     this.state = {
-      conference: 'western'
+      showSearch: false,
+      searchText: "",
     }
+    this.mount = true // Control the state of mount
+    this.timeout = null // Control the state of setTimeout
+    this.inputDelay = null
+    this.headerHeight = new Animated.Value(50)
+    this.scrollOffset = 0
   }
 
   componentDidMount () {
@@ -48,51 +57,37 @@ export default class TeamList extends Component {
     console.log("searched Team Page");
   }
 
+  _setAnimation(hideHeader,duration=250) {
+     Animated.timing(this.headerHeight, {
+       duration: duration,
+       toValue: hideHeader ? 0 : 50
+     }).start()
+  }
+  showHeader(){
+    this._setAnimation(false,400)
+  }
+  handleScroll(event){
+    let currentOffset = event.nativeEvent.contentOffset.y;
+    const direction = currentOffset > this.scrollOffset ? 'down' : 'up';
+    this.scrollOffset = currentOffset;
+    console.log(direction)
+    this._setAnimation(direction === "up")
+  }
+
   render () {
     const {conference} = this.state
     const {team} = this.props
 
     return (
       <View style={styles.container}>
-        <View style={styles.header}>
-          {!this.showSearch &&
-            <View style={styles.headerInner}>
-            <Text style={styles.clubName}>{'Davitt\'s GAA'}</Text>
-            <TouchableHighlight onPress={this.search.bind(this)} underlayColor='transparent'>
-              <Icon name='ion|search'
-                  size={25}
-                  color='#fff'
-                  style={styles.searchIcon}
-              />
-            </TouchableHighlight>
-          </View>}
-          {this.showSearch &&
-          <View style={styles.headerInner}>
-            <TextInput
-              style={styles.textInput}
-              //onChangeText={this.onInput.bind(this)}
-              keyboardType={'default'}
-              textAlignVertical={'center'}
-              autoCorrect={false}
-              placeholder={'Find fixture'}
-            />
-            <View style={styles.searchIconView}>
-              <Icon name='ion|search' size={16} color='#fff' style={styles.searchBarIcon} />
-            </View>
-          </View>}
-          <TouchableHighlight onPress={this.search.bind(this)} underlayColor='transparent'>
-            <Icon name='ion|navicon'
-              size={30}
-              color='#fff'
-              style={styles.settingsIcon}
-            />
-          </TouchableHighlight>
-        </View>
+        <HeaderInner headerHeight={this.headerHeight}/>
         <Tabbar tab={'teams'} {...this.props}/>
         {team && team.loaded &&
-          <CollectionView scrollEnd={this.scrollEnd.bind(this)}>
-          {[<TeamConference data={team.data.western} {...this.props} key={0}/>, <TeamConference data={team.data.eastern} {...this.props} key={1} />]}
-          </CollectionView>
+          <ScrollView>
+            <CollectionView scrollEnd={this.scrollEnd.bind(this)}>
+            {[<TeamConference data={team.data.western} {...this.props} key={0}/>, <TeamConference data={team.data.eastern} {...this.props} key={1} />]}
+            </CollectionView>
+          </ScrollView>
         }
       </View>
     )
