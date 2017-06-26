@@ -30,7 +30,8 @@ export default class TeamList extends Component {
     this.mount = true // Control the state of mount
     this.timeout = null // Control the state of setTimeout
     this.inputDelay = null
-    this.headerHeight = new Animated.Value(50)
+    this.originalHeaderHeight = 30
+    this.headerHeight = new Animated.Value(this.originalHeaderHeight)
     this.scrollOffset = 0
   }
 
@@ -60,7 +61,7 @@ export default class TeamList extends Component {
   _setAnimation(hideHeader,duration=250) {
      Animated.timing(this.headerHeight, {
        duration: duration,
-       toValue: hideHeader ? 0 : 50
+       toValue: hideHeader ? 0 : this.originalHeaderHeight
      }).start()
   }
   showHeader(){

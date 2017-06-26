@@ -9,6 +9,15 @@ import React, {
   PropTypes
 } from 'react-native'
 
+import teamInfo from '../../utils/team-info'
+import teamMap from '../../utils/mayo-club-team-map'
+
+const primaryColor = teamMap[teamInfo.teamName].Colours[0].toLowerCase() || "#fff";
+const secondaryColor = teamMap[teamInfo.teamName].Colours[1].toLowerCase() || primaryColor;
+const mainTextColor = primaryColor === "white" || primaryColor === "#fff" ? "black" : "white";
+const panelTextColor = secondaryColor === "white" || primaryColor === "#fff" ? "black" : "white";
+var Color = require('color');
+
 export default class Tabbar extends Component {
 
   onPress (tab) {
@@ -17,7 +26,6 @@ export default class Tabbar extends Component {
   }
 
   render () {
-    console.log(tab);
     const {tab} = this.props
     return (
       <View style={[styles.container, styles[tab]]}>
@@ -92,7 +100,7 @@ const styles = StyleSheet.create({
   },
   // Active
   active: {
-    backgroundColor: 'red',
+    backgroundColor: secondaryColor,
     bottom: 0,
     height: 3,
     left: -35,
@@ -104,13 +112,13 @@ const styles = StyleSheet.create({
     backgroundColor: '#000000'
   },
   fixtures: {
-    backgroundColor: '#000000dd'
+    backgroundColor: Color(primaryColor).alpha(0.85).string()
   },
   players: {
-    backgroundColor: '#000000dd'
+    backgroundColor: Color(primaryColor).alpha(0.85).string()
   },
   teams: {
-    backgroundColor: '#000000dd'
+    backgroundColor: Color(primaryColor).alpha(0.85).string()
   },
   roster: {}
 })

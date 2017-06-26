@@ -12,6 +12,8 @@ import React, {
 
 
 import {Icon} from 'react-native-icons'
+import teamInfo from '../../utils/team-info'
+import teamMap from '../../utils/mayo-club-team-map'
 
 export default class HeaderInner extends Component {
   constructor (props) {
@@ -28,12 +30,8 @@ export default class HeaderInner extends Component {
     /* Close after user stop typing */
     clearTimeout(this.inputDelay)
 
-    /* Search after user stop typing */
-    this.inputDelay = setTimeout(() => {
-      this.setState({
-        ...this.state, searchText: text
-      })
-    }, 1000)
+    if(this.props.handleSearch)
+      this.props.handleSearch(text)
 
     this.inputDelay = setTimeout(() => {
       this.setState({
@@ -64,7 +62,7 @@ export default class HeaderInner extends Component {
       <Animated.View style={[styles.header,{ height: this.headerHeight }]}>
         {!this.state.showSearch &&
           <View style={styles.headerInner}>
-          <Text style={styles.clubName}>{'Davitt\'s GAA'}</Text>
+          <Text style={styles.clubName}>{`${teamInfo.displayName} GAA`}</Text>
           <TouchableHighlight onPress={this.search.bind(this)} underlayColor='transparent'>
             <Icon name='ion|search'
                 size={25}
@@ -100,11 +98,13 @@ export default class HeaderInner extends Component {
     )
   }
 }
-
-
+const primaryColor = teamMap[teamInfo.teamName].Colours[0].toLowerCase() || "#fff";
+const secondaryColor = teamMap[teamInfo.teamName].Colours[1].toLowerCase() || primaryColor;
+const mainTextColor = primaryColor === "white" || primaryColor === "#fff" ? "black" : "white";
+const panelTextColor = secondaryColor === "white" || primaryColor === "#fff" ? "black" : "white";
 const styles = StyleSheet.create({
   header: {
-    backgroundColor: '#000000',
+    backgroundColor: primaryColor,
     height: this.headerHeight,
     flexDirection: 'row',
     paddingLeft: 15
@@ -116,9 +116,9 @@ const styles = StyleSheet.create({
     marginTop: 0,
   },
   searchIcon: {
-    height: 40,
+    height: 26,
     marginRight: 0,
-    marginTop: 5,
+    marginTop: 2,
     width: 30
   },
   searchBarIcon: {
@@ -128,51 +128,41 @@ const styles = StyleSheet.create({
     marginLeft: -8,
     marginTop: -8,
     position: 'absolute',
-    top: 20,
+    top: 13,
   },
   settingsIcon: {
-    height: 40,
+    height: 26,
     marginRight: 5,
-    marginTop: 5,
+    marginTop: 2,
     width: 30
   },
   clubName: {
-    color: 'white',
+    color: mainTextColor,
     fontWeight: '400',
-    fontSize: 28,
+    fontSize: 16,
     marginLeft: 0,
     marginTop: 5,
     flex: 1
-  },
-  gameDate: {
-    color: '#fff',
-    fontWeight: '200',
-    fontSize: 25
-  },
-  gameCount: {
-    color: '#fff',
-    fontWeight: '200',
-    fontSize: 14
   },
   textInput: {
     backgroundColor: '#ffffff',
     borderRadius: 5,
     color: '#000000bb',
     fontSize: 14,
-    height: 40,
+    height: 26,
     paddingHorizontal: 5,
     width: 220,
     marginLeft: 0,
-    marginTop: 5
+    marginTop: 2
   },
   searchIconView: {
-    backgroundColor: 'red',
+    backgroundColor: secondaryColor,
     borderTopRightRadius: 5,
     borderBottomRightRadius: 5,
-    height: 40,
+    height: 26,
     left: -5,
     position: 'relative',
     width: 40,
-    marginTop: 5
+    marginTop: 2
   }
 })

@@ -25,7 +25,7 @@ export default class PlayerIndex extends Component {
     this.state = {
       text: '',
       dataSource: new ListView.DataSource({
-        rowHasChanged: (row1, row2) => row1 !== row2
+        rowHasChanged: (row1, row2) => { row1 !== row2}
       })
     }
     this.playerList = []
@@ -33,8 +33,10 @@ export default class PlayerIndex extends Component {
     this.mount = true // Control the state of mount
     this.timeout = null // Control the state of setTimeout
     this.inputDelay = null
-    this.headerHeight = new Animated.Value(50)
+    this.originalHeaderHeight = 30
+    this.headerHeight = new Animated.Value(this.originalHeaderHeight)
     this.scrollOffset = 0
+    this.handler = this.onInput.bind(this)
   }
 
   componentDidMount () {
@@ -56,6 +58,19 @@ export default class PlayerIndex extends Component {
     this.mount = false
   }
 
+  getResult (text) {
+    if (text.length > 0) {
+      const {playerList} = this
+      const reg = new RegExp(text, 'i')
+      const players = playerList.filter(player => {  return reg.test(player.name)})
+      console.log(players.length)
+      this.setState({
+        dataSource: this.state.dataSource.cloneWithRows(players)
+      })
+
+    }
+  }
+
   onInput (text) {
     this.setState({
       text
@@ -65,21 +80,6 @@ export default class PlayerIndex extends Component {
     this.inputDelay = setTimeout(() => {
       this.getResult(text)
     }, 1500)
-  }
-
-  getResult (text) {
-    if (text.length > 0) {
-      const {playerList} = this
-      const {dataSource} = this.state
-
-      const reg = new RegExp(text, 'i')
-      const players = playerList.filter(player => {
-        return reg.test(player.name)
-      })
-      this.setState({
-        dataSource: dataSource.cloneWithRows(players)
-      })
-    }
   }
 
   selectPlayer (player) {
@@ -95,7 +95,7 @@ export default class PlayerIndex extends Component {
   _setAnimation(hideHeader,duration=250) {
      Animated.timing(this.headerHeight, {
        duration: duration,
-       toValue: hideHeader ? 0 : 50
+       toValue: hideHeader ? 0 : this.originalHeaderHeight
      }).start()
   }
   showHeader(){
@@ -105,11 +105,10 @@ export default class PlayerIndex extends Component {
     let currentOffset = event.nativeEvent.contentOffset.y;
     const direction = currentOffset > this.scrollOffset ? 'down' : 'up';
     this.scrollOffset = currentOffset;
-    console.log(direction)
     this._setAnimation(direction === "up")
   }
   renderRow (player, _, index) {
-    console.log("rendering row");
+    console.log("renderRow");
     return (
       <TouchableHighlight onPress={this.selectPlayer.bind(this, player)} underlayColor='transparent'>
         <View style={styles.panel}>
@@ -127,17 +126,11 @@ export default class PlayerIndex extends Component {
 
   render () {
     const {text, dataSource} = this.state
-
-    let myDataSource = dataSource
-    if (!text.length && this.searchRecent.length) {
-      myDataSource = dataSource.cloneWithRows(this.searchRecent)
-    }else if(this.playerList && this.playerList.length){
-      myDataSource = dataSource.cloneWithRows(this.playerList)
-    }
+    let myDataSource = dataSource.cloneWithRows(this.playerList)
 
     return (
       <View style={styles.container}>
-        <HeaderInner headerHeight={this.headerHeight}/>
+        <HeaderInner headerHeight={this.headerHeight} handleSearch={this.handler.bind(this)}/>
         <Tabbar tab={'players'} {...this.props}/>
         <ScrollView onScroll={this.handleScroll.bind(this)} onMomentumScrollEnd={this.showHeader.bind(this)}>
           <ListView

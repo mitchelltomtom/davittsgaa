@@ -15,6 +15,7 @@ import moment from 'moment-timezone'
 import FixturePanel from './FixturePanel'
 import HeaderInner from '../share/HeaderInner'
 import Tabbar from '../share/Tabbar'
+import teamInfo from '../../utils/team-info'
 
 export default class FixtureList extends Component {
   constructor (props) {
@@ -30,14 +31,15 @@ export default class FixtureList extends Component {
     this.mount = true // Control the state of mount
     this.timeout = null // Control the state of setTimeout
     this.inputDelay = null
-    this.headerHeight = new Animated.Value(50)
+    this.originalHeaderHeight = 30
+    this.headerHeight = new Animated.Value(this.originalHeaderHeight)
     this.scrollOffset = 0
   }
 
   _setAnimation(hideHeader,duration=250) {
      Animated.timing(this.headerHeight, {
        duration: duration,
-       toValue: hideHeader ? 0 : 50
+       toValue: hideHeader ? 0 : this.originalHeaderHeight
      }).start()
   }
 
@@ -46,7 +48,7 @@ export default class FixtureList extends Component {
   */
   componentDidMount () {
     const {actions} = this.props
-    actions.getFixtureGeneral('Davitts')
+    actions.getFixtureGeneral(teamInfo.teamName)
   }
 
   componentWillReceiveProps (props) {
@@ -59,12 +61,12 @@ export default class FixtureList extends Component {
       if (live.data.length > 0) {
         clearTimeout(this.timeout)
         this.timeout = setTimeout(() => {
-          actions.getFixtureGeneral('Davitts')
+          actions.getFixtureGeneral(teamInfo.teamName)
         }, 5000)
       } else if (unstart.data.length > 0) {
         clearTimeout(this.timeout)
         this.timeout = setTimeout(() => {
-          actions.getFixtureGeneral('Davitts')
+          actions.getFixtureGeneral(teamInfo.teamName)
         }, 120000)
       }
     }
@@ -89,7 +91,7 @@ export default class FixtureList extends Component {
   _setAnimation(hideHeader,duration=250) {
      Animated.timing(this.headerHeight, {
        duration: duration,
-       toValue: hideHeader ? 0 : 50
+       toValue: hideHeader ? 0 : this.originalHeaderHeight
      }).start()
   }
   showHeader(){
@@ -110,7 +112,7 @@ export default class FixtureList extends Component {
     const gameCount = live.data.length + over.data.length + unstart.data.length
     return (
       <View style={styles.container}>
-        <HeaderInner headerHeight={this.headerHeight}/>
+        {true && <HeaderInner headerHeight={this.headerHeight}/>}
         <Tabbar tab={'fixtures'} {...this.props}/>
         <ScrollView onScroll={this.handleScroll.bind(this)} onMomentumScrollEnd={this.showHeader.bind(this)}>
           <ListView
@@ -137,7 +139,7 @@ const styles = StyleSheet.create({
   },
   // List View
   listView: {
-    backgroundColor: 'white',
+    backgroundColor: "#e9e6f2",
     flex: 6,
     flexDirection: 'column',
     paddingTop: 12

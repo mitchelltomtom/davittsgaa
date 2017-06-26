@@ -15,9 +15,19 @@ import React, {
 
 import FixtureDetail from './FixtureDetail'
 import teamMap from '../../utils/team-map'
+import teamInfo from '../../utils/team-info'
 import clubMap from '../../utils/mayo-club-team-map'
 import Flag from './Flag'
 let {height, width} = Dimensions.get('window');
+var Color = require('color');
+
+const primaryColor = clubMap[teamInfo.teamName].Colours[0].toLowerCase() || "#fff";
+let secondaryColor = clubMap[teamInfo.teamName].Colours[1].toLowerCase() || primaryColor;
+secondaryColor = secondaryColor === "white" || secondaryColor === "#fff" ? primaryColor: secondaryColor;
+
+const mainTextColor = primaryColor === "white" || primaryColor === "#fff" ? "black" : "white";
+const panelTextColor = secondaryColor === "white" || primaryColor === "#fff" ? "black" : "white";
+
 export default class FixturePanel extends Component {
 
   onPressRow () {
@@ -46,7 +56,6 @@ export default class FixturePanel extends Component {
     const timeSplit = fixture.time.split(":")
     let fixtureDate = "TBC"
     let fixtureTime = ""
-    console.log(timeSplit)
     if(dateSplit.length === 3){
       let _date = new Date(dateSplit[2]+"-"+dateSplit[1]+"-"+dateSplit[0])
       fixtureDate = _date.toGMTString().replace((" " + _date.getFullYear()), "").replace(" GMT","").replace(" 00:00:00","")
@@ -70,10 +79,10 @@ export default class FixturePanel extends Component {
       default:
         return
     }
-    const awayTeamLogo = teamMap[awayTeam] ? teamMap[awayTeam].logo : teamMap['uta'].logo
-    const homeTeamLogo = teamMap[homeTeam] ? teamMap[homeTeam].logo : teamMap['uta'].logo
-    const localHome = fixture.home_team === "Davitts"
-    const homeTeamColor = "#ff0000dd"
+
+    const awayTeamLogo = clubMap[awayTeam] && clubMap[awayTeam].logo ? clubMap[awayTeam].logo : null
+    const homeTeamLogo = clubMap[homeTeam] && clubMap[homeTeam].logo ? clubMap[homeTeam].logo : null
+    const localHome = fixture.home_team === teamInfo.teamName
     const homeColor1 = clubMap[homeTeam] && clubMap[homeTeam]["Colours"] && clubMap[homeTeam]["Colours"].length && clubMap[homeTeam]["Colours"][0].toLowerCase() || "white"
     const homeColor2 = clubMap[homeTeam] && clubMap[homeTeam]["Colours"] && clubMap[homeTeam]["Colours"].length && clubMap[homeTeam]["Colours"][1].toLowerCase() || homeColor1
     const awayColor1 = clubMap[awayTeam] && clubMap[awayTeam]["Colours"] && clubMap[awayTeam]["Colours"].length && clubMap[awayTeam]["Colours"][0].toLowerCase() || "white"
@@ -82,11 +91,11 @@ export default class FixturePanel extends Component {
 
     return (
       <TouchableHighlight onPress={this.onPressRow.bind(this)} underlayColor='transparent'>
-        <View style={[styles.container, {backgroundColor: homeTeamColor}]} >
+        <View style={[styles.container]} >
           {!localHome &&
           <View style={[styles.team]}>
-            {true && <Flag colorLeft={homeColor1} colorRight={homeColor2} />}
-            {false && <Image style={styles.teamLogo} source={homeColor1} />}
+            {!homeTeamLogo && <Flag colorLeft={homeColor1} colorRight={homeColor2} />}
+            {homeTeamLogo && <Image style={styles.teamLogo} source={homeTeamLogo} />}
             <Text style={styles.teamName} numberOfLines={1} ellipsizeMode={'middle'}>{fixture.home_team}</Text>
           </View>}
           <View style={styles.fixtureInfo}>
@@ -107,8 +116,8 @@ export default class FixturePanel extends Component {
           </View>
           {localHome &&
             <View style={styles.team}>
-            {false && <Image style={styles.teamLogo} source={awayTeamLogo} />}
-            {true && <Flag colorLeft={awayColor1} colorRight={awayColor2} />}
+            {awayTeamLogo && <Image style={styles.teamLogo} source={awayTeamLogo} />}
+            {!awayTeamLogo && <Flag colorLeft={awayColor1} colorRight={awayColor2} />}
             <Text style={styles.teamName}>{fixture.away_team}</Text>
           </View>}
         </View>
@@ -129,7 +138,8 @@ const flagH = 25;
 const flagW = flagH * 2;
 const styles = StyleSheet.create({
   container: {
-    borderRadius: 5,
+    borderRadius: 0,//5,
+    backgroundColor: Color(secondaryColor).alpha(0.85).string(),
     flex: 1,
     flexDirection: 'row',
     height: 95,
@@ -152,11 +162,11 @@ const styles = StyleSheet.create({
   // Team
   team: {
     alignItems: 'center',
-    borderRadius: 5,
-    height: 85,
-    marginTop: 5,
-    marginLeft: 5,
-    marginRight: 5,
+    borderRadius: 0,
+    height: 95,
+    marginTop: 0,
+    marginLeft: 0,
+    marginRight: 0,
     width: 105,
     backgroundColor: "white"
   },
@@ -174,7 +184,7 @@ const styles = StyleSheet.create({
     borderTopColor: 'red',
     position: "absolute",
     transform: [
-      {rotate: '180deg'}
+      //{rotate: '180deg'}
     ]
   },
   slant_rotate: {
@@ -189,13 +199,8 @@ const styles = StyleSheet.create({
   teamLogoLeft: {
     marginTop: 25
   },
-  teamCity: {
-    color: '#fff',
-    fontSize: 11,
-    marginTop: 2
-  },
   teamName: {
-    color: '#000',
+    color: "#000",
     fontWeight: 'bold',
     fontSize: 12,
     top: 0
@@ -213,29 +218,28 @@ const styles = StyleSheet.create({
     flexDirection: 'column'
   },
   fixtureAgeGroup: {
-    color: '#fff',
+    color: panelTextColor,
     fontSize: 22,
     marginBottom: 3
   },
   fixtureComp: {
-    color: '#fff',
+    color: panelTextColor,
     fontSize: 12,
-    width: (width * 0.55),
     marginBottom: 10
   },
   fixturePitch: {
-    color: '#fff',
+    color: panelTextColor,
     fontSize: 12,
     fontStyle: "italic",
     marginBottom: 3
   },
   fixtureTime: {
-    color: '#fff',
+    color: panelTextColor,
     fontSize: 13,
     marginBottom: 3
   },
   fixtureDate: {
-    color: '#fff',
+    color: panelTextColor,
     fontSize: 15,
     fontWeight: "bold",
     marginBottom: 3
@@ -251,7 +255,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center'
   },
   infoScore: {
-    color: '#fff',
+    color: panelTextColor,
     fontWeight: '100',
     fontSize: fixureFontSize,
     textAlign: 'center',
