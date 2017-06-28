@@ -258,7 +258,8 @@ export default {
         "Home Ground": "",
         "Phone": "0863366331",
         "Secretary": "Michael Bracken",
-        "region": "East"
+        "region": "East",
+        logo: require('../../assets/img/caiseal-gaels.png')
     },
     "Carras": {
         "As Gaeilge": "",
@@ -279,8 +280,8 @@ export default {
         "As Gaeilge": "Na Mist&#233;al&#237;, Caisl&#233;an an Bharraigh",
         "Chairman": "Tony Stakelum",
         "Colours": [
-            "Orange",
-            "Yellow"
+          "orangered",//"Orange",
+          "Gold"//"Yellow"
         ],
         "E-Mail": "stakelum7@gmail.com",
         "Home Ground": "P&#225;irc Josie Munnelly",
@@ -293,8 +294,8 @@ export default {
         "As Gaeilge": "Na Mist&#233;al&#237;, Caisl&#233;an an Bharraigh",
         "Chairman": "Finian Joyce",
         "Colours": [
-            "Orange",
-            "Yellow"
+            "orangered",//"Orange",
+            "Gold"//"Yellow"
         ],
         "E-Mail": "",
         "Home Ground": "P&#225;irc Josie Munnelly",
@@ -308,8 +309,8 @@ export default {
         "As Gaeilge": "Na Mist&#233;al&#237;, Caisl&#233;an an Bharraigh",
         "Chairman": "Finian Joyce",
         "Colours": [
-            "Orange",
-            "Yellow"
+          "orangered",//"Orange",
+          "Gold"//"Yellow"
         ],
         "E-Mail": "",
         "Home Ground": "P&#225;irc Josie Munnelly",
@@ -331,7 +332,8 @@ export default {
         "Phone": "0868581080",
         "Secretary": "Kevin Deignan",
         "Website": "http://www.charlestownsarsfields.com/",
-        "region": "East"
+        "region": "East",
+        logo: require('../../assets/img/charlestown.png')
     },
     "Charlestown Sarsfields": {
         "As Gaeilge": "Bhaile Chatail",
@@ -345,7 +347,8 @@ export default {
         "Phone": "0868581080",
         "Secretary": "Kevin Deignan",
         "Website": "http://www.charlestownsarsfields.com/",
-        "region": "East"
+        "region": "East",
+        logo: require('../../assets/img/charlestown.png')
     },
     "Claremorris": {
         "As Gaeilge": "Cl&#225;r Chlainne Mhuiris",
@@ -360,7 +363,8 @@ export default {
         "Phone": "",
         "Secretary": "Gerry Kelly",
         "Website": "http://www.claremorrisgaa.ie/",
-        "region": "South"
+        "region": "South",
+        logo: require('../../assets/img/claremorris.png')
     },
     "Crossmolina Deel Rovers": {
         "As Gaeilge": "Crois Mhaoil&#237;ona",
@@ -374,7 +378,8 @@ export default {
         "Phone": "087 6972682",
         "Secretary": "Dermot Butler",
         "Website": "http://www.deelrovers.com/",
-        "region": "North"
+        "region": "North",
+        logo: require('../../assets/img/crossmolina.png')
     },
     "Davitts": {
         "As Gaeilge": "Na Daibheid&#237;",
@@ -389,7 +394,8 @@ export default {
         "Phone": "086 0269744",
         "Secretary": "Darina Daly",
         "Website": "http://www.davittsgaa.com/",
-        "region": "South"
+        "region": "South",
+        logo: require('../../assets/img/davitts.png')
     },
     "Eastern Gaels": {
         "As Gaeilge": "",
@@ -402,7 +408,8 @@ export default {
         "Home Ground": "Bekan",
         "Phone": "0863675095",
         "Secretary": "Stephen Mooney",
-        "region": "East"
+        "region": "East",
+        logo: require('../../assets/img/eastern-gaels.png')
     },
     "Garrymore": {
         "As Gaeilge": "Garra&#237; M&#243;r",
@@ -426,7 +433,7 @@ export default {
         "Colours": [
             "Blue",
             "White",
-            "Yellow"
+            "Gold"//"Yellow"
         ],
         "Division": "South",
         "Email": "cornfieldhouse@eircom.net",
@@ -443,7 +450,7 @@ export default {
         "Colours": [
             "Blue",
             "White",
-            "Yellow"
+            "Gold"//"Yellow"
         ],
         "Division": "South",
         "Email": "cornfieldhouse@eircom.net",
@@ -466,7 +473,8 @@ export default {
         "Phone": "087 2453811",
         "Secretary": "Cathy Carney",
         "Website": "http://islandeadygaa.com/",
-        "region": "West"
+        "region": "West",
+        logo: require('../../assets/img/islandeady.png')
     },
     "Kilcommon": {
         "As Gaeilge": "Cill Chomain",
@@ -479,7 +487,8 @@ export default {
         "Home Ground": "Pairc an Phobail, Cill Chomain",
         "Phone": "087 2552274",
         "Secretary": "Michelle Ui Dheaganaigh",
-        "region": "North"
+        "region": "North",
+        logo: require('../../assets/img/kilcommon.png')
     },
     "Kilfian": {
         "As Gaeilge": "Cill Fhaoin",
@@ -521,7 +530,8 @@ export default {
         "Phone": "0872404402",
         "Secretary": "John Gerrard Butler",
         "Website": "http://www.kilmainegaa.com/",
-        "region": "South"
+        "region": "South",
+        logo: require('../../assets/img/kilmaine.png')
     },
     "Kilmeena": {
         "As Gaeilge": "Cill Mhiodna",
@@ -535,27 +545,29 @@ export default {
         "Phone": "086 2592837",
         "Secretary": "Paul Ryan",
         "Website": "http://www.kilmeenagaaclub.ie/kilmeena/index.php",
-        "region": "West"
+        "region": "West",
+        logo: require('../../assets/img/kilmeena.png')
     },
     "Kilmovee": {
         "As Gaeilge": "Cill Moibh&#237;",
         "Chairman": "Tom Haran",
         "Colours": [
             "Green",
-            "Yellow"
+            "Gold"//"Yellow"
         ],
         "Division": "East",
         "Email": "therealtomharan@gmail.com",
         "Home Ground": "Canon Henry Park",
         "Phone": "087 2263035",
         "Secretary": "Donal Kelly",
-        "region": "East"
+        "region": "East",
+        logo: require('../../assets/img/kilmovee.png')
     },
     "Kiltane": {
         "As Gaeilge": "Cill TSeadna",
         "Chairman": "Paul Gallagher",
         "Colours": [
-            "Yellow",
+            "Gold",//"Yellow",
             "Blue"
         ],
         "Email": "paul_gallagher@eircom.net",
@@ -563,7 +575,8 @@ export default {
         "Phone": "086 8106235",
         "Secretary": "Susan Calpin",
         "Website": "http://www.kiltanegaaclub.com/",
-        "region": "North"
+        "region": "North",
+        logo: require('../../assets/img/kiltane.png')
     },
     "Kiltimagh": {
         "As Gaeilge": "Coilte Mach",
@@ -576,47 +589,51 @@ export default {
         "Home Ground": "Gilmartin Park",
         "Phone": "0868322481",
         "Secretary": "Seamus Corry",
-        "region": "East"
+        "region": "East",
+        logo: require('../../assets/img/kiltimagh.png')
     },
     "Knockmore": {
         "As Gaeilge": "Cnoc M&#243;r",
         "Chairman": "Bernard Cumiskey",
         "Colours": [
             "Blue",
-            "Yellow"
+            "Gold"//"Yellow"
         ],
         "Email": "Therocks@eircom.net",
         "Home Ground": "Knockmore",
         "Phone": "086 3667279",
         "Secretary": "John King",
         "Website": "http://www.knockmoregaa.com/",
-        "region": "North"
+        "region": "North",
+        logo: require('../../assets/img/knockmore.png')
     },
     "Lacken": {
         "As Gaeilge": "An Leacain",
         "Chairman": "Paddy Connor",
         "Colours": [
             "Green",
-            "Yellow"
+            "Gold"//"Yellow"
         ],
         "Email": "paddyconnor156@gmail.com",
         "Home Ground": "Lacken",
         "Phone": "0879696931",
         "Secretary": "Sean Forde",
-        "region": "North"
+        "region": "North",
+        logo: require('../../assets/img/lacken.png')
     },
     "Lahardane": {
         "As Gaeilge": "Leathard&#225;n",
         "Chairman": "Seamus Maughan",
         "Colours": [
-            "Yellow",
+            "Gold",//"Yellow",
             "Black"
         ],
         "Email": "seamus.maughan@yahoo.ie",
         "Home Ground": "Bofeenaun",
         "Phone": "086 8543727",
         "Secretary": "Enda Coyne",
-        "region": "North"
+        "region": "North",
+        logo: require('../../assets/img/laherdane.png')
     },
     "Louisburgh": {
         "As Gaeilge": "Cluain Cearb&#225;n",
@@ -629,7 +646,8 @@ export default {
         "Home Ground": "Louisburgh",
         "Phone": "087 6778507",
         "Secretary": "John O'Toole",
-        "region": "West"
+        "region": "West",
+        logo: require('../../assets/img/louisburgh.png')
     },
     "Mayo Gaels": {
         "As Gaeilge": "Gael Mhaigh Eo",
@@ -644,7 +662,8 @@ export default {
         "Phone": "087 4147815",
         "Secretary": "John Gallagher",
         "Website": "http://mayogaels.mayo.gaa.ie/",
-        "region": "South"
+        "region": "South",
+        logo: require('../../assets/img/mayo-gaels.png')
     },
     "Moy Davitts": {
         "As Gaeilge": "Both Chomhladh Daibheidigh na Muaidhe",
@@ -658,7 +677,8 @@ export default {
         "Phone": "086 4071143",
         "Secretary": "Damian Woods",
         "Website": "http://www.moydavitts.com/",
-        "region": "East"
+        "region": "East",
+        logo: require('../../assets/img/moy-davitts.png')
     },
     "Moygownagh": {
         "As Gaeilge": "Math Gamhnach",
@@ -670,7 +690,8 @@ export default {
         "Home Ground": "Moygownagh",
         "Phone": "087 2532462",
         "Secretary": "John D McDonnell",
-        "region": "North"
+        "region": "North",
+        logo: require('../../assets/img/moygownagh.png')
     },
     "Parke-Keelogues-Crimlin": {
         "As Gaeilge": "An Ph&#225;irc",
@@ -684,7 +705,8 @@ export default {
         "Phone": "0868341196",
         "Secretary": "Emily Connor",
         "Website": "www.parkegaa.ie",
-        "region": "West"
+        "region": "West",
+        logo: require('../../assets/img/parke-keelogues-crimlin.png')
     },
     "Parke/Keelogues /Crimlin": {
         "As Gaeilge": "An Ph&#225;irc",
@@ -698,7 +720,8 @@ export default {
         "Phone": "0868341196",
         "Secretary": "Emily Connor",
         "Website": "www.parkegaa.ie",
-        "region": "West"
+        "region": "West",
+        logo: require('../../assets/img/parke-keelogues-crimlin.png')
     },
     "Shrule-Glencorrib": {
         "As Gaeilge": "Sruthair-Gleann Coirib",
@@ -713,7 +736,8 @@ export default {
         "Home Ground": "Shrule",
         "Phone": "087 2267984",
         "Secretary": "Claire Sheridan",
-        "region": "South"
+        "region": "South",
+        logo: require('../../assets/img/shrule-glencorrib.png')
     },
     "Shrule/Glencorrib": {
         "As Gaeilge": "Sruthair-Gleann Coirib",
@@ -728,7 +752,8 @@ export default {
         "Home Ground": "Shrule",
         "Phone": "087 2267984",
         "Secretary": "Claire Sheridan",
-        "region": "South"
+        "region": "South",
+        logo: require('../../assets/img/shrule-glencorrib.png')
     },
     "Swinford": {
         "As Gaeilge": "Beal &#193;tha na Muice",
@@ -742,7 +767,8 @@ export default {
         "Phone": "087 2218441",
         "Secretary": "Katie Kelly",
         "Website": "http://www.swinfordgaa.ie/",
-        "region": "East"
+        "region": "East",
+        logo: require('../../assets/img/swinford.png')
     },
     "The Neale": {
         "As Gaeilge": "An &#201;ill",
@@ -756,7 +782,8 @@ export default {
         "Home Ground": "Pairc Naomh Seichin, Cunga",
         "Phone": "0870569299",
         "Secretary": "Brian O'Malley",
-        "region": "South"
+        "region": "South",
+        logo: require('../../assets/img/the-neale.png')
     },
     "Tooreen": {
         "As Gaeilge": "Tuair&#237;n",
@@ -769,7 +796,23 @@ export default {
         "Home Ground": "Tooreen",
         "Phone": "0879398617",
         "Secretary": "Conor English",
-        "region": "East"
+        "region": "East",
+        logo: require('../../assets/img/toureen.png')
+    },
+    "Tuar Mhic adaigh": {
+        "As Gaeilge": "Tuar Mhic &#201;adaigh",
+        "Chairman": "Pattie Stund&#249;n U&#236; Aodhag&#224;in",
+        "Colours": [
+            "White",
+            "Black"
+        ],
+        "E-Mail": "",
+        "Home Ground": "Tourmakeady",
+        "Phone": "087 6297974",
+        "Secretary": "Michael O Fhlainn",
+        "Website": "http://tuarmhiceadaigh.gaa.ie/",
+        "region": "West",
+        logo: require('../../assets/img/tourmakeady.png')
     },
     "Tourmakeady": {
         "As Gaeilge": "Tuar Mhic &#201;adaigh",
@@ -783,9 +826,25 @@ export default {
         "Phone": "087 6297974",
         "Secretary": "Michael O Fhlainn",
         "Website": "http://tuarmhiceadaigh.gaa.ie/",
-        "region": "West"
+        "region": "West",
+        logo: require('../../assets/img/tourmakeady.png')
     },
     "Westport": {
+        "As Gaeilge": "Chathair na Mart",
+        "Chairman": "Austin Groden",
+        "Colours": [
+            "Blue",
+            "White"
+        ],
+        "E-Mail": "grodenac@eircom.net",
+        "Home Ground": "Westport",
+        "Phone": "085 1742588",
+        "Secretary": "Sean Sammon",
+        "Website": "http://www.westportgaa.com",
+        "region": "West",
+        logo: require('../../assets/img/westport.png')
+    },
+    "Westport GAA": {
         "As Gaeilge": "Chathair na Mart",
         "Chairman": "Austin Groden",
         "Colours": [

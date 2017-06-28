@@ -1,6 +1,7 @@
 package com.allyoop;
 
 import android.app.Activity;
+import com.oblador.vectoricons.VectorIconsPackage;
 import android.os.Bundle;
 import android.view.KeyEvent;
 
@@ -30,6 +31,7 @@ public class MainActivity extends Activity implements DefaultHardwareBackBtnHand
                 .setBundleAssetName("index.android.bundle")
                 .setJSMainModuleName("index.android")
                 .addPackage(new MainReactPackage())
+                .addPackage(new VectorIconsPackage())
                 /* react-native icons */
                 .addPackage(new ReactNativeIcons())
                 .setUseDeveloperSupport(BuildConfig.DEBUG)
