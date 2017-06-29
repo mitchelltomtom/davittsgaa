@@ -13,7 +13,7 @@ import React, {
   InteractionManager,
   Platform
 } from 'react-native'
-import teamMap from '../../utils/team-map'
+import teamMap from '../../utils/mayo-club-team-map'
 import {Icon} from 'react-native-icons'
 
 import GamePlayers from '../game/GamePlayers'
@@ -43,7 +43,7 @@ export default class FixtureDetail extends Component {
     const {fixtureType} = this.state
     const {fixtureId, date} = this
     InteractionManager.runAfterInteractions(() => {
-      actions.getGameDetail(fixtureId, fixtureType, date[0], date[1], date[2])
+      actions.getFixtureDetail()
         .catch(err => console.error(err))
     })
   }
@@ -101,12 +101,13 @@ export default class FixtureDetail extends Component {
 
   render () {
     const {selectedIndex, teamValues, indicator, fixture} = this.state
-    const homeAbb = fixture.home_team.toLowerCase()
-    const visitorAbb = fixture.visitor_team.toLowerCase()
+    const homeAbb = fixture.home_team
+    const awayAbb = fixture.away_team
 
     /* Calculate for process and type */
     let fixtureProcess = ''
     let cssType = ''
+
     switch (fixture.type) {
       case 'live':
         fixtureProcess += fixture.process.quarter + ' '
@@ -114,6 +115,10 @@ export default class FixtureDetail extends Component {
         cssType = 'Live'
         break
       case 'over':
+        fixtureProcess = 'Final'
+        cssType = 'Over'
+        break
+      case 'unstart':
         fixtureProcess = 'Final'
         cssType = 'Over'
         break
@@ -132,9 +137,9 @@ export default class FixtureDetail extends Component {
     }
 
     const homeTeamLogo = teamMap[homeAbb] ? teamMap[homeAbb].logo : teamMap['atl'].logo
-    const visitorTeamLogo = teamMap[visitorAbb] ? teamMap[visitorAbb].logo : teamMap['atl'].logo
-    const homeColor = teamMap[homeAbb] ? teamMap[homeAbb].color : "#000000"
-    const visitorColor = teamMap[visitorAbb] ? teamMap[visitorAbb].color : "#FFFFFF"
+    const visitorTeamLogo = teamMap[awayAbb] ? teamMap[awayAbb].logo : teamMap['atl'].logo
+    const homeColor = teamMap[homeAbb] && teamMap[homeAbb].Colours ? teamMap[homeAbb].Colours[0] : "#000000"
+    const awayColor = teamMap[awayAbb] && teamMap[awayAbb].Colours ? teamMap[awayAbb].Colours[0] : "#FFFFFF"
     /* Current team chosen */
     const homeCss = selectedIndex === 0 ? 'Active' : 'Inactive'
     const visitorCss = selectedIndex === 1 ? 'Active' : 'Inactive'
@@ -152,12 +157,11 @@ export default class FixtureDetail extends Component {
             <Image style={styles.teamLogo} source={homeTeamLogo}/>
             <Text style={styles.teamCity}>Senior</Text>
             <Text style={styles.teamName}>{fixture.home_team}</Text>
-            <Text style={styles.standing}>{10}</Text>
+            <Text style={styles.standing}>{7}</Text>
           </View>
-
           <View style={styles.gameInfo}>
-            <Text style={[styles.infoProcess, styles[`process${cssType}`]]}>{gameProcess}</Text>
-            {game.type !== 'unstart' &&
+            <Text style={[styles.infoProcess, styles[`process${cssType}`]]}>{fixtureProcess}</Text>
+            {fixture.type === 'unstart' &&
               <View style={styles.infoScorePanel}>
                 <View style={styles.infoScoreBlock}>
                   <Text style={styles.infoSide}>Home</Text>
@@ -176,7 +180,7 @@ export default class FixtureDetail extends Component {
             <Image style={styles.teamLogo} source={visitorTeamLogo}/>
             <Text style={styles.teamCity}>Senior</Text>
             <Text style={styles.teamName}>{fixture.away_team}</Text>
-            <Text style={styles.standing}>{11}</Text>
+            <Text style={styles.standing}>{5}</Text>
           </View>
         </View>
         {/* Switch */}
@@ -190,7 +194,7 @@ export default class FixtureDetail extends Component {
           <TouchableHighlight onPress={this.onChange.bind(this, 1)} underlayColor='transparent' style={[styles.segPanel, styles[`segPanel${visitorCss}`]]}>
             <View style={styles.segPanelInner}>
               <Text style={[styles.segTeam, styles[`segTeam${visitorCss}`]]}>{teamValues[1]}</Text>
-              <View style={visitorCss === 'Active' ? {backgroundColor: visitorColor, height: 4} : {opacity: 0}} />
+              <View style={visitorCss === 'Active' ? {backgroundColor: awayColor, height: 4} : {opacity: 0}} />
             </View>
           </TouchableHighlight>
         </View>

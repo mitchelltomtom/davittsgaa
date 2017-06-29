@@ -24,6 +24,7 @@ export default class Tabbar extends Component {
 
   onPress (tab) {
     const {actions} = this.props
+    console.log(tab);
     actions.changeTab(tab)
   }
 
@@ -55,7 +56,7 @@ export default class Tabbar extends Component {
             }
           </View>
         </TouchableHighlight>
-        <TouchableHighlight onPress={this.onPress.bind(this, 'teams')} underlayColor='transparent' style={styles.tab}>
+        <TouchableHighlight onPress={this.onPress.bind(this, 'twitter')} underlayColor='transparent' style={styles.tab}>
           <View style={styles.tabview}>
             <View style={styles.tabviewInner}>
               {true && <Icon name='ion|social-twitter'
@@ -64,12 +65,13 @@ export default class Tabbar extends Component {
                   style={styles.tabImg} /> }
               {true && <Text style={styles.tabtext}>TWITTER</Text>}
             </View>
-            {tab === 'teams' &&
+            {console.log("tab->" + tab)}
+            {tab === 'twitter' &&
               <View style={styles.active} />
             }
           </View>
         </TouchableHighlight>
-        <TouchableHighlight onPress={this.onPress.bind(this, 'teams')} underlayColor='transparent' style={styles.tab}>
+        <TouchableHighlight onPress={this.onPress.bind(this, 'events')} underlayColor='transparent' style={styles.tab}>
           <View style={styles.tabview}>
             <View style={styles.tabviewInner}>
               {true && <Icon name='ion|ios-wineglass'
@@ -78,7 +80,7 @@ export default class Tabbar extends Component {
                   style={[styles.tabImg,{marginLeft:5}]} /> }
               <Text style={styles.tabtext}>EVENTS</Text>
             </View>
-            {tab === 'teams' &&
+            {tab === 'events' &&
               <View style={styles.active} />
             }
           </View>
@@ -148,6 +150,9 @@ const styles = StyleSheet.create({
     backgroundColor: '#000000'
   },
   fixtures: {
+    backgroundColor: Color(primaryColor).alpha(0.85).string()
+  },
+  twitter: {
     backgroundColor: Color(primaryColor).alpha(0.85).string()
   },
   players: {

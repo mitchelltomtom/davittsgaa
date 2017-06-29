@@ -45,16 +45,19 @@ const actionHandler = {
   },
 
   [GAME.DETAIL]: (state, action) => {
+
     if (action.gameType !== 'live') return state
     let newState = Object.assign([], state)
-    state.data.some(game => {
-      if (game.id === action.gameId) {
-        game.detail = game.detail || {}
-        game.detail.data = action.data
-        game.detail.loaded = true
-        game.process = action.data.process
-        game.home.score = action.data.home.score
-        game.visitor.score = action.data.visitor.score
+    state.data.some(fixture => {
+      if (true) {
+        fixture.detail = fixture.detail || {}
+        fixture.detail.data = action.data
+        fixture.detail.loaded = true
+        fixture.process = action.data.process
+        fixture.home = {}
+        fixture.away = {}
+        fixture.home.score = action.data.home.score
+        fixture.away.score = action.data.visitor.score
         return true
       }
       return false

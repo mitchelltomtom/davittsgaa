@@ -14,6 +14,12 @@ export const FIXTURE = {
   STANDING: 'FIXTURE.STANDING'
 }
 
+export const TWEET = {
+  INFO: 'TWEET.INFO',
+  DETAIL: 'TWEET.DETAIL',
+  HANDLE: 'TWEET.HANDLE'
+}
+
 export const GAME = {
   INFO: 'GAME.INFO',
   DETAIL: 'GAME.DETAIL',

@@ -31,9 +31,10 @@ const address = {
    * @params gameDate: {String} {Format: yearmonthdate} & gameId: {String}
    * @example gameDate: 20151128 & gameId: 0021500239
    */
-  gameDetail: (gameDate, gameId) => {
-    console.log("called gameDetail with date:" + gameDate + " & game id:" + gameId); // Some dates return an error.
-    return `http://data.nba.com/data/10s/json/cms/noseason/game/${defaultDate}/${gameId}/boxscore.json`
+  //gameDetail: (gameDate, gameId) => {
+  gameDetail: () => {
+    return `http://data.nba.com/data/10s/json/cms/noseason/game/20151128/0021500239/boxscore.json`
+    //return `http://data.nba.com/data/10s/json/cms/noseason/game/${defaultDate}/${gameId}/boxscore.json`
   },
   /**
    * Current league standing

@@ -1,7 +1,7 @@
 'use strict'
 
 import Channel from '../channel'
-import { FIXTURE } from '../constant'
+import { FIXTURE,GAME } from '../constant'
 
 /**
  * Get info of game general
@@ -22,6 +22,24 @@ const getFixtureGeneral = (club) => {
     }
   }
 }
+const getFixtureDetail = () => {
+  return (dispatch, getStore) => {
+    if (getStore().application.navigator === 'fixtureDetail') {
+      const channel = new Channel()
+      return channel.getGameDetail()
+        .then(data => {
+          return dispatch({
+            type: GAME.DETAIL,
+            gameId: 'dummy',
+            gameType: 'live',
+            data
+          })
+        })
+    } else {
+      return Promise.resolve()
+    }
+  }
+}
 
 const showHideSearch = (searchDisplayed) => {
   console.log("searchDisplayed: " + searchDisplayed)
@@ -34,5 +52,6 @@ const showHideSearch = (searchDisplayed) => {
 }
 
 export default {
-  getFixtureGeneral
+  getFixtureGeneral,
+  getFixtureDetail
 }

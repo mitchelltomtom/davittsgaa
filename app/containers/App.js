@@ -14,11 +14,13 @@ import gameActions from '../actions/game'
 import playerActions from '../actions/player'
 import teamActions from '../actions/team'
 import fixtureActions from '../actions/fixture'
+import twitterActions from '../actions/twitter'
 
 import Game from './Game'
 import Player from './Player'
 import Team from './Team'
 import Fixture from './Fixture'
+import Twitter from './Twitter'
 
 export class App extends Component {
 
@@ -38,11 +40,16 @@ export class App extends Component {
 
   render () {
     const {tab} = this.state
-    const {game, player, team, fixture, gameActions, playerActions, teamActions, fixtureActions} = this.props
+    console.log(tab)
+    console.log(this.props)
+    const {game, player, team, fixture, twitter, gameActions, playerActions, teamActions, fixtureActions, twitterActions} = this.props
     return (
       <View style={styles.container}>
         {tab === 'game' &&
           <Game {...game} actions={gameActions} />
+        }
+        {tab === 'twitter' &&
+          <Twitter {...twitter} actions={twitterActions} />
         }
         {tab === 'fixtures' &&
           <Fixture {...fixture} actions={fixtureActions} />
@@ -69,10 +76,12 @@ App.propTypes = {
   player: PropTypes.object,
   team: PropTypes.object,
   fixture: PropTypes.object,
+  twitter: PropTypes.object,
   gameActions: PropTypes.object,
   playerActions: PropTypes.object,
   teamActions: PropTypes.object,
-  fixtureActions: PropTypes.object
+  fixtureActions: PropTypes.object,
+  twitterActions: PropTypes.object
 }
 
 export default connect(state => {
@@ -92,6 +101,9 @@ export default connect(state => {
       standing: state.standing,
       application: state.application
     },
+    twitter: {
+      application: state.application
+    },
     player: {
       playerList: state.playerList,
       playerLoaded: state.playerLoaded
@@ -103,7 +115,8 @@ export default connect(state => {
   }
 }, dispatch => {
   return {
-    //gameActions: bindActionCreators(Object.assign({}, applicationActions, gameActions), dispatch),
+    twitterActions: bindActionCreators(Object.assign({}, applicationActions, twitterActions), dispatch),
+    gameActions: bindActionCreators(Object.assign({}, applicationActions, gameActions), dispatch),
     fixtureActions: bindActionCreators(Object.assign({}, applicationActions, fixtureActions), dispatch),
     playerActions: bindActionCreators(Object.assign({}, applicationActions, playerActions), dispatch),
     teamActions: bindActionCreators(Object.assign({}, applicationActions, playerActions, teamActions), dispatch)

@@ -12,6 +12,7 @@ const initialState = {
 
 const actionHandler = {
   [APP.TAB]: (state, action) => {
+    console.log(action)
     return Object.assign({}, state, {
       tab: action.data,
       navigator: action.data + 'Index'

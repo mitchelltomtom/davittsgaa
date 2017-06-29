@@ -29,26 +29,16 @@ const getGameGeneral = (year, month, date) => {
  * @note id = game_id & tye = game_type
  * @return game {Object}
  */
-const getGameDetail = (id, type, year, month, date) => {
+const getGameDetail = () => {
   return (dispatch, getStore) => {
     if (getStore().application.navigator === 'gameDetail') {
-      /* If the game is finish and have detail data, no need to request again */
-      if (type === 'over') {
-        const game = getStore().over.data.find((g) => { return g.id === id })
-        if (game.detail && game.detail.loaded) {
-          return Promise.resolve(dispatch({
-            type: GAME.DETAIL,
-            data: game.detail.data
-          }))
-        }
-      }
       const channel = new Channel()
-      return channel.getGameDetail(year, month, date, id)
+      return channel.getGameDetail()
         .then(data => {
           return dispatch({
             type: GAME.DETAIL,
-            gameId: id,
-            gameType: type,
+            gameId: 'dummy',
+            gameType: 'blank',
             data
           })
         })
@@ -95,4 +85,3 @@ export default {
   getGameDetail,
   getLeagueStanding
 }
-

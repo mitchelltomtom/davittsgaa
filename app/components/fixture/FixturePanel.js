@@ -31,14 +31,15 @@ const panelTextColor = secondaryColor === "white" || primaryColor === "#fff" ? "
 export default class FixturePanel extends Component {
 
   onPressRow () {
-    const {navigator, fixture, date, actions} = this.props
+    const {navigator, fixture, actions} = this.props;
+    const date = fixture.date;
     fixture.type = "unstart"; //all the fixtures are unstarted for now.
-    if (fixture.type !== 'unstart') {
+    if (fixture.type === 'unstart') {
       actions.toNavigation('fixtureDetail')
         .then(() => {
           navigator.push(Object.assign({}, {
             name: 'fixtureDetail',
-            component: fixtureDetail,
+            component: FixtureDetail,
             fixture,
             date
           }))
